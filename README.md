@@ -5,7 +5,7 @@ What keeps pulling me in is the layer underneath the UI: archive formats, text d
 
 ## Currently
 
-**[grzeb](https://github.com/HibernalGlow/grzeb)** — directory-wide plain-text search that returns a *drill-downable result tree* instead of a flat hit list, with decoded text cached in a local SQLDelight database so a second search over the same files never re-reads disk. One Compose Multiplatform codebase targeting desktop (JVM), Android (SAF), and wasm. Its README leads with what does **not** work yet, which is the fastest way to see how I approach a problem.
+**[grzeb](https://github.com/HibernalGlow/grzeb)** — directory-wide plain-text search that returns a *drill-downable result tree* instead of a flat hit list, with decoded text cached in a local SQLDelight database so a second search over the same files never re-reads disk. One Compose Multiplatform codebase targeting desktop (JVM), Android (SAF), and wasm. Its README spells out what does **not** work yet — which is the fastest way to see how I approach a problem.
 
 ## Representative work
 
