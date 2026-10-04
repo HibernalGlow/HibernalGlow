@@ -38,10 +38,10 @@ Most of these are working forks: upstream license and authorship stay in each RE
 [hibernal](https://github.com/HibernalGlow/hibernal) (on-demand deep hibernation via `pmset`, with a privileged helper) · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie) (mouse-wheel gesture layer) · [SmartZ](https://github.com/HibernalGlow/SmartZ)
 
 **Distribution**
-[homebrew-tap](https://github.com/HibernalGlow/homebrew-tap) — 26 casks for niche macOS GUI apps that aren't in `homebrew/cask`, with a daily version autobump:
+[homebrew-tap](https://github.com/HibernalGlow/homebrew-tap) — 26 casks for niche macOS GUI apps that aren't in `homebrew/cask`:
 
 ```bash
-brew tap HibernalGlow/tap
+brew tap hibernalglow/tap
 ```
 
 [Extras-Glow](https://github.com/HibernalGlow/Extras-Glow) is the same idea for Scoop on Windows.
