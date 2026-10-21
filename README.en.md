@@ -69,7 +69,7 @@ Those two facts set the trade-offs in my document tooling: first turn material i
 
 <img src="./assets/readme/section-method.svg" width="100%" alt="How I work · 我怎么做事">
 
-- **Fork and extend, don't rewrite.** Much of my real output sits on forks, tracked against upstream rather than abandoned at a snapshot: siyuan-damophus, Extras-Glow, rossi, Xlchemy, ComfyUI-Workflow-Studio, ArcThumbX. When I port a fix I take the upstream's *conditions*, not only its code — a merge must not silently drop either side.
+- **Both forks and original work.** The fork side keeps tracking upstream: siyuan-damophus, Extras-Glow, rossi, Xlchemy, ComfyUI-Workflow-Studio and ArcThumbX are maintained against upstream rather than left at a snapshot; when I port a fix I take the upstream's *conditions*, not only its code, so a merge never silently drops either side. The original side — MineruCustom, skilloom, neoview, grzeb, Xaihi — started from an empty repository, with interfaces and acceptance criteria defined from scratch.
 - **Gates before promises.** A generative tool has to be able to judge whether its output is right: structure, semantics, traceability. Otherwise it just moves errors faster.
 - **CJK correctness is a requirement, not a nice-to-have.** Chinese text is where most "it works" claims fall apart, so the detection order gets specified and argued: BOM → NUL probe → UTF-8 → GB18030 behind two guards → Latin-1 last. Whole-word matching deliberately does not apply to CJK, because `\b` can never form on either side of a Chinese word.
 - **Documents state limits before features.** The write-ups I'm happiest with say what is *not* implemented, why, and which behaviour exists in the core but still has no UI switch.

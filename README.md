@@ -69,7 +69,7 @@ brew tap hibernalglow/tap
 
 <img src="./assets/readme/section-method.svg" width="100%" alt="我怎么做事 · How I work">
 
-- **fork 后继续跟上游，不另起炉灶。** 我真正的产出大多长在 fork 上，而不是停在某个快照：siyuan-damophus、Extras-Glow、rossi、Xlchemy、ComfyUI-Workflow-Studio、ArcThumbX。移植修复时我带走上游的*成立条件*，不只是它的代码——一次合并不应该悄悄丢掉任何一侧。
+- **既有 fork，也有原创。** fork 的那一半继续跟上游走：siyuan-damophus、Extras-Glow、rossi、Xlchemy、ComfyUI-Workflow-Studio、ArcThumbX 都对着上游维护，不停在某个快照；移植修复时我带走上游的*成立条件*，不只是它的代码——一次合并不应该悄悄丢掉任何一侧。原创的那一半（MineruCustom、skilloom、neoview、grzeb、Xaihi）从空仓库开始，接口和验收方式自己定。
 - **先有门禁，再谈能力。** 生成类工具必须能判断输出对不对：结构、语义、可追溯。否则只是把错误搬得更快。
 - **中文正确性是要求，不是加分项。** 大多数“能跑通”的说法会在中文上崩掉，所以编码探测顺序要写清并给出理由：BOM → NUL 探测 → UTF-8 → 两道前置守卫后的 GB18030 → 最后才是 Latin-1。整词匹配对 CJK 故意不启用，因为 `\b` 在中文词两侧永远成不了。
 - **文档先讲限制，再讲功能。** 我最满意的几份说明写清了哪些*还没实现*、为什么，以及核心里已有但界面上还没有开关的行为。
