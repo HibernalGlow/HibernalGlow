@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow：有个痛点，那就自己做。2027 届法学本科，做文档流水线、Agent 输出门禁和跨平台桌面应用。">
+  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow：有个痛点，那就自己做。欲善其事，先利其器；器既成，必亲试之。同时使用 macOS 与 Windows。">
 </p>
 
 <p align="center">

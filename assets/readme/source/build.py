@@ -101,19 +101,17 @@ def hero(en=False):
     if en:
         b += [txt(55, 171, "A real itch.", 81, WHITE, 650, maxw=720),
               txt(50, 278, "I build the fix.", 92, LIME, 850, maxw=740),
-              txt(60, 338, "Document pipelines · agent gates · desktop apps", 25, WHITE, maxw=750),
-              txt(60, 433, "Law undergraduate · 2027", 19, MUTED)]
+              txt(60, 338, "The tool must be sharpened first.", 23, WHITE, maxw=760)]
     else:
         b += [txt(55, 170, "有个痛点。", 80, WHITE, 650, maxw=720),
               txt(49, 279, "那就自己做。", 98, LIME, 850, maxw=745),
-              txt(60, 338, "文档流水线 · Agent 输出门禁 · 跨平台桌面应用", 25, WHITE, maxw=760),
-              txt(60, 433, "法学本科 · 2027 届", 19, MUTED)]
+              txt(60, 338, "欲善其事，先利其器。", 25, WHITE, maxw=760)]
     # Connected button group: both platforms matter. Static illustration, no controls.
-    b += [rect(60, 368, 114, 42, LILAC, 21), tick(80, 389, 20, "#282259", 3),
-          txt(99, 396, "macOS", 18, "#282259", 700),
-          rect(178, 368, 136, 42, LILAC, 21), tick(199, 389, 20, "#282259", 3),
-          txt(219, 396, "Windows", 18, "#282259", 700),
-          txt(337, 396, "Local files. Checkable results." if en else "文件在本机，结果能校验。", 22, MUTED, maxw=480)]
+    b += [rect(60, 380, 114, 42, LILAC, 21), tick(80, 401, 20, "#282259", 3),
+          txt(99, 408, "macOS", 18, "#282259", 700),
+          rect(178, 380, 136, 42, LILAC, 21), tick(199, 401, 20, "#282259", 3),
+          txt(219, 408, "Windows", 18, "#282259", 700),
+          txt(337, 408, "I test what I ship." if en else "器既成，必亲试之。", 22, MUTED, maxw=480)]
     # One personal motif: a real file becomes an inspectable tool. No project cards.
     b += [shape("arch", 1003, 224, 295, LILAC, 10)]
     paper = [rect(0, 0, 144, 187, "#fef7ff", 18),
@@ -132,8 +130,8 @@ def hero(en=False):
           tick(1116,132,34,"#2e1500",5),
           wave(861,380,264,LILAC,5,45,6)]
     return doc(1200,464,"HibernalGlow — A real itch. I build the fix." if en else "HibernalGlow：有个痛点，那就自己做。",
-        "Personal profile: law undergraduate, class of 2027. Builds document pipelines, agent output gates and desktop tools for macOS and Windows. A file and a checked terminal illustrate local, inspectable tools." if en else
-        "个人定位：2027 届法学本科，做文档流水线、Agent 输出门禁和跨平台桌面应用，同时使用 macOS 与 Windows。右侧用文件和带勾选标记的终端表现本机运行、结果可校验。hero 内不包含代表项目卡片。",b,INK,"en" if en else "zh-CN",48)
+        "Personal profile: sharpen the tool before the work, and anything shipped has been run by hand first. Uses macOS and Windows. A file and a checked terminal on the right stand for on-device runs and inspectable results. No project cards in the hero." if en else
+        "个人定位：要做成一件事，先把工具磨好；做出来的东西一定自己先跑过。同时使用 macOS 与 Windows，右侧用文件和带勾选标记的终端表示本机运行、结果可复查。hero 内不包含代表项目卡片。",b,INK,"en" if en else "zh-CN",48)
 
 
 def mineru(en=False):

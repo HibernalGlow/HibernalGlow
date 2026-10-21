@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.en.svg" width="100%" alt="HibernalGlow: A real itch. I build the fix. Law undergraduate building document pipelines, agent output gates and desktop tools for macOS and Windows.">
+  <img src="./assets/readme/hero.en.svg" width="100%" alt="HibernalGlow: A real itch. I build the fix. The tool must be sharpened first, and anything shipped has been run by hand. macOS and Windows.">
 </p>
 
 <p align="center">

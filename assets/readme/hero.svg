@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="464" viewBox="0 0 1200 464" role="img" aria-labelledby="title desc" lang="zh-CN" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
 <title id="title">HibernalGlow：有个痛点，那就自己做。</title>
-<desc id="desc">个人定位：2027 届法学本科，做文档流水线、Agent 输出门禁和跨平台桌面应用，同时使用 macOS 与 Windows。右侧用文件和带勾选标记的终端表现本机运行、结果可校验。hero 内不包含代表项目卡片。</desc>
+<desc id="desc">个人定位：要做成一件事，先把工具磨好；做出来的东西一定自己先跑过。同时使用 macOS 与 Windows，右侧用文件和带勾选标记的终端表示本机运行、结果可复查。hero 内不包含代表项目卡片。</desc>
 <defs><clipPath id="frame"><rect x="0" y="0" width="1200" height="464" rx="48" fill="#fff"/></clipPath></defs>
 <g clip-path="url(#frame)"><rect x="0" y="0" width="1200" height="464" rx="48" fill="#171225"/>
 <path d="M1115.6 59.22C1117.74 58.01 1119.87 56.8 1122.01 55.58C1172.17 27.14 1235.64 40.31 1270.34 86.36C1305.05 132.41 1300.21 197.05 1259.04 237.43C1257.29 239.15 1255.53 240.87 1253.78 242.6C1254.99 244.74 1256.2 246.87 1257.42 249.01C1285.86 299.17 1272.69 362.64 1226.64 397.34C1180.59 432.05 1115.95 427.21 1075.57 386.04C1073.85 384.29 1072.13 382.53 1070.4 380.78C1068.26 381.99 1066.13 383.2 1063.99 384.42C1013.83 412.86 950.36 399.69 915.66 353.64C880.95 307.59 885.79 242.95 926.96 202.57C928.71 200.85 930.47 199.13 932.22 197.4C931.01 195.26 929.8 193.13 928.58 190.99C900.14 140.83 913.31 77.36 959.36 42.66C1005.41 7.95 1070.05 12.79 1110.43 53.96C1112.15 55.71 1113.87 57.47 1115.6 59.22Z" fill="#211a34"/>
@@ -10,15 +10,14 @@
 <text x="1138" y="69" font-size="20" font-weight="650" fill="#c3bdfe" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">LAW × CODE</text>
 <text x="55" y="170" font-size="80" font-weight="650" fill="#ece0ff" data-maxw="720">有个痛点。</text>
 <text x="49" y="279" font-size="98" font-weight="850" fill="#cff992" data-maxw="745">那就自己做。</text>
-<text x="60" y="338" font-size="25" font-weight="500" fill="#ece0ff" data-maxw="760">文档流水线 · Agent 输出门禁 · 跨平台桌面应用</text>
-<text x="60" y="433" font-size="19" font-weight="500" fill="#b1a5c9">法学本科 · 2027 届</text>
-<rect x="60" y="368" width="114" height="42" rx="21" fill="#c3bdfe"/>
-<path d="M73.6 389l4.4 4.4 8.6 -9.4" fill="none" stroke="#282259" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="99" y="396" font-size="18" font-weight="700" fill="#282259">macOS</text>
-<rect x="178" y="368" width="136" height="42" rx="21" fill="#c3bdfe"/>
-<path d="M192.6 389l4.4 4.4 8.6 -9.4" fill="none" stroke="#282259" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="219" y="396" font-size="18" font-weight="700" fill="#282259">Windows</text>
-<text x="337" y="396" font-size="22" font-weight="500" fill="#b1a5c9" data-maxw="480">文件在本机，结果能校验。</text>
+<text x="60" y="338" font-size="25" font-weight="500" fill="#ece0ff" data-maxw="760">欲善其事，先利其器。</text>
+<rect x="60" y="380" width="114" height="42" rx="21" fill="#c3bdfe"/>
+<path d="M73.6 401l4.4 4.4 8.6 -9.4" fill="none" stroke="#282259" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="99" y="408" font-size="18" font-weight="700" fill="#282259">macOS</text>
+<rect x="178" y="380" width="136" height="42" rx="21" fill="#c3bdfe"/>
+<path d="M192.6 401l4.4 4.4 8.6 -9.4" fill="none" stroke="#282259" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="219" y="408" font-size="18" font-weight="700" fill="#282259">Windows</text>
+<text x="337" y="408" font-size="22" font-weight="500" fill="#b1a5c9" data-maxw="480">器既成，必亲试之。</text>
 <path d="M918.4 103.18C949.32 81.52 988.5 71.67 1028.61 78.74C1108.84 92.89 1162.4 169.39 1148.26 249.61C1142.14 284.34 1136.01 319.06 1129.89 353.79C1125.89 376.48 1104.25 391.63 1081.56 387.63C1012.11 375.38 942.66 363.14 873.21 350.89C850.52 346.89 835.37 325.25 839.37 302.56C845.5 267.84 851.62 233.11 857.74 198.39C864.81 158.27 887.48 124.83 918.4 103.18Z" fill="#c3bdfe"/>
 <g transform="translate(861 122) rotate(-12 72 93)"><rect x="0" y="0" width="144" height="187" rx="18" fill="#fef7ff"/><text x="20" y="43" font-size="28" font-weight="800" fill="#3c376e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">PDF</text><path d="M22 66L114 66" fill="none" stroke="#c3bdfe" stroke-width="7" stroke-linecap="round" opacity="1"/><path d="M22 89L101 89" fill="none" stroke="#c3bdfe" stroke-width="7" stroke-linecap="round" opacity="1"/><path d="M22 112L114 112" fill="none" stroke="#c3bdfe" stroke-width="7" stroke-linecap="round" opacity="1"/><path d="M22 151L80 151" fill="none" stroke="#b1a5c9" stroke-width="5" stroke-linecap="round" opacity="1"/></g>
 <g transform="translate(988 182) rotate(8 74 86)"><rect x="0" y="0" width="147" height="173" rx="24" fill="#282259"/><text x="20" y="42" font-size="33" font-weight="800" fill="#c3bdfe" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">&gt;_</text><path d="M22 70L115 70" fill="none" stroke="#c3bdfe" stroke-width="6" stroke-linecap="round" opacity="1"/><path d="M22 91L92 91" fill="none" stroke="#c3bdfe" stroke-width="6" stroke-linecap="round" opacity="1"/><rect x="18" y="116" width="111" height="39" rx="19.5" fill="#cff992"/><path d="M62.12 135l7.48 7.48 14.62 -15.98" fill="none" stroke="#335000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
