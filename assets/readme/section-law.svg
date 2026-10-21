@@ -1,24 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 76" width="100%" role="img" aria-labelledby="slTitle slDesc">
-  <title id="slTitle">03 · 法律 × AI · Law × AI</title>
-  <desc id="slDesc">Material 3 Expressive section banner for 03 Law x AI.</desc>
-  <defs>
-    <linearGradient id="slBg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1E1612"/>
-      <stop offset="60%" stop-color="#291D17"/>
-      <stop offset="100%" stop-color="#1A1411"/>
-    </linearGradient>
-    <style>
-      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
-      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
-    </style>
-  </defs>
-  <rect width="1200" height="76" rx="22" fill="url(#slBg)" stroke="#573D2C" stroke-width="1.2"/>
-  <rect x="20" y="18" width="66" height="40" rx="20" fill="#4D3219" stroke="#A66E43" stroke-width="1.2"/>
-  <text class="m" font-size="16" font-weight="800" fill="#FFE2CC" x="39" y="44">03</text>
-  <!-- Expressive Diamond-Squircle -->
-  <path d="M113 21 L128 38 L113 55 L98 38 Z" fill="#5C3A1E" stroke="#FFB786" stroke-width="1.5"/>
-  <text class="s" font-size="24" font-weight="800" fill="#FFF2E8" x="144" y="46">法律 × AI</text>
-  <text class="m" font-size="14" font-weight="600" fill="#D4B8A5" x="264" y="45">LAW × AI · PAGE-TRACEABLE PROVENANCE &amp; GATES</text>
-  <rect x="942" y="22" width="238" height="32" rx="16" fill="#2B1F18" stroke="#664733"/>
-  <text class="m" font-size="12" font-weight="700" fill="#FFB786" x="962" y="42">CLASS OF 2027 · LAW INTERN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="104" viewBox="0 0 1200 104" role="img" aria-labelledby="title desc" lang="zh-CN" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">法律 × AI</title>
+<desc id="desc">个人主页章节：法律 × AI</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="1200" height="104" rx="28" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="1200" height="104" rx="28" fill="#171225"/>
+<path d="M35.93 31.87C41.08 28.53 47.51 27.15 53.99 28.52C66.96 31.28 75.23 44.02 72.48 56.99C71.28 62.6 70.09 68.21 68.9 73.83C68.12 77.49 64.51 79.83 60.85 79.05C49.62 76.67 38.4 74.28 27.17 71.9C23.51 71.12 21.17 67.51 21.95 63.85C23.14 58.23 24.33 52.62 25.52 47.01C26.9 40.53 30.78 35.22 35.93 31.87Z" fill="#ffafd4"/>
+<text x="92" y="68" font-size="40" font-weight="750" fill="#ece0ff">法律 × AI</text>
+<text x="1155" y="62" font-size="20" font-weight="600" fill="#b1a5c9" text-anchor="end" data-maxw="650">来源能回查，产物过门禁</text>
+</g>
 </svg>

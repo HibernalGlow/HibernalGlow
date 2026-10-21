@@ -1,76 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" width="100%" role="img" aria-labelledby="gzTitle gzDesc">
-  <title id="gzTitle">grzeb — Directory-Wide Full-Text Search with Drill-Down Result Tree</title>
-  <desc id="gzDesc">Material 3 Expressive project card for grzeb: Kotlin + Compose Multiplatform + SQLDelight full-text search returning a drill-downable result tree, with explicit CJK encoding detection and documented limits.</desc>
-
-  <defs>
-    <linearGradient id="gzBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#101A21"/>
-      <stop offset="100%" stop-color="#15242E"/>
-    </linearGradient>
-    <linearGradient id="gzAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#194659"/>
-      <stop offset="100%" stop-color="#123240"/>
-    </linearGradient>
-    <style>
-      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
-      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
-    </style>
-  </defs>
-
-  <!-- Outer Card Surface -->
-  <rect width="580" height="340" rx="26" fill="url(#gzBg)"/>
-  <rect x="1" y="1" width="578" height="338" rx="25" fill="none" stroke="#2B556B" stroke-width="1.5"/>
-
-  <!-- Header -->
-  <g transform="translate(24, 22)">
-    <rect x="0" y="0" width="276" height="28" rx="14" fill="#173342" stroke="#346E8C"/>
-    <circle cx="16" cy="14" r="4.5" fill="#7AD9F5"/>
-    <text class="m" font-size="12" font-weight="700" fill="#C7F1FF" x="28" y="18">KOTLIN · COMPOSE MULTIPLATFORM</text>
-
-    <rect x="356" y="0" width="176" height="28" rx="14" fill="url(#gzAccent)" stroke="#4899BD"/>
-    <text class="m" font-size="12" font-weight="700" fill="#D9F6FF" x="372" y="18">SQLDELIGHT CACHE</text>
-
-    <text class="s" font-size="28" font-weight="800" fill="#EBF9FF" x="0" y="64">grzeb</text>
-    <text class="s" font-size="14.5" fill="#9BC6D9" x="0" y="90">目录级全文检索：返回可下钻的结果树而非平铺列表，README 写明未实现项</text>
-  </g>
-
-  <!-- Visual Diagram: Drill-Down Tree View + CJK Encoding & SQLDelight Stack -->
-  <g transform="translate(24, 130)">
-    <!-- Left: Interactive-Style Result Tree Card -->
-    <rect x="0" y="0" width="276" height="148" rx="18" fill="#152630" stroke="#2D5369"/>
-    <text class="m" font-size="11.5" font-weight="700" fill="#7AD9F5" x="16" y="24">▼ /workspace/notes (42 hits)</text>
-
-    <!-- Level 1 Node -->
-    <rect x="24" y="34" width="236" height="26" rx="8" fill="#1B3442" stroke="#386B87"/>
-    <text class="m" font-size="11" font-weight="700" fill="#D4F3FF" x="34" y="51">▼ civil-law/contract.md (18)</text>
-
-    <!-- Level 2 Leaf Hits -->
-    <rect x="42" y="66" width="218" height="22" rx="6" fill="#12222B"/>
-    <text class="m" font-size="10.5" fill="#9CD8ED" x="50" y="81">L042: 意思表示瑕疵与<tspan fill="#FFE082" font-weight="700">撤销权</tspan></text>
-
-    <rect x="42" y="92" width="218" height="22" rx="6" fill="#12222B"/>
-    <text class="m" font-size="10.5" fill="#9CD8ED" x="50" y="107">L108: 除斥期间自知道之日起算</text>
-
-    <!-- Collapsed Sibling Node -->
-    <rect x="24" y="118" width="236" height="22" rx="6" fill="#182C38"/>
-    <text class="m" font-size="10.5" fill="#82B5C9" x="34" y="133">▶ procedure/evidence.md (24)</text>
-
-    <!-- Right: SQLDelight + CJK Guard + Honest Docs -->
-    <g transform="translate(292, 0)">
-      <rect x="0" y="0" width="240" height="44" rx="14" fill="#183645" stroke="#3D7F9E"/>
-      <text class="m" font-size="11" font-weight="700" fill="#9EE5FC" x="14" y="19">SQLDELIGHT DECODED INDEX</text>
-      <text class="s" font-size="11.5" fill="#D8F4FF" x="14" y="36">已解码文本缓存入本地库，免重复解码</text>
-
-      <rect x="0" y="52" width="240" height="46" rx="14" fill="#162C38" stroke="#315E75"/>
-      <text class="m" font-size="11" font-weight="700" fill="#7AD9F5" x="14" y="70">CJK ENCODING GUARD</text>
-      <text class="m" font-size="10" fill="#B3E0F2" x="14" y="88">BOM → NUL → UTF-8 → GB18030</text>
-
-      <rect x="0" y="106" width="240" height="42" rx="14" fill="#2B2518" stroke="#7A6535"/>
-      <text class="m" font-size="11" font-weight="700" fill="#FFD97D" x="14" y="123">HONEST README FIRST</text>
-      <text class="s" font-size="11.5" fill="#F2DFB3" x="14" y="139">先列未实现功能与核心/UI边界</text>
-    </g>
-  </g>
-
-  <!-- Footer -->
-  <text class="m" font-size="12" fill="#7FAEC2" x="24" y="310">Desktop · Android · Wasm 跨端架构 · 整词匹配对 CJK 显式禁用 (\b 守卫)</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="zh-CN" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">grzeb：按目录下钻，直达命中行</title>
+<desc id="desc">结果树机制示意，使用 /workspace、notes/contract.md 与 archive/ 作为示例路径。目录级全文检索支持逐级钻取并跳转命中行，解码后的正文缓存进 SQLDelight；示意路径不代表实测结果。</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#e9f5d6"/>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">DIRECTORY SEARCH</text>
+<text x="30" y="103" font-size="50" font-weight="800" fill="#335000">grzeb</text>
+<text x="32" y="142" font-size="25" font-weight="600" fill="#335000" data-maxw="516">按目录下钻，直达命中行。</text>
+<rect x="30" y="171" width="520" height="48" rx="24" fill="#335000"/>
+<circle cx="58" cy="193" r="9" fill="none" stroke="#e9f5d6" stroke-width="3"/>
+<path d="M65 200L72 207" fill="none" stroke="#e9f5d6" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<text x="86" y="202" font-size="22" font-weight="650" fill="#e9f5d6">合同</text>
+<text x="53" y="251" font-size="22" font-weight="650" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">/workspace</text>
+<path d="M66 265L66 337" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<path d="M66 282L93 282" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<path d="M66 337L93 337" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<path d="M109 296L109 314" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<path d="M109 314L139 314" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<text x="99" y="289" font-size="22" font-weight="650" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">notes/</text>
+<rect x="146" y="297" width="382" height="38" rx="10" fill="#f5ffe8"/>
+<text x="161" y="324" font-size="21" font-weight="700" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">contract.md</text>
+<text x="99" y="345" font-size="22" font-weight="550" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">archive/</text>
+<path d="M508.5 290.06C508.23 290.42 507.93 290.77 507.61 291.08C505.94 292.71 503.27 293.27 497.91 294.39C492.13 295.6 486.36 296.81 480.58 298.02C480.18 298.1 479.98 298.14 479.86 298.16C475.44 298.95 471.25 295.91 470.64 291.46C470.62 291.35 470.6 291.14 470.55 290.74C469.92 284.94 469.29 279.15 468.66 273.35C468.07 267.91 467.77 265.19 468.8 263.1C469.2 262.29 469.74 261.55 470.39 260.92C472.06 259.29 474.73 258.73 480.09 257.61C485.87 256.4 491.64 255.19 497.42 253.98C497.82 253.9 498.02 253.86 498.14 253.84C502.56 253.05 506.75 256.09 507.36 260.54C507.38 260.65 507.4 260.86 507.45 261.26C508.08 267.06 508.71 272.85 509.34 278.65C509.93 284.09 510.23 286.81 509.2 288.9C509 289.3 508.76 289.69 508.5 290.06Z" fill="#335000"/>
+<path d="M480 275h17m-8-8 8 8-8 8" fill="none" stroke="#e9f5d6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="393" font-size="18" font-weight="650" fill="#335000" data-maxw="516">Kotlin · Compose Multiplatform</text>
+<text x="32" y="424" font-size="21" font-weight="550" fill="#335000" data-maxw="516">解码后的正文，缓存进 SQLDelight</text>
+</g>
 </svg>

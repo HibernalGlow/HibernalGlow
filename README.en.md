@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow: I turn real files into tools that run locally and can be checked. The illustration shows source documents flowing into a working desktop app."
+  <img src="./assets/readme/hero.en.svg" width="100%" alt="HibernalGlow: A real itch. I build the fix. Law undergraduate building document pipelines, agent output gates and desktop tools for macOS and Windows.">
 </p>
 
 <p align="center">
@@ -24,7 +24,37 @@ What actually holds my attention is the layer under the interface: archive forma
 
 ---
 
-<img src="./assets/readme/section-work.svg" width="100%" alt="Selected work · 代表作品">
+<img src="./assets/readme/section-work.en.svg" width="100%" alt="Selected work · 代表作品">
+
+<!-- Each project is a separate SVG; only this HTML arranges the cards. -->
+<p align="center">
+  <a href="https://github.com/HibernalGlow/MineruCustom"><img src="./assets/readme/proj-minerucustom.en.svg" width="400" alt="MineruCustom: Restore footnotes and page marks after MinerU."></a>
+  <a href="https://github.com/HibernalGlow/skilloom"><img src="./assets/readme/proj-skilloom.en.svg" width="400" alt="skilloom: Agent skills and gates that reject invalid output."></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/neoview"><img src="./assets/readme/proj-neoview.en.svg" width="400" alt="neoview: Local image and manga reader with Rust + SQLite caching."></a>
+  <a href="https://github.com/HibernalGlow/grzeb"><img src="./assets/readme/proj-grzeb.en.svg" width="400" alt="grzeb: Directory search with a navigable result tree and SQLDelight text cache."></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/Xaihi"><img src="./assets/readme/proj-xaihi.en.svg" width="400" alt="Xaihi: 27 domain nodes plug actions, schemas and panels into DeepSeek Harness."></a>
+  <a href="https://github.com/HibernalGlow/siyuan-damophus"><img src="./assets/readme/proj-damophus.en.svg" width="400" alt="siyuan-damophus: SiYuan question-bank plugin: scan, index, practice and resume."></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/rossi"><img src="./assets/readme/proj-rossi.en.svg" width="400" alt="rossi: JS source plugins run in Rust-side QuickJS and feed a Flutter reader."></a>
+  <a href="https://github.com/HibernalGlow/ArcThumbX"><img src="./assets/readme/proj-arcthumbx.en.svg" width="400" alt="ArcThumbX: Native archive and ebook cover thumbnails in Finder and Explorer."></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/Xlchemy"><img src="./assets/readme/proj-xlchemy.en.svg" width="400" alt="Xlchemy: Batch JPEG XL, AVIF and WebP conversion, with native Apple Silicon Mac builds."></a>
+  <a href="https://github.com/HibernalGlow/czkawka-tauri"><img src="./assets/readme/proj-czkawka-tauri.en.svg" width="400" alt="czkawka-tauri: Duplicate and similar-image cleanup with Windows builds, themes and Taskfile tasks."></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/hibernal"><img src="./assets/readme/proj-hibernal.en.svg" width="400" alt="hibernal: Swift menu-bar tool for deep hibernation via pmset and a privileged helper."></a>
+</p>
 
 | Project | Stack | What it is |
 | --- | --- | --- |
@@ -40,7 +70,7 @@ What actually holds my attention is the layer under the interface: archive forma
 | [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | Desktop front end for duplicate / similar-image cleanup. Fork, 9 releases, my own Windows build, plus custom theme management and a Taskfile task set |
 | [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | On-demand deep hibernation from the menu bar (`pmset` + privileged helper). Upstream stopped at `v1.4.5`; I took it to 2.0.0 and shipped a dmg |
 
-<img src="./assets/readme/section-domain.svg" width="100%" alt="By domain · 领域索引">
+<img src="./assets/readme/section-domain.en.svg" width="100%" alt="By domain · 领域索引">
 
 What follows is a mix of forks and original work; where a repository is a fork, upstream license and authorship stay in its README, and each repo's description states what my side changed.
 
@@ -74,13 +104,13 @@ brew tap hibernalglow/tap
 
 [Extras-Glow](https://github.com/HibernalGlow/Extras-Glow) is the same idea for Scoop on Windows.
 
-<img src="./assets/readme/section-law.svg" width="100%" alt="Law × AI · 法律 × AI">
+<img src="./assets/readme/section-law.en.svg" width="100%" alt="Law × AI · 法律 × AI">
 
 Law undergraduate (class of 2027), with an internship at a law firm. Real legal work looks like this: parties send photos and chat screenshots as evidence, and a document revision means emailing yet another version of the file. A case search without a case number gets treated as AI-generated on sight.
 
 Those two facts set the trade-offs in my document tooling: first turn material into structured Markdown that carries page marks, so every conclusion can be traced back to the exact page; then put AI output through gates, so anything failing structure or semantics never lands. The model drafts and organises; provenance and conclusions still need a human back at the original source. I built one site around exactly that chain, with the animations sitting next to the notes ([InkLoom](https://github.com/HibernalGlow/InkLoom), retired).
 
-<img src="./assets/readme/section-method.svg" width="100%" alt="How I work · 我怎么做事">
+<img src="./assets/readme/section-method.en.svg" width="100%" alt="How I work · 我怎么做事">
 
 - **Both forks and original work.** The fork side keeps tracking upstream: siyuan-damophus, Extras-Glow, rossi, Xlchemy, czkawka-tauri, hibernal, ComfyUI-Workflow-Studio and ArcThumbX are maintained against upstream rather than left at a snapshot; when I port a fix I take the upstream's *conditions*, not only its code, so a merge never silently drops either side. The original side — MineruCustom, skilloom, neoview, grzeb, Xaihi — started from an empty repository, with interfaces and acceptance criteria defined from scratch.
 - **Gates before promises.** A generative tool has to be able to judge whether its output is right: structure, semantics, traceability. Otherwise it just moves errors faster.

@@ -1,92 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" width="100%" role="img" aria-labelledby="mcTitle mcDesc">
-  <title id="mcTitle">MineruCustom — PDF to Markdown Post-Processing Pipeline</title>
-  <desc id="mcDesc">Material 3 Expressive project card for MineruCustom: restores discarded blocks, rebuilds footnotes, injects page markers from middle.json to Markdown. 7 external stars including MinerU maintainer myhloli.</desc>
-
-  <defs>
-    <linearGradient id="mcBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1A1512"/>
-      <stop offset="100%" stop-color="#231B16"/>
-    </linearGradient>
-    <linearGradient id="mcAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5C3A1E"/>
-      <stop offset="100%" stop-color="#3E2613"/>
-    </linearGradient>
-    <style>
-      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
-      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
-    </style>
-  </defs>
-
-  <!-- Card Outer Surface (MD3E corner-extra-large rx=26) -->
-  <rect width="580" height="340" rx="26" fill="url(#mcBg)"/>
-  <rect x="1" y="1" width="578" height="338" rx="25" fill="none" stroke="#523B2B" stroke-width="1.5"/>
-
-  <!-- Top Header Zone -->
-  <g transform="translate(24, 22)">
-    <!-- Role / Stack Pill -->
-    <rect x="0" y="0" width="166" height="28" rx="14" fill="#362417" stroke="#754E32"/>
-    <circle cx="16" cy="14" r="4.5" fill="#FFB786"/>
-    <text class="m" font-size="12" font-weight="700" fill="#FFDCC3" x="28" y="18">PYTHON · MINERU</text>
-
-    <!-- External Star Highlight Pill -->
-    <rect x="336" y="0" width="196" height="28" rx="14" fill="url(#mcAccent)" stroke="#A66E43"/>
-    <text class="m" font-size="12" font-weight="700" fill="#FFE6D1" x="350" y="18">★ 7 EXT · incl. myhloli</text>
-
-    <!-- Title & Subtitle -->
-    <text class="s" font-size="28" font-weight="800" fill="#FFF0E5" x="0" y="64">MineruCustom</text>
-    <text class="s" font-size="14.5" fill="#D4B8A5" x="0" y="90">PDF → Markdown 后处理：找回丢弃块、重建脚注、注入页码锚点</text>
-  </g>
-
-  <!-- Visual Diagram: Document Surgery Comparison (Before -> Pipeline -> After) -->
-  <g transform="translate(24, 130)">
-    <!-- Left Card: Raw MinerU middle.json -->
-    <rect x="0" y="0" width="162" height="148" rx="18" fill="#241C18" stroke="#47352B"/>
-    <text class="m" font-size="11.5" font-weight="700" fill="#E6A173" x="14" y="24">middle.json (原始)</text>
-    <rect x="14" y="34" width="134" height="18" rx="5" fill="#332822"/>
-    <text class="m" font-size="10.5" fill="#B59B8B" x="20" y="47">para_blocks [...]</text>
-
-    <!-- Highlighted Rescued Block -->
-    <rect x="14" y="58" width="134" height="36" rx="8" fill="#42221D" stroke="#B85D4D" stroke-dasharray="4 3"/>
-    <text class="m" font-size="10.5" font-weight="700" fill="#FFB4A8" x="20" y="73">discarded_blocks</text>
-    <text class="s" font-size="10.5" fill="#E89B8E" x="20" y="88">页脚脚注 / 边注被丢弃</text>
-
-    <rect x="14" y="102" width="134" height="32" rx="8" fill="#2E231E"/>
-    <text class="s" font-size="10.5" fill="#9E8475" x="20" y="122">无原始页码映射标记</text>
-
-    <!-- Center: Expressive Morphing Squircle Surgery Node -->
-    <g transform="translate(174, 14)">
-      <path d="M0 60 L20 60" stroke="#FFB786" stroke-width="2"/>
-      <rect x="20" y="6" width="136" height="108" rx="22" fill="#382415" stroke="#96633B" stroke-width="1.4"/>
-      <text class="s" font-size="13" font-weight="700" fill="#FFE2CC" x="34" y="30">后处理三步恢复</text>
-
-      <rect x="30" y="40" width="116" height="20" rx="10" fill="#24170D"/>
-      <text class="m" font-size="10.5" fill="#FFB786" x="38" y="54">1. 捞回丢弃区块</text>
-
-      <rect x="30" y="64" width="116" height="20" rx="10" fill="#24170D"/>
-      <text class="m" font-size="10.5" fill="#FFB786" x="38" y="78">2. 正文⇄脚注缝合</text>
-
-      <rect x="30" y="88" width="116" height="20" rx="10" fill="#24170D"/>
-      <text class="m" font-size="10.5" fill="#FFB786" x="38" y="102">3. 嵌页码 + 调层级</text>
-
-      <path d="M156 60 L174 60" stroke="#FFB786" stroke-width="2"/>
-      <polygon points="178,60 170,55 170,65" fill="#FFB786"/>
-    </g>
-
-    <!-- Right Card: Clean Page-Marked Markdown -->
-    <rect x="356" y="0" width="176" height="148" rx="18" fill="#212922" stroke="#3F6B4E"/>
-    <text class="m" font-size="11.5" font-weight="700" fill="#8CE8B5" x="370" y="24">output.md (可回查)</text>
-
-    <rect x="370" y="34" width="148" height="22" rx="11" fill="#163826" stroke="#39855B"/>
-    <text class="m" font-size="10.5" font-weight="700" fill="#A1F5C6" x="380" y="49">&lt;!-- page: 042 --&gt;</text>
-
-    <rect x="370" y="62" width="148" height="36" rx="8" fill="#18211A"/>
-    <text class="m" font-size="10.5" fill="#D5EDE0" x="378" y="77">## 第二节 意思表示[^1]</text>
-    <text class="s" font-size="10.5" fill="#8AB89E" x="378" y="92">标题嵌套经 marku 修复</text>
-
-    <rect x="370" y="104" width="148" height="30" rx="8" fill="#152E20"/>
-    <text class="m" font-size="10.5" fill="#8CE8B5" x="378" y="123">[^1]: 页脚脚注已归位</text>
-  </g>
-
-  <!-- Bottom Footer Strip -->
-  <text class="m" font-size="12" fill="#B59B8B" x="24" y="310">法学教材与法考资料入库管线 · 每一条结论均可按页码翻回原书核对</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="zh-CN" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">MineruCustom：捡回脚注，找回原页</title>
+<desc id="desc">根据项目 README 第 42 页示例绘制的恢复过程示意：左侧 middle.json 的 discarded_blocks 中有脚注；右侧 Markdown 补回 page 页码标记并恢复脚注。原创 Python 项目，运行在 MinerU 之后。</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#c3bdfe"/>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#3c376e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">PDF → MARKDOWN</text>
+<text x="32" y="101" font-size="44" font-weight="800" fill="#282259" data-maxw="516">MineruCustom</text>
+<text x="32" y="141" font-size="24" font-weight="600" fill="#3c376e" data-maxw="516">捡回脚注，找回原页。</text>
+<g transform="translate(49 184) rotate(-6 75 92)"><rect x="0" y="0" width="150" height="184" rx="18" fill="#fef7ff"/><text x="18" y="31" font-size="16" font-weight="650" fill="#3c376e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">middle.json</text><path d="M18 52L127 52" fill="none" stroke="#b5afef" stroke-width="6" stroke-linecap="round" opacity="1"/><path d="M18 72L111 72" fill="none" stroke="#b5afef" stroke-width="6" stroke-linecap="round" opacity="1"/><path d="M18 92L127 92" fill="none" stroke="#b5afef" stroke-width="6" stroke-linecap="round" opacity="1"/><rect x="12" y="116" width="126" height="55" rx="12" fill="#ffd8e7"/><text x="24" y="140" font-size="20" font-weight="700" fill="#782955" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">[^1]</text><path d="M25 155L99 155" fill="none" stroke="#ef8cbd" stroke-width="5" stroke-linecap="round" opacity="1"/></g>
+<text x="47" y="391" font-size="16" font-weight="600" fill="#3c376e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">discarded_blocks</text>
+<g transform="translate(339 171) rotate(4 91 102)"><rect x="0" y="0" width="182" height="204" rx="22" fill="#fef7ff"/><rect x="12" y="12" width="158" height="60" rx="14" fill="#e9ddff"/><text x="25" y="36" font-size="18" font-weight="650" fill="#3c376e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">```page</text><text x="25" y="61" font-size="22" font-weight="750" fill="#282259">第 42 页</text><path d="M20 95L160 95" fill="none" stroke="#b5afef" stroke-width="6" stroke-linecap="round" opacity="1"/><path d="M20 117L141 117" fill="none" stroke="#b5afef" stroke-width="6" stroke-linecap="round" opacity="1"/><rect x="12" y="143" width="158" height="46" rx="14" fill="#cff992"/><text x="26" y="173" font-size="18" font-weight="650" fill="#335000">[^1] 脚注归位</text></g>
+<path d="M217 267L218.02 268.17L219.04 269.32L220.06 270.39L221.08 271.37L222.1 272.23L223.12 272.93L224.14 273.47L225.16 273.83L226.18 273.99L227.2 273.95L228.22 273.72L229.24 273.29L230.26 272.69L231.28 271.93L232.3 271.02L233.32 270L234.34 268.9L235.36 267.74L236.38 266.56L237.4 265.39L238.42 264.27L239.44 263.23L240.46 262.29L241.48 261.49L242.5 260.84L243.52 260.37L244.54 260.09L245.56 260L246.58 260.11L247.6 260.42L248.62 260.91L249.64 261.58L250.66 262.4L251.68 263.35L252.7 264.4L253.72 265.53L254.74 266.7L255.76 267.88L256.78 269.03L257.8 270.13L258.82 271.13L259.84 272.02L260.86 272.77L261.88 273.35L262.9 273.76L263.92 273.97L264.94 273.98L265.96 273.8L266.98 273.42L268 272.86L269.02 272.13L270.04 271.26L271.06 270.27L272.08 269.19L273.1 268.04L274.12 266.86L275.14 265.69L276.16 264.55L277.18 263.49L278.2 262.52L279.22 261.68L280.24 260.99L281.26 260.47L282.28 260.14L283.3 260L284.32 260.06L285.34 260.32L286.36 260.77L287.38 261.39L288.4 262.17L289.42 263.09L290.44 264.12L291.46 265.24L292.48 266.4L293.5 267.58L294.52 268.74L295.54 269.85L296.56 270.89L297.58 271.81L298.6 272.59L299.62 273.22L300.64 273.67L301.66 273.93L302.68 274L303.7 273.86L304.72 273.53L305.74 273.02L306.76 272.33L307.78 271.5L308.8 270.53L309.82 269.47L310.84 268.33L311.86 267.16L312.88 265.99L313.9 264.84L314.92 263.75L315.94 262.76L316.96 261.88L317.98 261.15L319 260.59" fill="none" stroke="#3c376e" stroke-width="5" stroke-linecap="round"/>
+<path d="M307 254l16 13-16 13" fill="none" stroke="#3c376e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M331.11 201.39C330.99 202.26 330.57 203.09 329.87 203.71C328.44 204.98 327.01 206.24 325.58 207.51C324.98 208.04 324.56 208.75 324.38 209.53C323.97 211.4 323.55 213.27 323.14 215.13C322.73 216.96 321.06 218.22 319.19 218.11C317.28 217.99 315.38 217.88 313.47 217.76C312.67 217.71 311.87 217.92 311.2 218.35C309.58 219.37 307.97 220.4 306.36 221.43C304.78 222.43 302.7 222.14 301.46 220.74C300.19 219.31 298.93 217.88 297.66 216.45C297.13 215.85 296.42 215.43 295.64 215.26C293.77 214.84 291.91 214.42 290.04 214.01C288.21 213.6 286.95 211.93 287.07 210.06C287.18 208.15 287.29 206.25 287.41 204.34C287.46 203.54 287.25 202.74 286.82 202.07C285.8 200.45 284.77 198.84 283.75 197.23C282.74 195.65 283.03 193.57 284.43 192.33C285.86 191.07 287.29 189.8 288.72 188.53C289.32 188 289.74 187.29 289.92 186.51C290.33 184.64 290.75 182.78 291.16 180.91C291.57 179.08 293.24 177.82 295.11 177.94C297.02 178.05 298.93 178.17 300.83 178.28C301.63 178.33 302.43 178.12 303.1 177.69C304.72 176.67 306.33 175.64 307.94 174.62C309.52 173.61 311.6 173.91 312.84 175.3C314.11 176.74 315.37 178.17 316.64 179.6C317.17 180.2 317.88 180.61 318.66 180.79C320.53 181.2 322.4 181.62 324.26 182.03C326.09 182.44 327.35 184.11 327.23 185.98C327.12 187.89 327.01 189.8 326.89 191.7C326.84 192.5 327.05 193.3 327.48 193.98C328.5 195.59 329.53 197.2 330.55 198.82C331.06 199.6 331.23 200.52 331.11 201.39Z" fill="#cff992"/>
+<path d="M299.96 198l4.84 4.84 9.46 -10.34" fill="none" stroke="#335000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="426" font-size="18" font-weight="600" fill="#3c376e">Python · MinerU 后处理</text>
+<text x="548" y="426" font-size="14" font-weight="500" fill="#3c376e" text-anchor="end">恢复过程示意</text>
+</g>
 </svg>

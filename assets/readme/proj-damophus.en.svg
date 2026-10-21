@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="en" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">siyuan-damophus — a question bank you can resume</title>
+<desc id="desc">Conceptual practice card, with unlabelled answer placeholders and a four-stage scan/index/practice/resume rail. The SiYuan plugin maintains question indexes and recoverable practice sessions. A/B are interface placeholders, not a real question or answer.</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#ffd8e7"/>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#782955" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">SIYUAN QUESTION BANK</text>
+<text x="30" y="101" font-size="40" font-weight="800" fill="#3d0026" data-maxw="516">siyuan-damophus</text>
+<text x="32" y="141" font-size="25" font-weight="600" fill="#3d0026" data-maxw="516">Scan. Index. Practice. Resume.</text>
+<rect x="72" y="180" width="286" height="175" rx="28" fill="#ef8cbd"/>
+<rect x="56" y="191" width="286" height="175" rx="28" fill="#ffafd4"/>
+<g transform="translate(40 183) rotate(-5 143 87)"><rect x="0" y="0" width="286" height="175" rx="24" fill="#fff7fa"/><text x="22" y="41" font-size="34" font-weight="800" fill="#3d0026">Q</text><path d="M65 28L252 28" fill="none" stroke="#d59bb8" stroke-width="7" stroke-linecap="round" opacity="1"/><path d="M65 49L216 49" fill="none" stroke="#d59bb8" stroke-width="7" stroke-linecap="round" opacity="1"/><rect x="20" y="77" width="246" height="35" rx="12" fill="#ffd8e7"/><text x="35" y="102" font-size="19" font-weight="700" fill="#782955" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">A</text><path d="M63 94L233 94" fill="none" stroke="#d59bb8" stroke-width="5" stroke-linecap="round" opacity="1"/><rect x="20" y="122" width="246" height="35" rx="12" fill="#cff992"/><text x="35" y="147" font-size="19" font-weight="700" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">B</text><path d="M63 139L208 139" fill="none" stroke="#7c9a51" stroke-width="5" stroke-linecap="round" opacity="1"/><path d="M237.6 139l4.4 4.4 8.6 -9.4" fill="none" stroke="#335000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<path d="M402 197L402 333" fill="none" stroke="#d59bb8" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<circle cx="402" cy="197" r="14" fill="#f8bddd"/>
+<text x="402" y="203" font-size="16" font-weight="700" fill="#782955" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">1</text>
+<text x="426" y="204" font-size="21" font-weight="500" fill="#3d0026" data-maxw="120">scan</text>
+<circle cx="402" cy="242" r="14" fill="#f8bddd"/>
+<text x="402" y="248" font-size="16" font-weight="700" fill="#782955" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">2</text>
+<text x="426" y="249" font-size="21" font-weight="500" fill="#3d0026" data-maxw="120">index</text>
+<circle cx="402" cy="287" r="14" fill="#335000"/>
+<path d="M396.88 287l3.52 3.52 6.88 -7.52" fill="none" stroke="#cff992" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="426" y="294" font-size="21" font-weight="700" fill="#3d0026" data-maxw="120">practice</text>
+<circle cx="402" cy="332" r="14" fill="#f8bddd"/>
+<text x="402" y="338" font-size="16" font-weight="700" fill="#782955" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">4</text>
+<text x="426" y="339" font-size="21" font-weight="500" fill="#3d0026" data-maxw="120">resume</text>
+<text x="32" y="397" font-size="24" font-weight="750" fill="#3d0026" data-maxw="516">Practice you can resume.</text>
+<text x="32" y="427" font-size="18" font-weight="600" fill="#782955" data-maxw="516">TypeScript · Svelte · SiYuan</text>
+</g>
+</svg>

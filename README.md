@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow：把真实文件跑起来。文档、笔记与 AI 输出，在本机落地并且可校验。插画表现文件进入桌面工具的过程。"
+  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow：有个痛点，那就自己做。2027 届法学本科，做文档流水线、Agent 输出门禁和跨平台桌面应用。">
 </p>
 
 <p align="center">
@@ -23,6 +23,36 @@
 真正让我着迷的是界面之下那一层：归档格式、文本解码、缩略图管线、shell 处理、进程看护。工具要么能在你真实的文件上跑通，要么就是没跑通。
 
 <img src="./assets/readme/section-work.svg" width="100%" alt="代表作品 · Selected work">
+
+<!-- Each project is a separate SVG; only this HTML arranges the cards. -->
+<p align="center">
+  <a href="https://github.com/HibernalGlow/MineruCustom"><img src="./assets/readme/proj-minerucustom.svg" width="400" alt="MineruCustom：MinerU 后处理：捡回脚注，找回原页。"></a>
+  <a href="https://github.com/HibernalGlow/skilloom"><img src="./assets/readme/proj-skilloom.svg" width="400" alt="skilloom：Agent 技能包与门禁：产物不合格，就拒收。"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/neoview"><img src="./assets/readme/proj-neoview.svg" width="400" alt="neoview：本地图像与漫画阅读器，以 Rust + SQLite 维护缩略图和目录缓存。"></a>
+  <a href="https://github.com/HibernalGlow/grzeb"><img src="./assets/readme/proj-grzeb.svg" width="400" alt="grzeb：目录级全文检索，按结果树下钻，解码正文缓存进 SQLDelight。"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/Xaihi"><img src="./assets/readme/proj-xaihi.svg" width="400" alt="Xaihi：27 个领域节点以插件包接入 DeepSeek Harness，包含动作、参数和面板。"></a>
+  <a href="https://github.com/HibernalGlow/siyuan-damophus"><img src="./assets/readme/proj-damophus.svg" width="400" alt="siyuan-damophus：思源题库插件：扫描、索引、练习、恢复。"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/rossi"><img src="./assets/readme/proj-rossi.svg" width="400" alt="rossi：每个图源是一个 JS 文件，由 Rust 侧 QuickJS 执行并交给 Flutter 阅读器。"></a>
+  <a href="https://github.com/HibernalGlow/ArcThumbX"><img src="./assets/readme/proj-arcthumbx.svg" width="400" alt="ArcThumbX：在 Finder 与资源管理器中直接展示压缩包与电子书封面。"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/Xlchemy"><img src="./assets/readme/proj-xlchemy.svg" width="400" alt="Xlchemy：批量转 JPEG XL、AVIF、WebP，提供 Apple Silicon macOS 原生包。"></a>
+  <a href="https://github.com/HibernalGlow/czkawka-tauri"><img src="./assets/readme/proj-czkawka-tauri.svg" width="400" alt="czkawka-tauri：重复与相似图片分组清理，自出 Windows 构建并加入主题和 Taskfile。"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/hibernal"><img src="./assets/readme/proj-hibernal.svg" width="400" alt="hibernal：Swift 菜单栏工具，通过 pmset 与特权 helper 按需深度休眠。"></a>
+</p>
 
 | 项目 | 技术栈 | 是什么 |
 | --- | --- | --- |

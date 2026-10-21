@@ -1,84 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" width="100%" role="img" aria-labelledby="nvTitle nvDesc">
-  <title id="nvTitle">neoview — Local-First Image &amp; Manga Reader</title>
-  <desc id="nvDesc">Material 3 Expressive project card for neoview: Tauri 2 + Svelte 5 + Rust + PyO3 local-first reader with SQLite thumbnail and directory cache across 2,828 commits.</desc>
-
-  <defs>
-    <linearGradient id="nvBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#131524"/>
-      <stop offset="100%" stop-color="#1A1D33"/>
-    </linearGradient>
-    <linearGradient id="nvPrimary" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#323C7A"/>
-      <stop offset="100%" stop-color="#232A57"/>
-    </linearGradient>
-    <style>
-      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
-      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
-    </style>
-  </defs>
-
-  <!-- Outer Card Surface -->
-  <rect width="580" height="340" rx="26" fill="url(#nvBg)"/>
-  <rect x="1" y="1" width="578" height="338" rx="25" fill="none" stroke="#3D4675" stroke-width="1.5"/>
-
-  <!-- Header -->
-  <g transform="translate(24, 22)">
-    <rect x="0" y="0" width="246" height="28" rx="14" fill="#23294A" stroke="#4D5B9E"/>
-    <circle cx="16" cy="14" r="4.5" fill="#9BB0FF"/>
-    <text class="m" font-size="12" font-weight="700" fill="#DCE2FF" x="28" y="18">TAURI 2 · SVELTE 5 · RUST</text>
-
-    <rect x="370" y="0" width="162" height="28" rx="14" fill="url(#nvPrimary)" stroke="#7386E6"/>
-    <text class="m" font-size="12" font-weight="700" fill="#EEF0FF" x="386" y="18">2,828 COMMITS</text>
-
-    <text class="s" font-size="28" font-weight="800" fill="#F2F3FF" x="0" y="64">neoview</text>
-    <text class="s" font-size="14.5" fill="#B0B8E0" x="0" y="90">本地优先图像与漫画阅读器：Rust 归档流式解码 + SQLite 缩略图与目录缓存</text>
-  </g>
-
-  <!-- Visual Diagram: Bento Desktop Viewport + Rust/SQLite Cache Pipeline -->
-  <g transform="translate(24, 130)">
-    <!-- Left: Simulated Expressive Bento Reader Viewport -->
-    <rect x="0" y="0" width="286" height="148" rx="20" fill="#1C2038" stroke="#3A4370"/>
-    <!-- Window Top Bar -->
-    <circle cx="18" cy="16" r="4" fill="#FF8A80"/>
-    <circle cx="30" cy="16" r="4" fill="#FFD180"/>
-    <circle cx="42" cy="16" r="4" fill="#80D8FF"/>
-    <text class="m" font-size="10.5" fill="#8F99C7" x="58" y="20">Svelte 5 Viewport · Zero Cloud</text>
-
-    <!-- Bento Thumbnail Tiles -->
-    <rect x="14" y="30" width="80" height="104" rx="12" fill="#2A3158" stroke="#5A68B3"/>
-    <rect x="22" y="40" width="64" height="58" rx="8" fill="#3B467D"/>
-    <text class="m" font-size="10" fill="#D5DCFF" x="24" y="114">CBZ / ZIP</text>
-    <text class="m" font-size="9.5" fill="#9BB0FF" x="24" y="126">Instant Hit</text>
-
-    <rect x="102" y="30" width="80" height="50" rx="12" fill="#252B4D" stroke="#475391"/>
-    <text class="m" font-size="10" font-weight="700" fill="#C4CEFF" x="112" y="52">AVIF / JXL</text>
-    <text class="m" font-size="9.5" fill="#8F99C7" x="112" y="68">Pre-decoded</text>
-
-    <rect x="102" y="84" width="80" height="50" rx="12" fill="#252B4D" stroke="#475391"/>
-    <text class="m" font-size="10" font-weight="700" fill="#C4CEFF" x="112" y="106">RAR / 7Z</text>
-    <text class="m" font-size="9.5" fill="#8F99C7" x="112" y="122">Stream IO</text>
-
-    <rect x="190" y="30" width="82" height="104" rx="12" fill="#2A3158" stroke="#5A68B3"/>
-    <text class="s" font-size="11" font-weight="700" fill="#E2E6FF" x="200" y="52">目录树索引</text>
-    <rect x="200" y="62" width="62" height="8" rx="4" fill="#6878CC"/>
-    <rect x="200" y="76" width="48" height="8" rx="4" fill="#4E5BA3"/>
-    <rect x="200" y="90" width="56" height="8" rx="4" fill="#4E5BA3"/>
-    <text class="m" font-size="9.5" fill="#A6B4F7" x="200" y="120">PyO3 Bridge</text>
-
-    <!-- Right: Rust Core + SQLite Local Cache Stack -->
-    <g transform="translate(302, 0)">
-      <rect x="0" y="0" width="230" height="68" rx="18" fill="url(#nvPrimary)" stroke="#6B7DE0"/>
-      <text class="m" font-size="11.5" font-weight="700" fill="#BAC3FF" x="16" y="24">RUST BACKEND (1.77 MB)</text>
-      <text class="s" font-size="12.5" font-weight="700" fill="#F2F4FF" x="16" y="44">多线程缩略图管线与归档读取</text>
-      <text class="m" font-size="10.5" fill="#C5CEFF" x="16" y="60">Tauri IPC · 零外部服务依赖</text>
-
-      <rect x="0" y="80" width="230" height="68" rx="18" fill="#1E2440" stroke="#4A5691"/>
-      <text class="m" font-size="11.5" font-weight="700" fill="#8CE2F9" x="16" y="104">SQLITE LOCAL CACHE</text>
-      <text class="s" font-size="12.5" font-weight="700" fill="#E8EEFF" x="16" y="124">缩略图与目录元数据持久化</text>
-      <text class="m" font-size="10.5" fill="#9BA8D9" x="16" y="140">二次打开大目录秒级响应</text>
-    </g>
-  </g>
-
-  <!-- Footer -->
-  <text class="m" font-size="12" fill="#8F99C7" x="24" y="310">全库最大体量自有工程 · 桌面端重度本地文件与归档浏览场景</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="zh-CN" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">neoview：图像与漫画，留在本机</title>
+<desc id="desc">缩略图缓存的概念示意：三张裁切缩略图与一张等待生成的占位图，下方为波浪进度条。本地优先的图像与漫画阅读器，以 Rust 与 SQLite 维护缩略图和目录缓存。</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#cde5ff"/>
+<defs><clipPath id="thumb0"><path d="M49.48 199.2C58.13 187.3 71.32 178.69 87.01 176.21C118.37 171.24 147.82 192.64 152.79 224.01C154.94 237.58 157.09 251.16 159.24 264.73C160.65 273.61 154.6 281.94 145.72 283.34C118.57 287.64 91.42 291.94 64.27 296.24C55.39 297.65 47.06 291.6 45.66 282.72C43.51 269.15 41.36 255.57 39.21 241.99C36.72 226.31 40.83 211.11 49.48 199.2Z" fill="#c3bdfe"/></clipPath><clipPath id="thumb1"><path d="M229.83 187.04C230.43 186.67 231.02 186.31 231.62 185.94C245.61 177.35 263.79 180.47 274.12 193.22C284.45 205.98 283.72 224.41 272.41 236.31C271.93 236.82 271.44 237.32 270.96 237.83C271.33 238.43 271.69 239.02 272.06 239.62C280.65 253.61 277.53 271.79 264.78 282.12C252.02 292.45 233.59 291.72 221.69 280.41C221.18 279.93 220.68 279.44 220.17 278.96C219.57 279.33 218.98 279.69 218.38 280.06C204.39 288.65 186.21 285.53 175.88 272.78C165.55 260.02 166.28 241.59 177.59 229.69C178.07 229.18 178.56 228.68 179.04 228.17C178.67 227.57 178.31 226.98 177.94 226.38C169.35 212.39 172.47 194.21 185.22 183.88C197.98 173.55 216.41 174.28 228.31 185.59C228.82 186.07 229.32 186.56 229.83 187.04Z" fill="#cff992"/></clipPath><clipPath id="thumb2"><path d="M387.05 182.1C396.22 188.06 403.4 197.08 406.96 208.1C407.48 209.72 408 211.34 408.53 212.96C411.22 226 408.67 239.57 401.42 250.73C397.44 256.85 393.46 262.98 389.48 269.11C382.23 280.27 370.87 288.12 357.87 290.96C356.18 291.14 354.49 291.33 352.79 291.51C329.76 293.98 308.15 279.95 301.04 257.9C300.52 256.28 300 254.66 299.47 253.04C296.78 240 299.33 226.43 306.58 215.27C310.56 209.15 314.54 203.02 318.52 196.89C325.77 185.73 337.13 177.88 350.13 175.04C351.82 174.86 353.51 174.67 355.21 174.49C366.72 173.26 377.88 176.15 387.05 182.1Z" fill="#ffb77b"/></clipPath></defs>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#004a75" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">LOCAL IMAGE LIBRARY</text>
+<text x="30" y="103" font-size="48" font-weight="800" fill="#001d32">neoview</text>
+<text x="32" y="142" font-size="25" font-weight="600" fill="#001d32" data-maxw="516">图像与漫画，留在本机。</text>
+<g clip-path="url(#thumb0)"><path d="M49.48 199.2C58.13 187.3 71.32 178.69 87.01 176.21C118.37 171.24 147.82 192.64 152.79 224.01C154.94 237.58 157.09 251.16 159.24 264.73C160.65 273.61 154.6 281.94 145.72 283.34C118.57 287.64 91.42 291.94 64.27 296.24C55.39 297.65 47.06 291.6 45.66 282.72C43.51 269.15 41.36 255.57 39.21 241.99C36.72 226.31 40.83 211.11 49.48 199.2Z" fill="#c3bdfe"/><circle cx="116" cy="211" r="13" fill="#454078" opacity=".65"/><path d="M31 282l47-67 27 38 21-24 40 53v30H31Z" fill="#454078" opacity=".82"/></g>
+<g clip-path="url(#thumb1)"><path d="M229.83 187.04C230.43 186.67 231.02 186.31 231.62 185.94C245.61 177.35 263.79 180.47 274.12 193.22C284.45 205.98 283.72 224.41 272.41 236.31C271.93 236.82 271.44 237.32 270.96 237.83C271.33 238.43 271.69 239.02 272.06 239.62C280.65 253.61 277.53 271.79 264.78 282.12C252.02 292.45 233.59 291.72 221.69 280.41C221.18 279.93 220.68 279.44 220.17 278.96C219.57 279.33 218.98 279.69 218.38 280.06C204.39 288.65 186.21 285.53 175.88 272.78C165.55 260.02 166.28 241.59 177.59 229.69C178.07 229.18 178.56 228.68 179.04 228.17C178.67 227.57 178.31 226.98 177.94 226.38C169.35 212.39 172.47 194.21 185.22 183.88C197.98 173.55 216.41 174.28 228.31 185.59C228.82 186.07 229.32 186.56 229.83 187.04Z" fill="#cff992"/><circle cx="245" cy="211" r="13" fill="#3f6007" opacity=".65"/><path d="M160 282l47-67 27 38 21-24 40 53v30H160Z" fill="#3f6007" opacity=".82"/></g>
+<g clip-path="url(#thumb2)"><path d="M387.05 182.1C396.22 188.06 403.4 197.08 406.96 208.1C407.48 209.72 408 211.34 408.53 212.96C411.22 226 408.67 239.57 401.42 250.73C397.44 256.85 393.46 262.98 389.48 269.11C382.23 280.27 370.87 288.12 357.87 290.96C356.18 291.14 354.49 291.33 352.79 291.51C329.76 293.98 308.15 279.95 301.04 257.9C300.52 256.28 300 254.66 299.47 253.04C296.78 240 299.33 226.43 306.58 215.27C310.56 209.15 314.54 203.02 318.52 196.89C325.77 185.73 337.13 177.88 350.13 175.04C351.82 174.86 353.51 174.67 355.21 174.49C366.72 173.26 377.88 176.15 387.05 182.1Z" fill="#ffb77b"/><circle cx="374" cy="211" r="13" fill="#6d3900" opacity=".65"/><path d="M289 282l47-67 27 38 21-24 40 53v30H289Z" fill="#6d3900" opacity=".82"/></g>
+<rect x="426" y="176" width="113" height="113" rx="32" fill="#b2d7f4"/>
+<path d="M488.41 210.44C490.07 210.89 491.56 211.93 492.56 213.47C493.57 215.04 495.15 216.15 496.97 216.56C500.55 217.37 502.92 220.76 502.46 224.4C502.23 226.25 502.73 228.12 503.86 229.61C506.08 232.53 505.72 236.66 503.02 239.15C501.65 240.41 500.84 242.17 500.75 244.03C500.57 247.69 497.64 250.62 493.97 250.8C492.11 250.89 490.36 251.71 489.09 253.08C486.6 255.77 482.47 256.13 479.55 253.91C478.07 252.79 476.2 252.29 474.35 252.52C470.71 252.98 467.31 250.6 466.5 247.03C466.09 245.21 464.98 243.62 463.41 242.61C460.33 240.63 459.26 236.63 460.93 233.36C461.79 231.7 461.95 229.78 461.4 228C460.32 224.49 462.07 220.74 465.45 219.32C467.17 218.59 468.54 217.23 469.26 215.51C470.68 212.12 474.44 210.37 477.94 211.46C479.72 212.01 481.65 211.84 483.31 210.99C484.94 210.15 486.75 210 488.41 210.44Z" fill="#62b2f3"/>
+<path d="M483 219a13 13 0 1 1-13 13" fill="none" stroke="#004a75" stroke-width="4" stroke-linecap="round"/>
+<text x="482" y="315" font-size="17" font-weight="600" fill="#004a75" text-anchor="middle">等待生成</text>
+<path d="M34 337L37.3 339.41L40.6 340.85L43.9 340.72L47.2 339.09L50.5 336.61L53.8 334.28L57.1 333.06L60.4 333.44L63.7 335.25L67 337.78L70.3 339.99L73.6 340.99L76.9 340.37L80.2 338.38L83.5 335.84L86.8 333.76L90.1 333L93.4 333.86L96.7 335.99L100 338.53L103.3 340.45L106.6 340.97L109.9 339.88L113.2 337.63L116.5 335.11L119.8 333.37L123.1 333.09L126.4 334.4L129.7 336.76L133 339.22L136.3 340.78L139.6 340.8L142.9 339.29L146.2 336.84L149.5 334.46L152.8 333.11L156.1 333.34L159.4 335.05L162.7 337.55L166 339.83L169.3 340.96L172.6 340.49L175.9 338.6L179.2 336.07L182.5 333.91L185.8 333L189.1 333.72L192.4 335.76L195.7 338.31L199 340.33L202.3 340.99L205.6 340.04L208.9 337.86L212.2 335.33L215.5 333.47L218.8 333.05L222.1 334.23L225.4 336.53L228.7 339.02L232 340.7L235.3 340.87L238.6 339.48L241.9 337.08L245.2 334.65L248.5 333.17L251.8 333.25L255.1 334.84L258.4 337.31L261.7 339.66L265 340.92L268.3 340.6L271.6 338.82L274.9 336.3L278.2 334.06L281.5 333.02L284.8 333.59L288.1 335.54L291.4 338.09L294.7 340.19L298 341L301.3 340.19L304.6 338.09L307.9 335.54L311.2 333.59L314.5 333.02L317.8 334.06L321.1 336.3L324.4 338.82L327.7 340.6L331 340.92L334.3 339.66L337.6 337.31L340.9 334.84L344.2 333.25L347.5 333.17L350.8 334.65L354.1 337.08L357.4 339.48L360.7 340.87L364 340.7" fill="none" stroke="#004a75" stroke-width="6" stroke-linecap="round"/>
+<path d="M382 337L543 337" fill="none" stroke="#95bcdc" stroke-width="6" stroke-linecap="round" opacity="1"/>
+<circle cx="543" cy="337" r="3" fill="#004a75"/>
+<text x="32" y="391" font-size="28" font-weight="750" fill="#001d32">Rust + SQLite</text>
+<text x="32" y="423" font-size="21" font-weight="550" fill="#004a75" data-maxw="510">缩略图与目录缓存</text>
+</g>
 </svg>

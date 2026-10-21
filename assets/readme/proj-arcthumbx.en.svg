@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="en" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">ArcThumbX — covers in Finder and Explorer</title>
+<desc id="desc">Conceptual Finder/Explorer window with three cover thumbnails and example file names. Native archive and ebook thumbnail integration, including CBZ, CBR, EPUB, FB2 and AZW3. Covers are original abstract illustrations.</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#ffdcc2"/>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#6d3900" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">NATIVE COVER THUMBNAILS</text>
+<text x="30" y="103" font-size="46" font-weight="800" fill="#2e1500" data-maxw="516">ArcThumbX</text>
+<text x="32" y="142" font-size="24" font-weight="600" fill="#2e1500" data-maxw="516">Covers, right in your file manager.</text>
+<rect x="32" y="174" width="516" height="201" rx="28" fill="#fff5eb"/>
+<text x="54" y="210" font-size="21" font-weight="650" fill="#6d3900">Finder / Explorer</text>
+<rect x="54" y="227" width="98" height="109" rx="16" fill="#c3bdfe"/>
+<path d="M73.85 257.03C79.47 249.57 87.94 244.26 97.92 242.86C117.88 240.05 136.34 253.96 139.14 273.92C140.36 282.56 141.57 291.2 142.79 299.84C143.58 305.49 139.65 310.71 134 311.5C116.72 313.93 99.44 316.36 82.16 318.79C76.51 319.58 71.29 315.65 70.5 310C69.28 301.36 68.07 292.72 66.86 284.08C65.45 274.1 68.23 264.49 73.85 257.03Z" fill="#454078"/>
+<path d="M72 318L133 318" fill="none" stroke="#fff5eb" stroke-width="4" stroke-linecap="round" opacity="1"/>
+<text x="103" y="358" font-size="16" font-weight="650" fill="#6d3900" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">book.epub</text>
+<rect x="231" y="227" width="98" height="109" rx="16" fill="#ffb77b"/>
+<path d="M308.42 316.56C306.91 317.73 305.08 318.5 303.1 318.74C301.71 318.91 299.72 318.63 295.74 318.07C280.4 315.91 265.05 313.76 249.71 311.6C243.69 310.76 239.49 305.19 240.34 299.17C242.71 282.31 245.08 265.46 247.45 248.6C248.29 242.6 253.91 238.47 259.88 239.46C261.39 239.71 262.9 239.95 264.41 240.2C295.19 245.27 316.59 273.58 313.07 304.57C313.06 304.6 313.06 304.63 313.06 304.66C312.6 308.65 312.38 310.64 311.87 311.95C311.14 313.81 309.94 315.38 308.42 316.56Z" fill="#6d3900"/>
+<path d="M249 318L310 318" fill="none" stroke="#fff5eb" stroke-width="4" stroke-linecap="round" opacity="1"/>
+<text x="280" y="358" font-size="16" font-weight="650" fill="#6d3900" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">vol.cbz</text>
+<rect x="408" y="227" width="98" height="109" rx="16" fill="#cde5ff"/>
+<path d="M456.96 315.5C456.37 315.5 455.78 315.47 455.19 315.41C452.3 315.11 449.53 313.84 443.98 311.29C439.48 309.23 434.98 307.17 430.49 305.11C424.35 302.3 420.8 295.78 421.78 289.1C422.79 282.18 423.8 275.27 424.81 268.36C425.46 263.88 427.91 259.86 431.59 257.22C437.09 253.28 442.6 249.33 448.1 245.39C450.72 243.51 453.87 242.5 457.1 242.51C460.33 242.51 463.48 243.53 466.09 245.42C471.58 249.39 477.07 253.35 482.56 257.32C486.23 259.97 488.66 264 489.3 268.48C490.28 275.4 491.26 282.31 492.25 289.23C493.2 295.91 489.63 302.42 483.48 305.21C478.97 307.26 474.47 309.3 469.96 311.34C464.4 313.87 461.63 315.13 458.74 315.41C458.15 315.47 457.55 315.5 456.96 315.5Z" fill="#004a75"/>
+<path d="M426 318L487 318" fill="none" stroke="#fff5eb" stroke-width="4" stroke-linecap="round" opacity="1"/>
+<text x="457" y="358" font-size="16" font-weight="650" fill="#6d3900" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">book.azw3</text>
+<text x="32" y="401" font-size="18" font-weight="650" fill="#6d3900" data-maxw="516">CBZ · CBR · EPUB · FB2 · AZW3</text>
+<text x="32" y="430" font-size="18" font-weight="600" fill="#6d3900">Rust · Slint</text>
+</g>
+</svg>

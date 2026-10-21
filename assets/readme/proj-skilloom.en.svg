@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="en" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">skilloom — reject invalid agent output</title>
+<desc id="desc">The repository&#x27;s real rejection example: legal-marknote flags E411 for a table wider than two columns, E625 for a subject without semantic color, and exits with rc=1. 22 skills and 10 gate/validator scripts, as listed in the profile README.</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#171225"/>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#cff992" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">AGENT OUTPUT GATES</text>
+<text x="30" y="104" font-size="50" font-weight="800" fill="#ece0ff">skilloom</text>
+<text x="32" y="144" font-size="25" font-weight="600" fill="#ece0ff" data-maxw="516">Invalid output? Reject it.</text>
+<rect x="30" y="180" width="520" height="180" rx="32" fill="#261e39"/>
+<text x="52" y="215" font-size="18" font-weight="600" fill="#b1a5c9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">legal-marknote</text>
+<path d="M481.76 164.6C482.48 163.85 482.94 162.86 483.01 161.76C483.17 159.15 483.34 156.54 483.5 153.94C483.72 150.59 487.37 148.64 490.27 150.32C492.54 151.64 494.81 152.96 497.09 154.28C498.99 155.39 501.42 154.95 502.83 153.25C504.49 151.24 506.16 149.23 507.82 147.22C509.96 144.64 514.07 145.21 515.42 148.27C516.48 150.67 517.55 153.08 518.61 155.48C519.5 157.5 521.72 158.57 523.85 158.02C526.38 157.38 528.91 156.73 531.44 156.08C534.69 155.25 537.68 158.12 536.97 161.4C536.42 163.97 535.87 166.53 535.32 169.1C534.85 171.26 536.01 173.43 538.06 174.24C540.49 175.21 542.92 176.17 545.35 177.13C548.46 178.37 549.19 182.45 546.7 184.68C544.74 186.44 542.78 188.19 540.83 189.94C539.18 191.41 538.84 193.86 540.03 195.72C541.42 197.92 542.82 200.13 544.22 202.33C546.02 205.17 544.21 208.9 540.87 209.24C538.26 209.51 535.65 209.77 533.03 210.04C530.84 210.27 529.13 212.04 528.99 214.24C528.83 216.85 528.66 219.46 528.5 222.06C528.28 225.41 524.63 227.36 521.73 225.68C519.46 224.36 517.19 223.04 514.91 221.72C513.01 220.61 510.58 221.05 509.17 222.75C507.51 224.76 505.84 226.77 504.18 228.78C502.04 231.36 497.93 230.79 496.58 227.73C495.52 225.33 494.45 222.92 493.39 220.52C492.5 218.5 490.28 217.43 488.15 217.98C485.62 218.62 483.09 219.27 480.56 219.92C477.31 220.75 474.32 217.88 475.03 214.6C475.58 212.03 476.13 209.47 476.68 206.9C477.15 204.74 475.99 202.57 473.94 201.76C471.51 200.79 469.08 199.83 466.65 198.87C463.54 197.63 462.81 193.55 465.3 191.32C467.26 189.56 469.22 187.81 471.17 186.06C472.82 184.59 473.16 182.14 471.97 180.28C470.58 178.08 469.18 175.87 467.78 173.67C465.98 170.83 467.79 167.1 471.13 166.76C473.74 166.49 476.35 166.23 478.97 165.96C480.06 165.85 481.04 165.35 481.76 164.6Z" fill="#fd6f85"/>
+<path d="M495 177l22 22m0-22-22 22" fill="none" stroke="#490013" stroke-width="6" stroke-linecap="round"/>
+<rect x="50" y="237" width="80" height="31" rx="9" fill="#8a1632"/>
+<text x="90" y="259" font-size="18" font-weight="750" fill="#ff97a3" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">E411</text>
+<text x="144" y="260" font-size="20" font-weight="500" fill="#ece0ff" data-maxw="380">Table wider than 2 columns</text>
+<rect x="50" y="283" width="80" height="31" rx="9" fill="#8a1632"/>
+<text x="90" y="305" font-size="18" font-weight="750" fill="#ff97a3" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">E625</text>
+<text x="144" y="306" font-size="20" font-weight="500" fill="#ece0ff" data-maxw="380">Subject has no semantic color</text>
+<text x="52" y="343" font-size="18" font-weight="700" fill="#ff97a3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">rc=1</text>
+<text x="32" y="419" font-size="39" font-weight="800" fill="#c3bdfe">22</text>
+<text x="91" y="417" font-size="20" font-weight="600" fill="#b1a5c9">skills</text>
+<text x="262" y="419" font-size="39" font-weight="800" fill="#cff992">10</text>
+<text x="322" y="417" font-size="20" font-weight="600" fill="#b1a5c9" data-maxw="230">gates &amp; checks</text>
+</g>
+</svg>

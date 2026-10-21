@@ -1,84 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" width="100%" role="img" aria-labelledby="xhTitle xhDesc">
-  <title id="xhTitle">Xaihi — Workbench Extension Layer &amp; 27 Domain Nodes on DeepSeek Harness</title>
-  <desc id="xhDesc">Material 3 Expressive project card for Xaihi: 27 domain nodes with backend actions, parameter schemas, and UI panels shipped as legitimate plugin bundles on top of DeepSeek Harness without forking the host.</desc>
-
-  <defs>
-    <linearGradient id="xhBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1B121E"/>
-      <stop offset="100%" stop-color="#26182B"/>
-    </linearGradient>
-    <linearGradient id="xhNode" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#522659"/>
-      <stop offset="100%" stop-color="#38193D"/>
-    </linearGradient>
-    <style>
-      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
-      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
-    </style>
-  </defs>
-
-  <!-- Outer Card Surface -->
-  <rect width="580" height="340" rx="26" fill="url(#xhBg)"/>
-  <rect x="1" y="1" width="578" height="338" rx="25" fill="none" stroke="#5E3566" stroke-width="1.5"/>
-
-  <!-- Header -->
-  <g transform="translate(24, 22)">
-    <rect x="0" y="0" width="258" height="28" rx="14" fill="#331C38" stroke="#754280"/>
-    <circle cx="16" cy="14" r="4.5" fill="#F5B2E0"/>
-    <text class="m" font-size="12" font-weight="700" fill="#FFD6F3" x="28" y="18">TYPESCRIPT · DEEPSEEK HARNESS</text>
-
-    <rect x="352" y="0" width="180" height="28" rx="14" fill="url(#xhNode)" stroke="#A35CB0"/>
-    <text class="m" font-size="12" font-weight="700" fill="#FFE3F7" x="366" y="18">27 NODES · 441 COMMITS</text>
-
-    <text class="s" font-size="28" font-weight="800" fill="#FDF0FA" x="0" y="64">Xaihi</text>
-    <text class="s" font-size="14.5" fill="#D9B4D2" x="0" y="90">工作台扩展层：27 个域节点各自带动作、参数表与面板，零侵入接入宿主</text>
-  </g>
-
-  <!-- Visual Diagram: Unforked Host Bus + 27 Domain Node Anatomy -->
-  <g transform="translate(24, 130)">
-    <!-- Top Bar: Unforked Host Contract -->
-    <rect x="0" y="0" width="532" height="44" rx="16" fill="#29172E" stroke="#6E3E78"/>
-    <rect x="12" y="9" width="136" height="26" rx="13" fill="#47234F"/>
-    <text class="m" font-size="11" font-weight="700" fill="#FFD6F3" x="24" y="26">DEEPSEEK HARNESS</text>
-    <text class="s" font-size="12.5" font-weight="700" fill="#F7E1F3" x="160" y="27">标准插件契约总线（不 fork 宿主 · 合规插件包挂载）</text>
-    <text class="m" font-size="11" fill="#E39FD0" x="454" y="27">Zero Fork</text>
-
-    <!-- Connectors down to 3 Expressive Domain Node Cards -->
-    <line x1="88" y1="44" x2="88" y2="58" stroke="#E598D8" stroke-width="2"/>
-    <line x1="266" y1="44" x2="266" y2="58" stroke="#E598D8" stroke-width="2"/>
-    <line x1="444" y1="44" x2="444" y2="58" stroke="#E598D8" stroke-width="2"/>
-
-    <!-- Node Card 1: Backend Action -->
-    <g transform="translate(0, 58)">
-      <rect width="168" height="90" rx="18" fill="url(#xhNode)" stroke="#8F4E9C"/>
-      <rect x="12" y="10" width="76" height="20" rx="10" fill="#241029"/>
-      <text class="m" font-size="10" font-weight="700" fill="#F5B2E0" x="22" y="24">01 ACTION</text>
-      <text class="s" font-size="13" font-weight="700" fill="#FFF0FA" x="12" y="48">后端执行动作</text>
-      <text class="s" font-size="11" fill="#DEC0D8" x="12" y="68">CLI / TUI / 环回 Web</text>
-      <text class="m" font-size="10" fill="#F5B2E0" x="12" y="82">host · plan · actions</text>
-    </g>
-
-    <!-- Node Card 2: Parameter Schema -->
-    <g transform="translate(182, 58)">
-      <rect width="168" height="90" rx="18" fill="url(#xhNode)" stroke="#8F4E9C"/>
-      <rect x="12" y="10" width="78" height="20" rx="6" fill="#241029"/>
-      <text class="m" font-size="10" font-weight="700" fill="#F5B2E0" x="22" y="24">02 SCHEMA</text>
-      <text class="s" font-size="13" font-weight="700" fill="#FFF0FA" x="12" y="48">强类型参数表</text>
-      <text class="s" font-size="11" fill="#DEC0D8" x="12" y="68">输入校验与权限边界</text>
-      <text class="m" font-size="10" fill="#F5B2E0" x="12" y="82">27 Domain Contracts</text>
-    </g>
-
-    <!-- Node Card 3: Expressive Bento Panel -->
-    <g transform="translate(364, 58)">
-      <rect width="168" height="90" rx="18" fill="url(#xhNode)" stroke="#8F4E9C"/>
-      <rect x="12" y="10" width="74" height="20" rx="10" fill="#241029"/>
-      <text class="m" font-size="10" font-weight="700" fill="#F5B2E0" x="22" y="24">03 PANEL</text>
-      <text class="s" font-size="13" font-weight="700" fill="#FFF0FA" x="12" y="48">Expressive 面板</text>
-      <text class="s" font-size="11" fill="#DEC0D8" x="12" y="68">MD3E 角色级形状控制</text>
-      <text class="m" font-size="10" fill="#F5B2E0" x="12" y="82">Bento + Overlay Host</text>
-    </g>
-  </g>
-
-  <!-- Footer -->
-  <text class="m" font-size="12" fill="#C496BD" x="24" y="310">含 ADR 0006–0009 架构记录 · 桌面与终端共享通知宿主与权限视图</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="zh-CN" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">Xaihi：领域工具，以插件接入宿主</title>
+<desc id="desc">插件包机制示意：DeepSeek Harness 接入后端动作、参数表和工作台面板。27 个领域节点的数量来自主页与 Xaihi README；此图是架构示意，不代表界面截图或新的实机验证结论。</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#171225"/>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#c3bdfe" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">WORKBENCH EXTENSIONS</text>
+<text x="30" y="103" font-size="50" font-weight="800" fill="#ece0ff">Xaihi</text>
+<text x="32" y="142" font-size="25" font-weight="600" fill="#ece0ff" data-maxw="516">领域工具，以插件接入宿主。</text>
+<rect x="31" y="174" width="518" height="54" rx="27" fill="#c3bdfe"/>
+<text x="290" y="209" font-size="25" font-weight="750" fill="#282259" text-anchor="middle">DeepSeek Harness</text>
+<path d="M290 228L290 251" fill="none" stroke="#c3bdfe" stroke-width="5" stroke-linecap="round" opacity="1"/>
+<path d="M107 264v-13h366v13" fill="none" stroke="#7b7091" stroke-width="3" stroke-linejoin="round"/>
+<rect x="32" y="264" width="148" height="91" rx="20" fill="#29213d"/>
+<rect x="47" y="277" width="118" height="38" rx="19" fill="#c3bdfe"/>
+<text x="106" y="304" font-size="25" font-weight="800" fill="#282259" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">&gt;_</text>
+<text x="106" y="341" font-size="21" font-weight="650" fill="#ece0ff" text-anchor="middle">动作</text>
+<rect x="216" y="264" width="148" height="91" rx="20" fill="#29213d"/>
+<rect x="231" y="277" width="118" height="38" rx="19" fill="#cde5ff"/>
+<text x="290" y="304" font-size="25" font-weight="800" fill="#001d32" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">{ }</text>
+<text x="290" y="341" font-size="21" font-weight="650" fill="#ece0ff" text-anchor="middle">参数</text>
+<rect x="400" y="264" width="148" height="91" rx="20" fill="#29213d"/>
+<rect x="415" y="277" width="118" height="38" rx="19" fill="#cff992"/>
+<text x="474" y="304" font-size="25" font-weight="800" fill="#335000" text-anchor="middle">▦</text>
+<text x="474" y="341" font-size="21" font-weight="650" fill="#ece0ff" text-anchor="middle">面板</text>
+<text x="32" y="408" font-size="46" font-weight="800" fill="#cff992">27</text>
+<text x="99" y="405" font-size="22" font-weight="600" fill="#ece0ff">个域节点</text>
+<text x="547" y="431" font-size="17" font-weight="550" fill="#b1a5c9" text-anchor="end">TypeScript · plugin bundles</text>
+</g>
 </svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="104" viewBox="0 0 1200 104" role="img" aria-labelledby="title desc" lang="en" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">Law × AI</title>
+<desc id="desc">Profile section: Law × AI</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="1200" height="104" rx="28" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="1200" height="104" rx="28" fill="#171225"/>
+<path d="M35.93 31.87C41.08 28.53 47.51 27.15 53.99 28.52C66.96 31.28 75.23 44.02 72.48 56.99C71.28 62.6 70.09 68.21 68.9 73.83C68.12 77.49 64.51 79.83 60.85 79.05C49.62 76.67 38.4 74.28 27.17 71.9C23.51 71.12 21.17 67.51 21.95 63.85C23.14 58.23 24.33 52.62 25.52 47.01C26.9 40.53 30.78 35.22 35.93 31.87Z" fill="#ffafd4"/>
+<text x="92" y="68" font-size="40" font-weight="750" fill="#ece0ff">Law × AI</text>
+<text x="1155" y="62" font-size="20" font-weight="600" fill="#b1a5c9" text-anchor="end" data-maxw="650">TRACEABLE SOURCES · CHECKED OUTPUTS</text>
+</g>
+</svg>

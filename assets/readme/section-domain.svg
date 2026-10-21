@@ -1,25 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 76" width="100%" role="img" aria-labelledby="sdTitle sdDesc">
-  <title id="sdTitle">02 · 领域索引 · By Domain</title>
-  <desc id="sdDesc">Material 3 Expressive section banner for 02 By Domain.</desc>
-  <defs>
-    <linearGradient id="sdBg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#121C1A"/>
-      <stop offset="60%" stop-color="#172623"/>
-      <stop offset="100%" stop-color="#121918"/>
-    </linearGradient>
-    <style>
-      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
-      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
-    </style>
-  </defs>
-  <rect width="1200" height="76" rx="22" fill="url(#sdBg)" stroke="#294D45" stroke-width="1.2"/>
-  <rect x="20" y="18" width="66" height="40" rx="20" fill="#173D38" stroke="#439E8B" stroke-width="1.2"/>
-  <text class="m" font-size="16" font-weight="800" fill="#C6F7E6" x="39" y="44">02</text>
-  <!-- Expressive Pill Pair -->
-  <rect x="98" y="22" width="14" height="32" rx="7" fill="#66D9B8"/>
-  <rect x="116" y="28" width="14" height="20" rx="7" fill="#2E7A6E"/>
-  <text class="s" font-size="24" font-weight="800" fill="#EBFBF6" x="144" y="46">领域索引</text>
-  <text class="m" font-size="14" font-weight="600" fill="#8EC7B7" x="256" y="45">BY DOMAIN · 8 TECHNICAL TRACKS &amp; PACKAGING</text>
-  <rect x="942" y="22" width="238" height="32" rx="16" fill="#172E2A" stroke="#2F6157"/>
-  <text class="m" font-size="12" font-weight="700" fill="#7FE6C6" x="962" y="42">24 CASKS · 21 OWN RELEASES</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="104" viewBox="0 0 1200 104" role="img" aria-labelledby="title desc" lang="zh-CN" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">领域索引</title>
+<desc id="desc">个人主页章节：领域索引</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="1200" height="104" rx="28" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="1200" height="104" rx="28" fill="#171225"/>
+<path d="M53.01 33.13C53.27 33.01 53.54 32.88 53.8 32.75C59.98 29.8 67.4 31.89 71.13 37.63C74.86 43.38 73.75 51 68.54 55.44C68.31 55.63 68.09 55.82 67.87 56.01C67.99 56.27 68.12 56.54 68.25 56.8C71.2 62.98 69.11 70.4 63.37 74.13C57.62 77.86 50 76.75 45.56 71.54C45.37 71.31 45.18 71.09 44.99 70.87C44.73 70.99 44.46 71.12 44.2 71.25C38.02 74.2 30.6 72.11 26.87 66.37C23.14 60.62 24.25 53 29.46 48.56C29.69 48.37 29.91 48.18 30.13 47.99C30.01 47.73 29.88 47.46 29.75 47.2C26.8 41.02 28.89 33.6 34.63 29.87C40.38 26.14 48 27.25 52.44 32.46C52.63 32.69 52.82 32.91 53.01 33.13Z" fill="#cde5ff"/>
+<text x="92" y="68" font-size="40" font-weight="750" fill="#ece0ff">领域索引</text>
+<text x="1155" y="62" font-size="20" font-weight="600" fill="#b1a5c9" text-anchor="end" data-maxw="650">本地工具与底层机制</text>
+</g>
 </svg>

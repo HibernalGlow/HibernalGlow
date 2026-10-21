@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="en" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">grzeb — follow a directory search result tree</title>
+<desc id="desc">Conceptual result tree with example paths /workspace, notes/contract.md and archive/. Searching a directory produces a navigable hierarchy; decoded text is cached in SQLDelight. File names illustrate the mechanism, not a measured search result.</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#e9f5d6"/>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">DIRECTORY SEARCH</text>
+<text x="30" y="103" font-size="50" font-weight="800" fill="#335000">grzeb</text>
+<text x="32" y="142" font-size="25" font-weight="600" fill="#335000" data-maxw="516">Follow the tree. Find the line.</text>
+<rect x="30" y="171" width="520" height="48" rx="24" fill="#335000"/>
+<circle cx="58" cy="193" r="9" fill="none" stroke="#e9f5d6" stroke-width="3"/>
+<path d="M65 200L72 207" fill="none" stroke="#e9f5d6" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<text x="86" y="202" font-size="22" font-weight="650" fill="#e9f5d6">contract</text>
+<text x="53" y="251" font-size="22" font-weight="650" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">/workspace</text>
+<path d="M66 265L66 337" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<path d="M66 282L93 282" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<path d="M66 337L93 337" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<path d="M109 296L109 314" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<path d="M109 314L139 314" fill="none" stroke="#93ad72" stroke-width="3" stroke-linecap="round" opacity="1"/>
+<text x="99" y="289" font-size="22" font-weight="650" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">notes/</text>
+<rect x="146" y="297" width="382" height="38" rx="10" fill="#f5ffe8"/>
+<text x="161" y="324" font-size="21" font-weight="700" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">contract.md</text>
+<text x="99" y="345" font-size="22" font-weight="550" fill="#335000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">archive/</text>
+<path d="M508.5 290.06C508.23 290.42 507.93 290.77 507.61 291.08C505.94 292.71 503.27 293.27 497.91 294.39C492.13 295.6 486.36 296.81 480.58 298.02C480.18 298.1 479.98 298.14 479.86 298.16C475.44 298.95 471.25 295.91 470.64 291.46C470.62 291.35 470.6 291.14 470.55 290.74C469.92 284.94 469.29 279.15 468.66 273.35C468.07 267.91 467.77 265.19 468.8 263.1C469.2 262.29 469.74 261.55 470.39 260.92C472.06 259.29 474.73 258.73 480.09 257.61C485.87 256.4 491.64 255.19 497.42 253.98C497.82 253.9 498.02 253.86 498.14 253.84C502.56 253.05 506.75 256.09 507.36 260.54C507.38 260.65 507.4 260.86 507.45 261.26C508.08 267.06 508.71 272.85 509.34 278.65C509.93 284.09 510.23 286.81 509.2 288.9C509 289.3 508.76 289.69 508.5 290.06Z" fill="#335000"/>
+<path d="M480 275h17m-8-8 8 8-8 8" fill="none" stroke="#e9f5d6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="393" font-size="18" font-weight="650" fill="#335000" data-maxw="516">Kotlin · Compose Multiplatform</text>
+<text x="32" y="424" font-size="21" font-weight="550" fill="#335000" data-maxw="516">Decoded text cached in SQLDelight</text>
+</g>
+</svg>
