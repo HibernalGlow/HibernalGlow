@@ -93,15 +93,6 @@
 **系统集成**
 [hibernal](https://github.com/HibernalGlow/hibernal)（`pmset` 深度休眠，带特权 helper） · [Shiin](https://github.com/HibernalGlow/Shiin)（手柄组合键截图与 OBS 即时回放，Windows / macOS） · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie)（滚轮手势层） · [SmartZ](https://github.com/HibernalGlow/SmartZ)
 
-**分发**
-[homebrew-tap](https://github.com/HibernalGlow/homebrew-tap) — 24 个 cask，收纳官方仓库没收录的小众 macOS GUI 应用：
-
-```bash
-brew tap hibernalglow/tap
-```
-
-[Extras-Glow](https://github.com/HibernalGlow/Extras-Glow) 是同一件事在 Windows / Scoop 上的版本。
-
 <img src="./assets/readme/section-law.svg" width="100%" alt="法律 × AI · Law × AI">
 
 法学本科（2027 届），在律所实习过。真实的法律工作是：当事人材料是拍照和聊天截图，文书靠“改一处发一个新版本”；没有案号的检索结果，会被直接当成 AI 生成的。
