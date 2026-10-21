@@ -24,17 +24,19 @@
 
 | 项目 | 技术栈 | 是什么 |
 | --- | --- | --- |
-| [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | PDF → Markdown 后处理。7 个外部 Star，其中一星来自 MinerU 维护者 [myhloli](https://github.com/myhloli) |
-| [skilloom](https://github.com/HibernalGlow/skilloom) | Python | 22 个 agent 技能 + 10 个门禁与校验脚本，拒绝格式不合规的产物 |
-| [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | 本地优先的图像 / 漫画阅读器，Rust + SQLite 缩略图与目录缓存；2,828 次提交 |
-| [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | 目录级全文检索，结果树可下钻而不是平铺；README 写明哪些还没做 |
-| [Xaihi](https://github.com/HibernalGlow/Xaihi) | TypeScript · DeepSeek Harness | 工作台扩展层：27 个域节点各自带后端动作、参数表与面板，全部以合规插件包接入宿主，不 fork 它 |
-| [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | 思源题库插件：扫描 → 索引 → 练习 → 恢复；本地分支 710 次提交，超过上游的 512 次 |
-| [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | 不带内容的阅读器：每个图源是一个 JS 文件，声明怎么列表、搜索、取图，Rust 侧 QuickJS 沙箱执行 |
-| [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | 在 Windows 资源管理器 / macOS Finder 里直接渲染 CBZ / CBR / EPUB / FB2 / AZW3 封面 |
-| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · 打包发行 | 批量转 JPEG XL / AVIF / WebP。fork 自 `xl-converter`，11 次发版：补上上游没有的 macOS Apple Silicon 包，修掉安装包对打包机 Homebrew 的依赖 |
-| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | 重复 / 相似图片清理的桌面前端。fork，9 次发版，自出 Windows 构建，加自定义主题与 Taskfile 任务集 |
-| [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | macOS 菜单栏按需深度休眠（`pmset` + 特权 helper）。上游停在 `v1.4.5`，我做到 2.0.0 并出 dmg |
+| [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | PDF → Markdown 后处理。8 Star，其中 7 个来自外部，一星来自 MinerU 维护者 [myhloli](https://github.com/myhloli) |
+| [skilloom](https://github.com/HibernalGlow/skilloom) | Python | 22 个 agent 技能 + 10 个门禁与校验脚本，拒绝格式不合规的产物 · 0 Star |
+| [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | 本地优先的图像 / 漫画阅读器，Rust + SQLite 缩略图与目录缓存；2,828 次提交 · 1 Star（自点） |
+| [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | 目录级全文检索，结果树可下钻而不是平铺；README 写明哪些还没做 · 1 Star（自点） |
+| [Xaihi](https://github.com/HibernalGlow/Xaihi) | TypeScript · DeepSeek Harness | 工作台扩展层：27 个域节点各自带后端动作、参数表与面板，全部以合规插件包接入宿主，不 fork 它 · 1 Star（自点） |
+| [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | 思源题库插件：扫描 → 索引 → 练习 → 恢复；本地分支 710 次提交，超过上游的 512 次 · 1 Star（自点） |
+| [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | 不带内容的阅读器：每个图源是一个 JS 文件，声明怎么列表、搜索、取图，Rust 侧 QuickJS 沙箱执行 · 2 Star（1 个外部） |
+| [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | 在 Windows 资源管理器 / macOS Finder 里直接渲染 CBZ / CBR / EPUB / FB2 / AZW3 封面 · 2 Star（1 个外部） |
+| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · 打包发行 | 批量转 JPEG XL / AVIF / WebP。fork 自 `xl-converter`，11 次发版：补上上游没有的 macOS Apple Silicon 包，修掉安装包对打包机 Homebrew 的依赖 · 1 Star（自点） |
+| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | 重复 / 相似图片清理的桌面前端。fork，9 次发版，自出 Windows 构建，加自定义主题与 Taskfile 任务集 · 0 Star |
+| [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | macOS 菜单栏按需深度休眠（`pmset` + 特权 helper）。上游停在 `v1.4.5`，我做到 2.0.0 并出 dmg · 1 Star（自点） |
+
+Star 与发版数按 2026-10-21 抓取。标「自点」的是我给自己仓库点的星，不算外部认可；目前只有 MineruCustom（7 个外部）、rossi 与 ArcThumbX（各 1 个外部）有外部 Star。
 
 <img src="./assets/readme/section-domain.svg" width="100%" alt="领域索引 · By domain">
 
