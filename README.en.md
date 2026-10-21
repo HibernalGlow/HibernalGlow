@@ -16,9 +16,7 @@
   <img src="https://img.shields.io/badge/agent-tooling-38BDF8?style=flat-square" alt="Agent tooling">
 </p>
 
-I build **local-first tools** — document pipelines for study material, output gates for AI agents, and cross-platform desktop apps.
-
-What keeps pulling me in is the layer underneath the UI: archive formats, text decoding, thumbnail pipelines, shell handlers, process supervision. The parts where a tool either works on your actual files or it doesn't.
+---
 
 <img src="./assets/readme/section-work.svg" width="100%" alt="Selected work · 代表作品">
 
@@ -77,7 +75,7 @@ Those two facts set the trade-offs in my document tooling: first turn material i
 
 - **Both forks and original work.** The fork side keeps tracking upstream: siyuan-damophus, Extras-Glow, rossi, Xlchemy, ComfyUI-Workflow-Studio and ArcThumbX are maintained against upstream rather than left at a snapshot; when I port a fix I take the upstream's *conditions*, not only its code, so a merge never silently drops either side. The original side — MineruCustom, skilloom, neoview, grzeb, Xaihi — started from an empty repository, with interfaces and acceptance criteria defined from scratch.
 - **Gates before promises.** A generative tool has to be able to judge whether its output is right: structure, semantics, traceability. Otherwise it just moves errors faster.
-- **CJK correctness is a requirement, not a nice-to-have.** Chinese text is where most "it works" claims fall apart, so the detection order gets specified and argued: BOM → NUL probe → UTF-8 → GB18030 behind two guards → Latin-1 last. Whole-word matching deliberately does not apply to CJK, because `\b` can never form on either side of a Chinese word.
+- **CJK correctness.** Chinese text is where most "it works" claims fall apart, so the detection order gets specified: BOM → NUL probe → UTF-8 → GB18030 behind two guards → Latin-1 last. Whole-word matching does not apply to CJK because `\b` never forms around Chinese words.
 - **Documents state limits before features.** The write-ups I'm happiest with say what is *not* implemented, why, and which behaviour exists in the core but still has no UI switch.
 - **Local-first by default.** Files stay on disk, indexes stay in a local database, inference runs on the machine.
 
