@@ -33,7 +33,7 @@
 <text x="82" y="415" font-size="19" font-weight="600" fill="#5f5478">步全扩散</text>
 <text x="208" y="417" font-size="38" font-weight="800" fill="#2f6a55">2×</text>
 <text x="274" y="415" font-size="19" font-weight="600" fill="#5f5478">SeedVR2</text>
-<text x="382" y="417" font-size="38" font-weight="800" fill="#5b35b0">8GB</text>
-<text x="450" y="415" font-size="19" font-weight="600" fill="#5f5478">显存</text>
+<text x="390" y="417" font-size="38" font-weight="800" fill="#5b35b0">8GB</text>
+<text x="478" y="415" font-size="19" font-weight="600" fill="#5f5478">显存</text>
 </g>
 </svg>

@@ -56,6 +56,10 @@ What actually holds my attention is the layer under the interface: archive forma
   <a href="https://github.com/HibernalGlow/hibernal"><img src="./assets/readme/proj-hibernal.en.svg" width="400" alt="hibernal: Swift menu-bar tool for deep hibernation via pmset and a privileged helper."></a>
 </p>
 
+<p align="center">
+  <img src="./assets/readme/proj-comfyui-anima.en.svg" width="400" alt="Local diffusion: anima sampling and SeedVR2 upscaling on 8 GB of VRAM.">
+</p>
+
 | Project | Stack | What it is |
 | --- | --- | --- |
 | [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | Post-processing from PDF to Markdown. 8 stars, one from MinerU maintainer [myhloli](https://github.com/myhloli) |
@@ -69,6 +73,7 @@ What actually holds my attention is the layer under the interface: archive forma
 | [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · release builds | Batch JPEG XL / AVIF / WebP conversion. Fork of `xl-converter`, 11 releases: added the macOS Apple Silicon package upstream never built, removed the installer's dependency on the build machine's Homebrew |
 | [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | Desktop front end for duplicate / similar-image cleanup. Fork, 9 releases, my own Windows build, plus custom theme management and a Taskfile task set |
 | [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | On-demand deep hibernation from the menu bar (`pmset` + privileged helper). Upstream stopped at `v1.4.5`; I took it to 2.0.0 and shipped a dmg |
+| [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) | Python | Drives ComfyUI on a Windows host over SSH through my own ComfyUI-Workflow-Studio: `silvermoonmixAnima v23 INT8` base, style and character LoRAs stacked in order, 45 full-diffusion steps to 1024×1536, then SeedVR2 3B fp8 tile upscaling to 2048×3072. The GPU is an 8 GB laptop part.<br><img src="./assets/showcase/si-moonlit-garden.jpg" width="150" alt="Moonlit garden: sampled at 1024×1536, then upscaled by SeedVR2 to 2048×3072."> <img src="./assets/showcase/si-greenhouse.jpg" width="150" alt="Greenhouse: same LoRA stack and sampling settings, different scene."> |
 
 <img src="./assets/readme/section-domain.en.svg" width="100%" alt="By domain · 领域索引">
 
