@@ -22,7 +22,7 @@
 
 | Project | Stack | What it is |
 | --- | --- | --- |
-| [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | Post-processing from PDF to Markdown. 8 stars, 7 of them external — one from MinerU maintainer [myhloli](https://github.com/myhloli) |
+| [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | Post-processing from PDF to Markdown. 8 stars, one from MinerU maintainer [myhloli](https://github.com/myhloli) |
 | [skilloom](https://github.com/HibernalGlow/skilloom) | Python | 22 agent skills plus 10 gate and validator scripts that reject malformed output |
 | [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | Local-first image / manga reader with a Rust + SQLite thumbnail and directory cache; 2,828 commits |
 | [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | Directory-wide full-text search that returns a drill-downable result tree; its README states what does not work yet |

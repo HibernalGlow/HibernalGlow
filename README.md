@@ -24,7 +24,7 @@
 
 | 项目 | 技术栈 | 是什么 |
 | --- | --- | --- |
-| [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | PDF → Markdown 后处理。8 Star，其中 7 个来自外部，一星来自 MinerU 维护者 [myhloli](https://github.com/myhloli) |
+| [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | PDF → Markdown 后处理。8 Star，一星来自 MinerU 维护者 [myhloli](https://github.com/myhloli) |
 | [skilloom](https://github.com/HibernalGlow/skilloom) | Python | 22 个 agent 技能 + 10 个门禁与校验脚本，拒绝格式不合规的产物 |
 | [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | 本地优先的图像 / 漫画阅读器，Rust + SQLite 缩略图与目录缓存；2,828 次提交 |
 | [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | 目录级全文检索，结果树可下钻而不是平铺；README 写明哪些还没做 |
