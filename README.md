@@ -35,7 +35,7 @@
 
 <img src="./assets/readme/section-domain.svg" width="100%" alt="领域索引 · By domain">
 
-下面多数是在维护中的 fork：上游的许可证与作者归属保留在各自仓库的 README 里，每个仓库的描述会写清我这一侧改了什么。
+下面既有 fork，也有原创；是 fork 的仓库，上游的许可证与作者归属保留在各自 README 里，每个仓库的描述会写清我这一侧改了什么。
 
 **文档与学习资料**
 [MineruCustom](https://github.com/HibernalGlow/MineruCustom) · [MarkdownWrapper](https://github.com/HibernalGlow/MarkdownWrapper) · [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus)

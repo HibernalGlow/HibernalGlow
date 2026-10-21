@@ -35,7 +35,7 @@ What keeps pulling me in is the layer underneath the UI: archive formats, text d
 
 <img src="./assets/readme/section-domain.svg" width="100%" alt="By domain · 领域索引">
 
-Most of these are working forks: upstream license and authorship stay in each repository's README, and each repo's description states what my side changed.
+What follows is a mix of forks and original work; where a repository is a fork, upstream license and authorship stay in its README, and each repo's description states what my side changed.
 
 **Documents and study material**
 [MineruCustom](https://github.com/HibernalGlow/MineruCustom) · [MarkdownWrapper](https://github.com/HibernalGlow/MarkdownWrapper) · [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus)
