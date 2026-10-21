@@ -52,9 +52,6 @@
 
 <p align="center">
   <a href="https://github.com/HibernalGlow/hibernal"><img src="./assets/readme/proj-hibernal.svg" width="400" alt="hibernal：Swift 菜单栏工具，通过 pmset 与特权 helper 按需深度休眠。"></a>
-</p>
-
-<p align="center">
   <img src="./assets/readme/proj-comfyui-anima.svg" width="400" alt="本地生图：8 GB 显存上跑完 anima 采样与 SeedVR2 放大。">
 </p>
 

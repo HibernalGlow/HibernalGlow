@@ -54,9 +54,6 @@ What actually holds my attention is the layer under the interface: archive forma
 
 <p align="center">
   <a href="https://github.com/HibernalGlow/hibernal"><img src="./assets/readme/proj-hibernal.en.svg" width="400" alt="hibernal: Swift menu-bar tool for deep hibernation via pmset and a privileged helper."></a>
-</p>
-
-<p align="center">
   <img src="./assets/readme/proj-comfyui-anima.en.svg" width="400" alt="Local diffusion: anima sampling and SeedVR2 upscaling on 8 GB of VRAM.">
 </p>
 
