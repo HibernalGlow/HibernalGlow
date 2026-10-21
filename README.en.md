@@ -30,14 +30,9 @@
 | [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | SiYuan question-bank plugin: scan → index → practice → recover; 710 commits on my branch against 512 upstream |
 | [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | A reader that ships no content: each source is one JS file declaring how to list, search and resolve images, run in a QuickJS sandbox on the Rust side |
 | [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | CBZ / CBR / EPUB / FB2 / AZW3 cover thumbnails rendered inside Windows Explorer and macOS Finder |
-
-**Release lines where the installer is mine.** These track someone else's upstream, but the version numbers, builds and installers are on my side:
-
-| Project | My side of it | Releases |
-| --- | --- | --- |
-| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Added the macOS Apple Silicon package upstream never built, removed the installer's dependency on the build machine's Homebrew, and compiled `cjpegli` to cover the JPEG encoder macOS ships without | 11, covering macOS / Windows / Linux |
-| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | My own Windows build, plus custom theme and settings management and a Taskfile task set | 9, `.exe` |
-| [hibernal](https://github.com/HibernalGlow/hibernal) | Upstream stopped at `v1.4.5` (all 7 commits); I took it to 2.0.0 — new icon and bow-tie mark, README rebuilt around the app's own evidence | 1, `.dmg` |
+| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · release builds | Batch JPEG XL / AVIF / WebP conversion. Fork of `xl-converter`, 11 releases: added the macOS Apple Silicon package upstream never built, removed the installer's dependency on the build machine's Homebrew |
+| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | Desktop front end for duplicate / similar-image cleanup. Fork, 9 releases, my own Windows build, plus custom theme management and a Taskfile task set |
+| [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | On-demand deep hibernation from the menu bar (`pmset` + privileged helper). Upstream stopped at `v1.4.5`; I took it to 2.0.0 and shipped a dmg |
 
 <img src="./assets/readme/section-domain.svg" width="100%" alt="By domain · 领域索引">
 

@@ -32,14 +32,9 @@
 | [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | 思源题库插件：扫描 → 索引 → 练习 → 恢复；本地分支 710 次提交，超过上游的 512 次 |
 | [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | 不带内容的阅读器：每个图源是一个 JS 文件，声明怎么列表、搜索、取图，Rust 侧 QuickJS 沙箱执行 |
 | [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | 在 Windows 资源管理器 / macOS Finder 里直接渲染 CBZ / CBR / EPUB / FB2 / AZW3 封面 |
-
-**自己出安装包的版本线。** 下面几个跟的是别人的上游，但版本号、构建和安装包在我这一侧：
-
-| 项目 | 我这一侧 | 发版 |
-| --- | --- | --- |
-| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | 补上了上游没有的 macOS Apple Silicon 包，修掉安装包对打包机 Homebrew 的依赖，现编 `cjpegli` 补齐 macOS 默认缺的 JPEG 编码器 | 11 次，产物覆盖 macOS / Windows / Linux |
-| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | 自出 Windows 构建，加自定义主题与设置管理、Taskfile 任务集 | 9 次，`.exe` |
-| [hibernal](https://github.com/HibernalGlow/hibernal) | 上游停在 `v1.4.5`（全部 7 次提交），我在其上做到 2.0.0：图标与徽记重做、README 按应用自身的证据重写 | 1 次，`.dmg` |
+| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · 打包发行 | 批量转 JPEG XL / AVIF / WebP。fork 自 `xl-converter`，11 次发版：补上上游没有的 macOS Apple Silicon 包，修掉安装包对打包机 Homebrew 的依赖 |
+| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | 重复 / 相似图片清理的桌面前端。fork，9 次发版，自出 Windows 构建，加自定义主题与 Taskfile 任务集 |
+| [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | macOS 菜单栏按需深度休眠（`pmset` + 特权 helper）。上游停在 `v1.4.5`，我做到 2.0.0 并出 dmg |
 
 <img src="./assets/readme/section-domain.svg" width="100%" alt="领域索引 · By domain">
 
