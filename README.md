@@ -49,6 +49,12 @@
 **图像与文档管线**
 [Xlchemy](https://github.com/HibernalGlow/Xlchemy)（JPEG XL / AVIF / WebP 批量转换） · [Trimg](https://github.com/HibernalGlow/Trimg) · [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri)（去重） · [FolioX](https://github.com/HibernalGlow/FolioX)（本地批量 OCR） · [manga-translator-ui](https://github.com/HibernalGlow/manga-translator-ui)
 
+**检索与本地数据**
+[grzeb](https://github.com/HibernalGlow/grzeb)（Kotlin · Compose Multiplatform：全目录全文检索，结果树可下钻，解码文本缓存进 SQLDelight）
+
+**开发工具与自动化**
+[aestivus](https://github.com/HibernalGlow/aestivus)（Tauri + SvelteKit + FastAPI：把 Python 工具链做成拖拽编排，直接调用系统 Python） · [TaskGui](https://github.com/HibernalGlow/TaskGui)（解析 `Taskfile.yml`，任务列成卡片，串行 / 并行执行） · [PresetUI](https://github.com/HibernalGlow/PresetUI)（rich / textual 写的终端预设选择器，原型） · [trename](https://github.com/HibernalGlow/trename)（AI 图片打标 CLI，WD14 / MD-Danbooru，GPU 加速）
+
 **系统集成**
 [hibernal](https://github.com/HibernalGlow/hibernal)（`pmset` 深度休眠，带特权 helper） · [Shiin](https://github.com/HibernalGlow/Shiin)（手柄组合键截图与 OBS 即时回放，Windows / macOS） · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie)（滚轮手势层） · [SmartZ](https://github.com/HibernalGlow/SmartZ)
 

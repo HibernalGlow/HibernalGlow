@@ -49,6 +49,12 @@ What follows is a mix of forks and original work; where a repository is a fork, 
 **Image and document pipelines**
 [Xlchemy](https://github.com/HibernalGlow/Xlchemy) (batch JPEG XL / AVIF / WebP) · [Trimg](https://github.com/HibernalGlow/Trimg) · [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) (dedup) · [FolioX](https://github.com/HibernalGlow/FolioX) (local batch OCR) · [manga-translator-ui](https://github.com/HibernalGlow/manga-translator-ui)
 
+**Search and local data**
+[grzeb](https://github.com/HibernalGlow/grzeb) (Kotlin · Compose Multiplatform: directory-wide full-text search with a drill-downable result tree, decoded text cached in SQLDelight)
+
+**Developer tooling and automation**
+[aestivus](https://github.com/HibernalGlow/aestivus) (Tauri + SvelteKit + FastAPI: drag-and-drop orchestration for Python tool chains, calling the system Python) · [TaskGui](https://github.com/HibernalGlow/TaskGui) (parses `Taskfile.yml`, lists tasks as cards, runs them serially or in parallel) · [PresetUI](https://github.com/HibernalGlow/PresetUI) (terminal preset pickers on rich / textual, prototype) · [trename](https://github.com/HibernalGlow/trename) (AI image tagging CLI with WD14 / MD-Danbooru, GPU-accelerated)
+
 **OS integration**
 [hibernal](https://github.com/HibernalGlow/hibernal) (on-demand deep hibernation via `pmset`, with a privileged helper) · [Shiin](https://github.com/HibernalGlow/Shiin) (gamepad-combo screenshots and OBS instant replay, Windows / macOS) · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie) (mouse-wheel gesture layer) · [SmartZ](https://github.com/HibernalGlow/SmartZ)
 
