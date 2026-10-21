@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="464" viewBox="0 0 1200 464" role="img" aria-labelledby="title desc" lang="zh-CN" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
-<title id="title">HibernalGlow：有个痛点，那就自己做。</title>
+<title id="title">HibernalGlow：有痛点，那就自己解决。</title>
 <desc id="desc">个人定位：要做成一件事，先把工具磨好；做出来的东西一定自己先跑过。同时使用 macOS 与 Windows，右侧用文件和带勾选标记的终端表示本机运行、结果可复查。hero 内不包含代表项目卡片。</desc>
 <defs><clipPath id="frame"><rect x="0" y="0" width="1200" height="464" rx="48" fill="#fff"/></clipPath></defs>
 <g clip-path="url(#frame)"><rect x="0" y="0" width="1200" height="464" rx="48" fill="#171225"/>
@@ -7,9 +7,9 @@
 <path d="M102.62 65.32C102.5 66.17 102.09 66.98 101.4 67.59C100 68.83 98.6 70.08 97.2 71.32C96.61 71.84 96.2 72.53 96.03 73.3C95.62 75.13 95.22 76.95 94.81 78.78C94.41 80.57 92.77 81.81 90.94 81.7C89.07 81.58 87.2 81.47 85.34 81.36C84.55 81.31 83.77 81.51 83.11 81.93C81.53 82.94 79.95 83.94 78.37 84.95C76.82 85.93 74.79 85.64 73.58 84.27C72.33 82.87 71.09 81.47 69.85 80.07C69.33 79.48 68.63 79.07 67.87 78.9C66.04 78.5 64.21 78.09 62.39 77.68C60.6 77.28 59.36 75.65 59.47 73.82C59.58 71.95 59.7 70.08 59.81 68.21C59.86 67.42 59.66 66.65 59.23 65.98C58.23 64.4 57.23 62.82 56.22 61.24C55.24 59.7 55.52 57.66 56.89 56.45C58.3 55.21 59.7 53.96 61.1 52.72C61.69 52.2 62.09 51.51 62.26 50.74C62.67 48.91 63.08 47.09 63.49 45.26C63.88 43.47 65.52 42.24 67.35 42.35C69.22 42.46 71.09 42.57 72.96 42.68C73.74 42.73 74.52 42.53 75.18 42.11C76.76 41.1 78.34 40.1 79.93 39.09C81.47 38.11 83.5 38.4 84.72 39.77C85.96 41.17 87.2 42.57 88.45 43.97C88.97 44.56 89.66 44.97 90.43 45.14C92.25 45.54 94.08 45.95 95.91 46.36C97.7 46.76 98.93 48.4 98.82 50.23C98.71 52.09 98.6 53.96 98.48 55.83C98.44 56.62 98.64 57.4 99.06 58.06C100.06 59.64 101.07 61.22 102.07 62.8C102.56 63.57 102.74 64.47 102.62 65.32Z" fill="#cff992"/>
 <text x="79" y="70" font-size="23" font-weight="800" fill="#171225" text-anchor="middle">H</text>
 <text x="117" y="71" font-size="29" font-weight="750" fill="#ece0ff">HibernalGlow</text>
-<text x="1138" y="69" font-size="20" font-weight="650" fill="#c3bdfe" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">LAW × CODE</text>
-<text x="55" y="170" font-size="80" font-weight="650" fill="#ece0ff" data-maxw="720">有个痛点。</text>
-<text x="49" y="279" font-size="98" font-weight="850" fill="#cff992" data-maxw="745">那就自己做。</text>
+<text x="1138" y="69" font-size="20" font-weight="650" fill="#c3bdfe" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">AI × CODE</text>
+<text x="55" y="170" font-size="80" font-weight="650" fill="#ece0ff" data-maxw="720">有痛点，</text>
+<text x="49" y="279" font-size="98" font-weight="850" fill="#cff992" data-maxw="745">那就自己解决。</text>
 <text x="60" y="338" font-size="25" font-weight="500" fill="#ece0ff" data-maxw="760">欲善其事，先利其器。</text>
 <rect x="60" y="380" width="114" height="42" rx="21" fill="#c3bdfe"/>
 <path d="M73.6 401l4.4 4.4 8.6 -9.4" fill="none" stroke="#282259" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
