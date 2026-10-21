@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow: I turn documents, notes and AI output into tools that run on your own machine and can be verified. Three checkable facts: 7 external stars on MineruCustom (one from a MinerU maintainer), 2,828 commits on neoview, 22 skills and 10 output gates in skilloom. The strip along the bottom is the pipeline: material, page-marked Markdown, gates, a deliverable you can trace back."
+  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow: I turn documents, notes and AI output into tools that run on your own machine and can be verified. Three checkable facts: 7 external stars on MineruCustom (one from a MinerU maintainer), 2,828 commits on neoview, 22 skills and 10 output gates in skilloom."
 </p>
 
 <p align="center">
@@ -23,18 +23,16 @@
 | Project | Stack | What it is |
 | --- | --- | --- |
 | [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | Post-processing from PDF to Markdown. 8 stars, 7 of them external — one from MinerU maintainer [myhloli](https://github.com/myhloli) |
-| [skilloom](https://github.com/HibernalGlow/skilloom) | Python | 22 agent skills plus 10 gate and validator scripts that reject malformed output · 0 stars |
-| [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | Local-first image / manga reader with a Rust + SQLite thumbnail and directory cache; 2,828 commits · 1 star (self) |
-| [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | Directory-wide full-text search that returns a drill-downable result tree; its README states what does not work yet · 1 star (self) |
-| [Xaihi](https://github.com/HibernalGlow/Xaihi) | TypeScript · DeepSeek Harness | Workbench extension layer: 27 domain nodes, each with its own backend actions, parameter list and panel, shipped as legitimate plugin bundles — the host is not forked · 1 star (self) |
-| [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | SiYuan question-bank plugin: scan → index → practice → recover; 710 commits on my branch against 512 upstream · 1 star (self) |
-| [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | A reader that ships no content: each source is one JS file declaring how to list, search and resolve images, run in a QuickJS sandbox on the Rust side · 2 stars (1 external) |
-| [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | CBZ / CBR / EPUB / FB2 / AZW3 cover thumbnails rendered inside Windows Explorer and macOS Finder · 2 stars (1 external) |
-| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · release builds | Batch JPEG XL / AVIF / WebP conversion. Fork of `xl-converter`, 11 releases: added the macOS Apple Silicon package upstream never built, removed the installer's dependency on the build machine's Homebrew · 1 star (self) |
-| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | Desktop front end for duplicate / similar-image cleanup. Fork, 9 releases, my own Windows build, plus custom theme management and a Taskfile task set · 0 stars |
-| [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | On-demand deep hibernation from the menu bar (`pmset` + privileged helper). Upstream stopped at `v1.4.5`; I took it to 2.0.0 and shipped a dmg · 1 star (self) |
-
-Star and release counts read on 2026-10-21. “Self” means I starred my own repository, which GitHub allows but which is not outside recognition; only MineruCustom (7 external), rossi and ArcThumbX (1 each) have external stars.
+| [skilloom](https://github.com/HibernalGlow/skilloom) | Python | 22 agent skills plus 10 gate and validator scripts that reject malformed output |
+| [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | Local-first image / manga reader with a Rust + SQLite thumbnail and directory cache; 2,828 commits |
+| [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | Directory-wide full-text search that returns a drill-downable result tree; its README states what does not work yet |
+| [Xaihi](https://github.com/HibernalGlow/Xaihi) | TypeScript · DeepSeek Harness | Workbench extension layer: 27 domain nodes, each with its own backend actions, parameter list and panel, shipped as legitimate plugin bundles — the host is not forked |
+| [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | SiYuan question-bank plugin: scan → index → practice → recover; 710 commits on my branch against 512 upstream |
+| [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | A reader that ships no content: each source is one JS file declaring how to list, search and resolve images, run in a QuickJS sandbox on the Rust side · 2 stars |
+| [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | CBZ / CBR / EPUB / FB2 / AZW3 cover thumbnails rendered inside Windows Explorer and macOS Finder · 2 stars |
+| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · release builds | Batch JPEG XL / AVIF / WebP conversion. Fork of `xl-converter`, 11 releases: added the macOS Apple Silicon package upstream never built, removed the installer's dependency on the build machine's Homebrew |
+| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | Desktop front end for duplicate / similar-image cleanup. Fork, 9 releases, my own Windows build, plus custom theme management and a Taskfile task set |
+| [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | On-demand deep hibernation from the menu bar (`pmset` + privileged helper). Upstream stopped at `v1.4.5`; I took it to 2.0.0 and shipped a dmg |
 
 <img src="./assets/readme/section-domain.svg" width="100%" alt="By domain · 领域索引">
 
