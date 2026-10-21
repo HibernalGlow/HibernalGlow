@@ -28,7 +28,7 @@
 | [skilloom](https://github.com/HibernalGlow/skilloom) | Python | 22 个 agent 技能 + 10 个门禁与校验脚本，拒绝格式不合规的产物 |
 | [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | 本地优先的图像 / 漫画阅读器，Rust + SQLite 缩略图与目录缓存；2,828 次提交 |
 | [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | 目录级全文检索，结果树可下钻而不是平铺；README 写明哪些还没做 |
-| [Xiranite](https://github.com/HibernalGlow/Xiranite) | React 19 · TypeScript · Wails v3 (Go) · Bun | 桌面工作区宿主：一个能力“节点”横跨六种布局，共用一个契约 |
+| [Xaihi](https://github.com/HibernalGlow/Xaihi) | TypeScript · DeepSeek Harness | 工作台扩展层：27 个域节点各自带后端动作、参数表与面板，全部以合规插件包接入宿主，不 fork 它 |
 | [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | 思源题库插件：扫描 → 索引 → 练习 → 恢复；本地分支 710 次提交，超过上游的 512 次 |
 | [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | 不带内容的阅读器：每个图源是一个 JS 文件，声明怎么列表、搜索、取图，Rust 侧 QuickJS 沙箱执行 |
 | [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | 在 Windows 资源管理器 / macOS Finder 里直接渲染 CBZ / CBR / EPUB / FB2 / AZW3 封面 |
