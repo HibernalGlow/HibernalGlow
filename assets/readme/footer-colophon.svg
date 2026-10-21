@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 72" width="100%" role="img" aria-labelledby="fcTitle fcDesc">
+  <title id="fcTitle">HibernalGlow Footer Summary — Local Files, Verifiable Gates, Traceable Pages</title>
+  <desc id="fcDesc">Material 3 Expressive footer banner summarizing core engineering commitments: files stay on disk, indexes stay in local databases, and every conclusion traces back to its source page.</desc>
+  <defs>
+    <linearGradient id="fcBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#13161F"/>
+      <stop offset="50%" stop-color="#1A1E2B"/>
+      <stop offset="100%" stop-color="#13161F"/>
+    </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="72" rx="22" fill="url(#fcBg)" stroke="#2E354B" stroke-width="1.2"/>
+  <rect x="20" y="18" width="168" height="36" rx="18" fill="#222940" stroke="#48588A"/>
+  <circle cx="38" cy="36" r="5" fill="#9BB0FF"/>
+  <text class="m" font-size="12" font-weight="700" fill="#DDE2FF" x="52" y="40">HIBERNALGLOW</text>
+
+  <text class="s" font-size="14.5" font-weight="600" fill="#C9D0E8" x="208" y="41">文件留在磁盘上 · 索引留在本地数据库里 · 每一条结论都能翻回原始页码与案号</text>
+
+  <rect x="896" y="18" width="284" height="36" rx="12" fill="#172B27" stroke="#346B60"/>
+  <text class="m" font-size="12" font-weight="700" fill="#7FE6C6" x="914" y="40">brew tap hibernalglow/tap · MIT</text>
+</svg>

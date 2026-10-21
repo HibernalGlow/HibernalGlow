@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" width="100%" role="img" aria-labelledby="nvTitle nvDesc">
+  <title id="nvTitle">neoview — Local-First Image &amp; Manga Reader</title>
+  <desc id="nvDesc">Material 3 Expressive project card for neoview: Tauri 2 + Svelte 5 + Rust + PyO3 local-first reader with SQLite thumbnail and directory cache across 2,828 commits.</desc>
+
+  <defs>
+    <linearGradient id="nvBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131524"/>
+      <stop offset="100%" stop-color="#1A1D33"/>
+    </linearGradient>
+    <linearGradient id="nvPrimary" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#323C7A"/>
+      <stop offset="100%" stop-color="#232A57"/>
+    </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Outer Card Surface -->
+  <rect width="580" height="340" rx="26" fill="url(#nvBg)"/>
+  <rect x="1" y="1" width="578" height="338" rx="25" fill="none" stroke="#3D4675" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 22)">
+    <rect x="0" y="0" width="246" height="28" rx="14" fill="#23294A" stroke="#4D5B9E"/>
+    <circle cx="16" cy="14" r="4.5" fill="#9BB0FF"/>
+    <text class="m" font-size="12" font-weight="700" fill="#DCE2FF" x="28" y="18">TAURI 2 · SVELTE 5 · RUST</text>
+
+    <rect x="370" y="0" width="162" height="28" rx="14" fill="url(#nvPrimary)" stroke="#7386E6"/>
+    <text class="m" font-size="12" font-weight="700" fill="#EEF0FF" x="386" y="18">2,828 COMMITS</text>
+
+    <text class="s" font-size="28" font-weight="800" fill="#F2F3FF" x="0" y="64">neoview</text>
+    <text class="s" font-size="14.5" fill="#B0B8E0" x="0" y="90">本地优先图像与漫画阅读器：Rust 归档流式解码 + SQLite 缩略图与目录缓存</text>
+  </g>
+
+  <!-- Visual Diagram: Bento Desktop Viewport + Rust/SQLite Cache Pipeline -->
+  <g transform="translate(24, 130)">
+    <!-- Left: Simulated Expressive Bento Reader Viewport -->
+    <rect x="0" y="0" width="286" height="148" rx="20" fill="#1C2038" stroke="#3A4370"/>
+    <!-- Window Top Bar -->
+    <circle cx="18" cy="16" r="4" fill="#FF8A80"/>
+    <circle cx="30" cy="16" r="4" fill="#FFD180"/>
+    <circle cx="42" cy="16" r="4" fill="#80D8FF"/>
+    <text class="m" font-size="10.5" fill="#8F99C7" x="58" y="20">Svelte 5 Viewport · Zero Cloud</text>
+
+    <!-- Bento Thumbnail Tiles -->
+    <rect x="14" y="30" width="80" height="104" rx="12" fill="#2A3158" stroke="#5A68B3"/>
+    <rect x="22" y="40" width="64" height="58" rx="8" fill="#3B467D"/>
+    <text class="m" font-size="10" fill="#D5DCFF" x="24" y="114">CBZ / ZIP</text>
+    <text class="m" font-size="9.5" fill="#9BB0FF" x="24" y="126">Instant Hit</text>
+
+    <rect x="102" y="30" width="80" height="50" rx="12" fill="#252B4D" stroke="#475391"/>
+    <text class="m" font-size="10" font-weight="700" fill="#C4CEFF" x="112" y="52">AVIF / JXL</text>
+    <text class="m" font-size="9.5" fill="#8F99C7" x="112" y="68">Pre-decoded</text>
+
+    <rect x="102" y="84" width="80" height="50" rx="12" fill="#252B4D" stroke="#475391"/>
+    <text class="m" font-size="10" font-weight="700" fill="#C4CEFF" x="112" y="106">RAR / 7Z</text>
+    <text class="m" font-size="9.5" fill="#8F99C7" x="112" y="122">Stream IO</text>
+
+    <rect x="190" y="30" width="82" height="104" rx="12" fill="#2A3158" stroke="#5A68B3"/>
+    <text class="s" font-size="11" font-weight="700" fill="#E2E6FF" x="200" y="52">目录树索引</text>
+    <rect x="200" y="62" width="62" height="8" rx="4" fill="#6878CC"/>
+    <rect x="200" y="76" width="48" height="8" rx="4" fill="#4E5BA3"/>
+    <rect x="200" y="90" width="56" height="8" rx="4" fill="#4E5BA3"/>
+    <text class="m" font-size="9.5" fill="#A6B4F7" x="200" y="120">PyO3 Bridge</text>
+
+    <!-- Right: Rust Core + SQLite Local Cache Stack -->
+    <g transform="translate(302, 0)">
+      <rect x="0" y="0" width="230" height="68" rx="18" fill="url(#nvPrimary)" stroke="#6B7DE0"/>
+      <text class="m" font-size="11.5" font-weight="700" fill="#BAC3FF" x="16" y="24">RUST BACKEND (1.77 MB)</text>
+      <text class="s" font-size="12.5" font-weight="700" fill="#F2F4FF" x="16" y="44">多线程缩略图管线与归档读取</text>
+      <text class="m" font-size="10.5" fill="#C5CEFF" x="16" y="60">Tauri IPC · 零外部服务依赖</text>
+
+      <rect x="0" y="80" width="230" height="68" rx="18" fill="#1E2440" stroke="#4A5691"/>
+      <text class="m" font-size="11.5" font-weight="700" fill="#8CE2F9" x="16" y="104">SQLITE LOCAL CACHE</text>
+      <text class="s" font-size="12.5" font-weight="700" fill="#E8EEFF" x="16" y="124">缩略图与目录元数据持久化</text>
+      <text class="m" font-size="10.5" fill="#9BA8D9" x="16" y="140">二次打开大目录秒级响应</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text class="m" font-size="12" fill="#8F99C7" x="24" y="310">全库最大体量自有工程 · 桌面端重度本地文件与归档浏览场景</text>
+</svg>

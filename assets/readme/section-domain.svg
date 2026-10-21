@@ -1,17 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="t d">
-  <title id="t">领域索引</title>
-  <desc id="d">章节：领域索引（BY DOMAIN）</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 76" width="100%" role="img" aria-labelledby="sdTitle sdDesc">
+  <title id="sdTitle">02 · 领域索引 · By Domain</title>
+  <desc id="sdDesc">Material 3 Expressive section banner for 02 By Domain.</desc>
   <defs>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#f59e0b"/>
+    <linearGradient id="sdBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#121C1A"/>
+      <stop offset="60%" stop-color="#172623"/>
+      <stop offset="100%" stop-color="#121918"/>
     </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
   </defs>
-  <rect width="1200" height="84" rx="12" fill="#0b1220"/>
-  <rect x="40" y="22" width="5" height="40" rx="2.5" fill="#b4402f"/>
-  <text x="60" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#64748b">02</text>
-  <text x="100" y="56" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#f8fafc">领域索引</text>
-  <text x="1160" y="52" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="1.8" fill="#64748b">BY DOMAIN</text>
-  <rect x="40" y="74" width="1120" height="1" fill="url(#rule)" opacity="0.45"/>
+  <rect width="1200" height="76" rx="22" fill="url(#sdBg)" stroke="#294D45" stroke-width="1.2"/>
+  <rect x="20" y="18" width="66" height="40" rx="20" fill="#173D38" stroke="#439E8B" stroke-width="1.2"/>
+  <text class="m" font-size="16" font-weight="800" fill="#C6F7E6" x="39" y="44">02</text>
+  <!-- Expressive Pill Pair -->
+  <rect x="98" y="22" width="14" height="32" rx="7" fill="#66D9B8"/>
+  <rect x="116" y="28" width="14" height="20" rx="7" fill="#2E7A6E"/>
+  <text class="s" font-size="24" font-weight="800" fill="#EBFBF6" x="144" y="46">领域索引</text>
+  <text class="m" font-size="14" font-weight="600" fill="#8EC7B7" x="256" y="45">BY DOMAIN · 8 TECHNICAL TRACKS &amp; PACKAGING</text>
+  <rect x="942" y="22" width="238" height="32" rx="16" fill="#172E2A" stroke="#2F6157"/>
+  <text class="m" font-size="12" font-weight="700" fill="#7FE6C6" x="962" y="42">24 CASKS · 21 OWN RELEASES</text>
 </svg>

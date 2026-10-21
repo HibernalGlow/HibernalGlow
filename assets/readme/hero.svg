@@ -1,62 +1,220 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="heroTitle heroDesc">
-  <title id="heroTitle">HibernalGlow：让真实文件变成能运行、能校验的工具</title>
-  <desc id="heroDesc">HibernalGlow 制作文档、笔记和 AI 工具。画面以文件经过处理后进入桌面应用的插画，表现从真实材料到本地运行、结果可校验的工具链。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">HibernalGlow — Local-First Tools, Document Pipelines &amp; Verifiable AI Output Gates</title>
+  <desc id="heroDesc">Material 3 Expressive hero banner for HibernalGlow (Wang Can): Law undergraduate (2027) building local-first document pipelines, AI agent output gates, and cross-platform desktop applications in Python, TypeScript, Rust, Kotlin, and Flutter.</desc>
 
   <defs>
-    <clipPath id="canvas"><rect width="1200" height="360" rx="28"/></clipPath>
-    <filter id="paperShadow" x="-30%" y="-30%" width="170%" height="180%">
-      <feDropShadow dx="0" dy="13" stdDeviation="12" flood-color="#0a0920" flood-opacity=".3"/>
-    </filter>
+    <linearGradient id="bgSurface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11131A"/>
+      <stop offset="55%" stop-color="#151821"/>
+      <stop offset="100%" stop-color="#191C26"/>
+    </linearGradient>
+    <linearGradient id="primaryCont" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#283566"/>
+      <stop offset="100%" stop-color="#1E284D"/>
+    </linearGradient>
+    <linearGradient id="tertiaryCont" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A2545"/>
+      <stop offset="100%" stop-color="#351B31"/>
+    </linearGradient>
+    <linearGradient id="emeraldCont" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#173D38"/>
+      <stop offset="100%" stop-color="#112C29"/>
+    </linearGradient>
+    <linearGradient id="amberCont" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4D3219"/>
+      <stop offset="100%" stop-color="#362210"/>
+    </linearGradient>
+    <radialGradient id="expressiveGlow1" cx="0.82" cy="0.22" r="0.45">
+      <stop offset="0%" stop-color="#7C90FF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#7C90FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="expressiveGlow2" cx="0.18" cy="0.85" r="0.40">
+      <stop offset="0%" stop-color="#66D9B8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#66D9B8" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .f-sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+      .f-mono { font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace; }
+      .stage-pill { font-size: 13px; font-weight: 700; letter-spacing: 1.4px; fill: #D9E2FF; }
+      .hero-title { font-size: 62px; font-weight: 800; letter-spacing: -1.5px; fill: #F2F0F7; }
+      .hero-sub { font-size: 21px; font-weight: 600; fill: #C5C9E8; }
+      .hero-body { font-size: 15.5px; fill: #9AA0B8; }
+      .chip-txt { font-size: 13.5px; font-weight: 600; fill: #E2E4F3; }
+      .card-kicker { font-size: 12px; font-weight: 700; letter-spacing: 1.2px; }
+      .card-num { font-size: 34px; font-weight: 800; letter-spacing: -0.8px; }
+      .card-title { font-size: 16px; font-weight: 700; }
+      .card-desc { font-size: 13.5px; }
+      .pipe-step { font-size: 13px; font-weight: 700; letter-spacing: 0.8px; }
+      .pipe-title { font-size: 16px; font-weight: 700; fill: #EEF0FA; }
+      .pipe-sub { font-size: 13px; fill: #9AA0B8; }
+    </style>
   </defs>
 
-  <g clip-path="url(#canvas)">
-    <rect width="1200" height="360" fill="#211d3e"/>
-    <path d="M616 360c48-85 116-138 191-148 75-10 118 52 190 48 69-4 126-74 203-106v206Z" fill="#393265"/>
-    <path d="M1020-33c73 6 130 49 135 108 5 53-37 80-86 75-40-5-62-37-102-36-38 1-72 26-107 4-39-24-40-78-7-114 35-38 99-42 167-37Z" fill="#5d50c8"/>
-    <path d="M687 46c34-26 83-18 105 13 18 26 9 52-17 65-27 14-51 6-71 16-23 11-44 24-64 5-25-24 10-77 47-99Z" fill="#ff796b"/>
+  <!-- Outer M3E Hero Surface (corner-extra-large rx=28) -->
+  <rect width="1200" height="500" rx="28" fill="url(#bgSurface)"/>
+  <rect width="1200" height="500" rx="28" fill="url(#expressiveGlow1)"/>
+  <rect width="1200" height="500" rx="28" fill="url(#expressiveGlow2)"/>
+  <rect x="1" y="1" width="1198" height="498" rx="27" fill="none" stroke="#363A48" stroke-width="1.5"/>
 
-    <!-- Name and message use a staggered scale, with the action word as the visual anchor. -->
-    <g id="identity" transform="translate(64 0)">
-      <path d="M0 38h23l12 12-12 12H0Z" fill="#c5f36b"/>
-      <text x="9" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="750" fill="#211d3e">H</text>
-      <text x="48" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="750" letter-spacing="-.7" fill="#fff8e9">HibernalGlow</text>
+  <!-- Subtle Expressive Geometric Background Shapes -->
+  <g opacity="0.18">
+    <rect x="590" y="-40" width="180" height="180" rx="56" transform="rotate(18 680 50)" fill="none" stroke="#8FA2FF" stroke-width="2"/>
+    <circle cx="1140" cy="80" r="90" fill="none" stroke="#F5B2E0" stroke-width="1.5" stroke-dasharray="8 6"/>
+  </g>
 
-      <text y="142" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="43" font-weight="650" letter-spacing="-1.4" fill="#fff8e9">把真实文件</text>
-      <text y="231" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="80" font-weight="800" letter-spacing="-4" fill="#c5f36b">跑<tspan fill="#fff8e9">起来。</tspan></text>
-      <path d="M3 258c57 12 121 12 190-1" fill="none" stroke="#ff796b" stroke-width="7" stroke-linecap="round"/>
-      <text y="294" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="19" font-weight="550" fill="#d5d0ea">文档、笔记与 AI 输出，在本机落地并且可校验。</text>
-      <text y="326" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600" letter-spacing="1.4" fill="#9993bd">TOOLS FOR DOCUMENTS, AGENTS &amp; DESKTOP</text>
+  <!-- ================= LEFT COLUMN: IDENTITY & POSITIONING ================= -->
+  <g transform="translate(32, 30)">
+    <!-- Surface Container Low Card -->
+    <rect width="636" height="310" rx="24" fill="#1A1D26" stroke="#2E3240" stroke-width="1.2"/>
+
+    <!-- M3E Expressive Stage Pill (corner-full) -->
+    <rect x="28" y="24" width="386" height="32" rx="16" fill="#283566" stroke="#4B5EAA" stroke-width="1"/>
+    <circle cx="46" cy="40" r="5" fill="#8FA2FF"/>
+    <text class="f-mono stage-pill" x="60" y="45">LOCAL-FIRST · OUTPUT GATES · LAW × AI</text>
+
+    <!-- Secondary Identity Pill -->
+    <rect x="424" y="24" width="184" height="32" rx="16" fill="#232734" stroke="#3A4054" stroke-width="1"/>
+    <text class="f-sans chip-txt" x="442" y="45" fill="#C2C5DD">法学本科 ’27 · 独立开发</text>
+
+    <!-- Display Name + Expressive Squircle Accent -->
+    <text class="f-sans hero-title" x="28" y="118">HibernalGlow</text>
+    <!-- Expressive M3E Clover/Starburst Badge next to Handle -->
+    <g transform="translate(454, 78)">
+      <rect x="0" y="0" width="44" height="44" rx="14" transform="rotate(15 22 22)" fill="#352133" stroke="#E598D8" stroke-width="1.5"/>
+      <path d="M22 10 L25.5 18.5 L34 22 L25.5 25.5 L22 34 L18.5 25.5 L10 22 L18.5 18.5 Z" fill="#FFD7F1"/>
     </g>
 
-    <!-- A sheet of source material flows into a working desktop tool. -->
-    <g id="file" transform="translate(696 57) rotate(-8 86 111)" filter="url(#paperShadow)">
-      <path d="M17 0h112l42 42v174H17c-9 0-16-7-16-16V16C1 7 8 0 17 0Z" fill="#fff8e9"/>
-      <path d="M129 0v28c0 8 6 14 14 14h28Z" fill="#e7dffb"/>
-      <path d="M143 42 129 28" fill="none" stroke="#c7bcdf" stroke-width="2"/>
-      <path d="M24 49h64" stroke="#5d50c8" stroke-width="8" stroke-linecap="round"/>
-      <circle cx="27" cy="81" r="5" fill="#ff796b"/>
-      <path d="M43 81h91M25 102h104M25 122h76" stroke="#aaa3c1" stroke-width="4" stroke-linecap="round"/>
-      <path d="M25 150h36" stroke="#c5f36b" stroke-width="8" stroke-linecap="round"/>
-      <path d="M25 171h96" stroke="#aaa3c1" stroke-width="4" stroke-linecap="round"/>
-      <path d="m109 181 9 9 18-22" fill="none" stroke="#5d50c8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Core Positioning Statement -->
+    <text class="f-sans hero-sub" x="28" y="158">把文档、笔记与 AI 输出做成在本机运行且可校验的工具。</text>
+    <text class="f-sans hero-body" x="28" y="190">关注界面之下那一层：PDF 解析恢复、CJK 编码守卫、归档与缩略图缓存、沙箱插件 ABI，</text>
+    <text class="f-sans hero-body" x="28" y="214">以及在 AI 产物落盘前用结构与语义门禁拦截错误，让每一条结论都能翻回原始页码。</text>
+
+    <!-- M3E Tonal Pill Row (Tech Stack & Domain Roles) -->
+    <g transform="translate(28, 240)">
+      <rect x="0" y="0" width="84" height="36" rx="18" fill="#22293E" stroke="#41507B"/>
+      <text class="f-mono chip-txt" x="18" y="23" fill="#B8C8FF">Python</text>
+
+      <rect x="94" y="0" width="110" height="36" rx="12" fill="#22293E" stroke="#41507B"/>
+      <text class="f-mono chip-txt" x="111" y="23" fill="#B8C8FF">TypeScript</text>
+
+      <rect x="214" y="0" width="70" height="36" rx="18" fill="#2D2320" stroke="#6B4D43"/>
+      <text class="f-mono chip-txt" x="232" y="23" fill="#FFB59E">Rust</text>
+
+      <rect x="294" y="0" width="80" height="36" rx="12" fill="#2B223C" stroke="#5E4985"/>
+      <text class="f-mono chip-txt" x="312" y="23" fill="#D9BFFF">Kotlin</text>
+
+      <rect x="384" y="0" width="84" height="36" rx="18" fill="#19333A" stroke="#366E7D"/>
+      <text class="f-mono chip-txt" x="401" y="23" fill="#8CE2F9">Flutter</text>
+
+      <rect x="478" y="0" width="102" height="36" rx="12" fill="#18352F" stroke="#336E62"/>
+      <text class="f-mono chip-txt" x="494" y="23" fill="#89E8CE">Tauri 2</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: M3E BENTO EVIDENCE CARDS ================= -->
+  <!-- Card 1: Primary Tonal Card (MineruCustom External Validation) -->
+  <g transform="translate(686, 30)">
+    <rect width="482" height="96" rx="22" fill="url(#primaryCont)" stroke="#5367B8" stroke-width="1.2"/>
+    <!-- Expressive Pill Number Badge -->
+    <rect x="18" y="18" width="112" height="60" rx="18" fill="#151C38" stroke="#6E82DC" stroke-width="1.2"/>
+    <text class="f-mono card-num" x="32" y="59" fill="#DDE1FF">7★</text>
+    <text class="f-mono" font-size="12" font-weight="700" x="82" y="56" fill="#9BB0FF">EXT</text>
+
+    <text class="f-mono card-kicker" x="146" y="34" fill="#A6B8FF">MINERUCUSTOM · 外部认可</text>
+    <text class="f-sans card-title" x="146" y="58" fill="#F2F4FF">PDF → Markdown 后处理管线</text>
+    <text class="f-sans card-desc" x="146" y="80" fill="#C4CEFF">含上海 AI Lab MinerU 第一贡献者 <tspan class="f-mono" font-weight="700" fill="#FFFFFF">myhloli</tspan> Star</text>
+  </g>
+
+  <!-- Card 2: Emerald Tonal Card (skilloom Output Gates) -->
+  <g transform="translate(686, 137)">
+    <rect width="234" height="203" rx="24" fill="url(#emeraldCont)" stroke="#2E7A6E" stroke-width="1.2"/>
+    <rect x="18" y="18" width="118" height="26" rx="13" fill="#0E2421" stroke="#3B9486" stroke-width="1"/>
+    <text class="f-mono card-kicker" x="30" y="35" fill="#7FE6C6">SKILLOOM</text>
+
+    <text class="f-mono card-num" x="20" y="86" fill="#C6F7E6">22 <tspan font-size="16" font-weight="600" fill="#82D4BB">技能包</tspan></text>
+    <text class="f-sans card-title" x="20" y="114" fill="#E8FBF4">10 道 Python 门禁</text>
+    <text class="f-sans card-desc" x="20" y="138" fill="#9CD8C6">7 个法律专用技能</text>
+    <text class="f-sans card-desc" x="20" y="158" fill="#9CD8C6">不合格产物直接拒收</text>
+
+    <rect x="18" y="168" width="198" height="24" rx="12" fill="#0E2421"/>
+    <text class="f-mono" font-size="12" font-weight="700" x="30" y="184" fill="#66D9B8">✓ 校验器自测 119 项 PASS</text>
+  </g>
+
+  <!-- Card 3: Tertiary Tonal Card (Engineering Depth & Delivery) -->
+  <g transform="translate(934, 137)">
+    <rect width="234" height="203" rx="24" fill="url(#tertiaryCont)" stroke="#8A4B80" stroke-width="1.2"/>
+    <rect x="18" y="18" width="136" height="26" rx="13" fill="#261223" stroke="#9E5793" stroke-width="1"/>
+    <text class="f-mono card-kicker" x="30" y="35" fill="#FFD7F1">LOCAL-FIRST</text>
+
+    <text class="f-mono card-num" x="20" y="86" fill="#FFE3F7">2,828</text>
+    <text class="f-sans card-title" x="20" y="114" fill="#FBE8F6">neoview 仓库提交</text>
+    <text class="f-sans card-desc" x="20" y="138" fill="#E2B4D8">rossi 767 · damophus 710</text>
+    <text class="f-sans card-desc" x="20" y="158" fill="#E2B4D8">Xaihi 441 · 21 个自有公开库</text>
+
+    <rect x="18" y="168" width="198" height="24" rx="12" fill="#261223"/>
+    <text class="f-mono" font-size="12" font-weight="700" x="30" y="184" fill="#F5B2E0">24 Casks · 21 Releases</text>
+  </g>
+
+  <!-- ================= BOTTOM BAR: M3E EXPRESSIVE MECHANISM PIPELINE ================= -->
+  <g transform="translate(32, 356)">
+    <rect width="1136" height="114" rx="24" fill="#181B24" stroke="#2F3546" stroke-width="1.2"/>
+
+    <!-- Stage 01 -->
+    <g transform="translate(20, 16)">
+      <rect width="238" height="82" rx="18" fill="#212532" stroke="#3B4259"/>
+      <rect x="14" y="12" width="54" height="22" rx="11" fill="#2E3650"/>
+      <text class="f-mono pipe-step" x="24" y="27" fill="#B8C8FF">01 源</text>
+      <text class="f-sans pipe-title" x="78" y="29">原始资料与归档</text>
+      <text class="f-sans pipe-sub" x="14" y="54">PDF 教材 · 拍照截图 · 压缩归档</text>
+      <text class="f-mono" font-size="11.5" x="14" y="72" fill="#7F8AA8">MinerU / CBZ / EPUB / 目录树</text>
     </g>
 
-    <path d="M862 186c38 12 53 41 73 47 14 4 28-1 39-13" fill="none" stroke="#c5f36b" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 1"/>
-    <path d="m963 213 15 7-13 12" fill="none" stroke="#c5f36b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-
-    <g id="desktop-tool" transform="translate(953 102) rotate(4 106 87)" filter="url(#paperShadow)">
-      <path d="M17 0h183c10 0 18 8 18 18v130c0 10-8 18-18 18H17c-10 0-18-8-18-18V18C-1 8 7 0 17 0Z" fill="#342e65" stroke="#aaa0e7" stroke-width="2"/>
-      <path d="M0 20c0-11 7-19 18-19h182c11 0 18 8 18 19v19H0Z" fill="#7164dc"/>
-      <circle cx="18" cy="19" r="4" fill="#ffb36d"/>
-      <circle cx="32" cy="19" r="4" fill="#c5f36b"/>
-      <circle cx="46" cy="19" r="4" fill="#fff8e9"/>
-      <path d="M23 60h71M23 78h49M23 96h81" stroke="#827bb0" stroke-width="6" stroke-linecap="round"/>
-      <path d="M23 120h52" stroke="#ff796b" stroke-width="6" stroke-linecap="round"/>
-      <path d="M164 87c-18 0-32 14-32 32s14 32 32 32 32-14 32-32-14-32-32-32Z" fill="#c5f36b"/>
-      <path d="m150 119 10 10 19-22" fill="none" stroke="#29234f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Expressive Spring Connector 1->2 -->
+    <g transform="translate(262, 45)">
+      <path d="M0 12 C12 2, 20 22, 32 12" fill="none" stroke="#7C90FF" stroke-width="2.2"/>
+      <polygon points="36,12 27,7 27,17" fill="#7C90FF"/>
     </g>
 
-    <path d="m1124 57 7 15 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2Z" fill="#c5f36b"/>
-    <path d="m904 276 5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2Z" fill="#ff796b"/>
+    <!-- Stage 02 -->
+    <g transform="translate(302, 16)">
+      <rect width="248" height="82" rx="18" fill="url(#amberCont)" stroke="#7D5632"/>
+      <rect x="14" y="12" width="66" height="22" rx="11" fill="#2A1A0C"/>
+      <text class="f-mono pipe-step" x="24" y="27" fill="#FFB786">02 解析</text>
+      <text class="f-sans pipe-title" x="90" y="29">带页码的结构化</text>
+      <text class="f-sans pipe-sub" x="14" y="54" fill="#E6C3A8">恢复丢弃块 · 重建脚注 · 嵌页码</text>
+      <text class="f-mono" font-size="11.5" x="14" y="72" fill="#FFB786">MineruCustom · marku / markt</text>
+    </g>
+
+    <!-- Expressive Spring Connector 2->3 -->
+    <g transform="translate(554, 45)">
+      <path d="M0 12 C12 2, 20 22, 32 12" fill="none" stroke="#FFB786" stroke-width="2.2"/>
+      <polygon points="36,12 27,7 27,17" fill="#FFB786"/>
+    </g>
+
+    <!-- Stage 03 -->
+    <g transform="translate(594, 16)">
+      <rect width="248" height="82" rx="18" fill="url(#emeraldCont)" stroke="#2E7A6E"/>
+      <rect x="14" y="12" width="66" height="22" rx="11" fill="#0D221F"/>
+      <text class="f-mono pipe-step" x="24" y="27" fill="#66D9B8">03 门禁</text>
+      <text class="f-sans pipe-title" x="90" y="29">输出质量校验拦截</text>
+      <text class="f-sans pipe-sub" x="14" y="54" fill="#A6DFD0">结构 · Mermaid 语义 · 规范检查</text>
+      <text class="f-mono" font-size="11.5" x="14" y="72" fill="#66D9B8">skilloom · 不合格 → 非零退出</text>
+    </g>
+
+    <!-- Expressive Spring Connector 3->4 -->
+    <g transform="translate(846, 45)">
+      <path d="M0 12 C12 2, 20 22, 32 12" fill="none" stroke="#66D9B8" stroke-width="2.2"/>
+      <polygon points="36,12 27,7 27,17" fill="#66D9B8"/>
+    </g>
+
+    <!-- Stage 04 -->
+    <g transform="translate(886, 16)">
+      <rect width="230" height="82" rx="18" fill="url(#primaryCont)" stroke="#5367B8"/>
+      <rect x="14" y="12" width="66" height="22" rx="11" fill="#141C38"/>
+      <text class="f-mono pipe-step" x="24" y="27" fill="#B8C8FF">04 交付</text>
+      <text class="f-sans pipe-title" x="90" y="29">可回查本机工具</text>
+      <text class="f-sans pipe-sub" x="14" y="54" fill="#C4CEFF">结论翻回原页 · 索引留本地库</text>
+      <text class="f-mono" font-size="11.5" x="14" y="72" fill="#DDE1FF">SQLite / SQLDelight / 桌面安装包</text>
+    </g>
   </g>
 </svg>

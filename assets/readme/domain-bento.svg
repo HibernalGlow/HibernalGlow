@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-labelledby="dbTitle dbDesc">
+  <title id="dbTitle">Domain Ecosystem &amp; Packaging Bento Map</title>
+  <desc id="dbDesc">Material 3 Expressive Bento overview of 8 technical domains and software distribution pipelines (Homebrew tap with 24 casks, Scoop bucket, and 21 self-built binary releases across Xlchemy, czkawka-tauri, and hibernal).</desc>
+
+  <defs>
+    <linearGradient id="dbBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12161F"/>
+      <stop offset="100%" stop-color="#171C28"/>
+    </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="26" fill="url(#dbBg)" stroke="#2E364D" stroke-width="1.5"/>
+
+  <!-- Row 1: 4 Domain Bento Cards -->
+  <!-- Card 1: Docs & Study -->
+  <g transform="translate(22, 20)">
+    <rect width="276" height="130" rx="20" fill="#211B17" stroke="#59402E"/>
+    <rect x="16" y="14" width="136" height="24" rx="12" fill="#3D2919"/>
+    <text class="m" font-size="11" font-weight="700" fill="#FFB786" x="28" y="30">01 文档与学习资料</text>
+    <text class="s" font-size="14" font-weight="700" fill="#FCEEE3" x="16" y="60">PDF 后处理 → 标题修复 → 题库</text>
+    <text class="m" font-size="11.5" fill="#D4B59E" x="16" y="84">MineruCustom · MarkdownWrapper</text>
+    <text class="m" font-size="11.5" fill="#FFB786" x="16" y="106">siyuan-damophus (710 commits)</text>
+  </g>
+
+  <!-- Card 2: Agent & ComfyUI -->
+  <g transform="translate(312, 20)">
+    <rect width="276" height="130" rx="20" fill="#13221F" stroke="#2D6156"/>
+    <rect x="16" y="14" width="158" height="24" rx="12" fill="#1B3B34"/>
+    <text class="m" font-size="11" font-weight="700" fill="#66D9B8" x="28" y="30">02 AGENT 与工作流</text>
+    <text class="s" font-size="14" font-weight="700" fill="#E6FAF4" x="16" y="60">技能规范、质量门禁与生成工作台</text>
+    <text class="m" font-size="11.5" fill="#9CD4C3" x="16" y="84">skilloom · Xaihi · GlowLoader</text>
+    <text class="m" font-size="11.5" fill="#66D9B8" x="16" y="106">Workflow-Studio · omp-decktop</text>
+  </g>
+
+  <!-- Card 3: Readers & Archives -->
+  <g transform="translate(602, 20)">
+    <rect width="276" height="130" rx="20" fill="#181B2E" stroke="#3E497A"/>
+    <rect x="16" y="14" width="146" height="24" rx="12" fill="#262D52"/>
+    <text class="m" font-size="11" font-weight="700" fill="#9BB0FF" x="28" y="30">03 阅读器与归档层</text>
+    <text class="s" font-size="14" font-weight="700" fill="#EEF1FF" x="16" y="60">沙箱图源插件与流式归档缓存</text>
+    <text class="m" font-size="11.5" fill="#B2BEE8" x="16" y="84">neoview (2828) · rossi (767)</text>
+    <text class="m" font-size="11.5" fill="#9BB0FF" x="16" y="106">quivi-t · neoxide · opencomic-ai</text>
+  </g>
+
+  <!-- Card 4: Search & Dev Tools -->
+  <g transform="translate(892, 20)">
+    <rect width="286" height="130" rx="20" fill="#142129" stroke="#325B70"/>
+    <rect x="16" y="14" width="166" height="24" rx="12" fill="#1C3542"/>
+    <text class="m" font-size="11" font-weight="700" fill="#7AD9F5" x="28" y="30">04 检索与自动化工具</text>
+    <text class="s" font-size="14" font-weight="700" fill="#EAF8FF" x="16" y="60">可下钻全文检索与工具链编排</text>
+    <text class="m" font-size="11.5" fill="#9ECAD9" x="16" y="84">grzeb (SQLDelight) · aestivus</text>
+    <text class="m" font-size="11.5" fill="#7AD9F5" x="16" y="106">TaskGui · PresetUI · trename</text>
+  </g>
+
+  <!-- Row 2: Image Pipelines, OS Integration & Wide Release/Distribution Card -->
+  <!-- Card 5: Image & Doc Pipelines -->
+  <g transform="translate(22, 166)">
+    <rect width="276" height="134" rx="20" fill="#211824" stroke="#593B61"/>
+    <rect x="16" y="14" width="146" height="24" rx="12" fill="#392440"/>
+    <text class="m" font-size="11" font-weight="700" fill="#F5B2E0" x="28" y="30">05 图像与文档管线</text>
+    <text class="s" font-size="14" font-weight="700" fill="#FCEFFA" x="16" y="60">现代图像编码转换、去重与 OCR</text>
+    <text class="m" font-size="11.5" fill="#D4B0CB" x="16" y="84">Xlchemy (JXL/AVIF/WebP) · Trimg</text>
+    <text class="m" font-size="11.5" fill="#F5B2E0" x="16" y="106">czkawka-tauri · FolioX (OCR)</text>
+  </g>
+
+  <!-- Card 6: OS Integration -->
+  <g transform="translate(312, 166)">
+    <rect width="276" height="134" rx="20" fill="#161E2E" stroke="#3B5380"/>
+    <rect x="16" y="14" width="136" height="24" rx="12" fill="#22324F"/>
+    <text class="m" font-size="11" font-weight="700" fill="#9ECAFF" x="28" y="30">06 操作系统集成</text>
+    <text class="s" font-size="14" font-weight="700" fill="#EDF4FF" x="16" y="60">Shell 缩略图、电源管理与输入层</text>
+    <text class="m" font-size="11.5" fill="#ACC4E6" x="16" y="84">ArcThumbX · hibernal (pmset)</text>
+    <text class="m" font-size="11.5" fill="#9ECAFF" x="16" y="106">Shiin (手柄截图) · AppuruPie</text>
+  </g>
+
+  <!-- Card 7: Wide Expressive Packaging & Release Pipeline -->
+  <g transform="translate(602, 166)">
+    <rect width="576" height="134" rx="20" fill="#1D2216" stroke="#536635"/>
+    <rect x="18" y="14" width="224" height="24" rx="12" fill="#2E381E"/>
+    <text class="m" font-size="11" font-weight="700" fill="#C4E86B" x="30" y="30">07 跨平台构建与软件分发流水线</text>
+    <text class="s" font-size="14" font-weight="700" fill="#F3FAE6" x="18" y="58">不仅写代码，还把工具打包成别人装得上、跑得起来的发行版</text>
+
+    <!-- 3 Tonal Sub-Pills inside Card 7 -->
+    <rect x="18" y="72" width="172" height="46" rx="14" fill="#14180E" stroke="#43542A"/>
+    <text class="m" font-size="12" font-weight="700" fill="#C4E86B" x="30" y="92">homebrew-tap (24)</text>
+    <text class="s" font-size="11" fill="#B6C798" x="30" y="109">小众 macOS GUI Casks</text>
+
+    <rect x="200" y="72" width="176" height="46" rx="14" fill="#14180E" stroke="#43542A"/>
+    <text class="m" font-size="12" font-weight="700" fill="#C4E86B" x="212" y="92">Xlchemy (11 Releases)</text>
+    <text class="s" font-size="11" fill="#B6C798" x="212" y="109">补齐 macOS arm64 .dmg</text>
+
+    <rect x="386" y="72" width="172" height="46" rx="14" fill="#14180E" stroke="#43542A"/>
+    <text class="m" font-size="12" font-weight="700" fill="#C4E86B" x="398" y="92">Scoop &amp; 自有构建</text>
+    <text class="s" font-size="11" fill="#B6C798" x="398" y="109">czkawka (9) · hibernal (1)</text>
+  </g>
+</svg>

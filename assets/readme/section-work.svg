@@ -1,17 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="t d">
-  <title id="t">代表作品</title>
-  <desc id="d">章节：代表作品（SELECTED WORK）</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 76" width="100%" role="img" aria-labelledby="swTitle swDesc">
+  <title id="swTitle">01 · 代表作品 · Selected Work</title>
+  <desc id="swDesc">Material 3 Expressive section banner for 01 Selected Work.</desc>
   <defs>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#f59e0b"/>
+    <linearGradient id="swBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#171A24"/>
+      <stop offset="60%" stop-color="#1D2230"/>
+      <stop offset="100%" stop-color="#151821"/>
     </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
   </defs>
-  <rect width="1200" height="84" rx="12" fill="#0b1220"/>
-  <rect x="40" y="22" width="5" height="40" rx="2.5" fill="#b4402f"/>
-  <text x="60" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#64748b">01</text>
-  <text x="100" y="56" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#f8fafc">代表作品</text>
-  <text x="1160" y="52" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="1.8" fill="#64748b">SELECTED WORK</text>
-  <rect x="40" y="74" width="1120" height="1" fill="url(#rule)" opacity="0.45"/>
+  <rect width="1200" height="76" rx="22" fill="url(#swBg)" stroke="#323952" stroke-width="1.2"/>
+  <!-- M3E Stage Pill -->
+  <rect x="20" y="18" width="66" height="40" rx="20" fill="#283566" stroke="#5B70C4" stroke-width="1.2"/>
+  <text class="m" font-size="16" font-weight="800" fill="#DDE1FF" x="39" y="44">01</text>
+  <!-- Expressive Geometric Shape -->
+  <rect x="98" y="23" width="30" height="30" rx="10" transform="rotate(15 113 38)" fill="#362417" stroke="#FFB786" stroke-width="1.4"/>
+  <circle cx="113" cy="38" r="5" fill="#FFB786"/>
+  <!-- Title & Bilingual Subtitle -->
+  <text class="s" font-size="24" font-weight="800" fill="#F2F0F7" x="144" y="46">代表作品</text>
+  <text class="m" font-size="14" font-weight="600" fill="#9AA0B8" x="256" y="45">SELECTED WORK · 8 CORE REPOSITORIES</text>
+  <!-- Right Tonal Pill -->
+  <rect x="936" y="22" width="244" height="32" rx="16" fill="#212636" stroke="#3D4663"/>
+  <text class="m" font-size="12" font-weight="700" fill="#B8C8FF" x="956" y="42">ORIGINAL + DEEP FORK TRACKS</text>
 </svg>

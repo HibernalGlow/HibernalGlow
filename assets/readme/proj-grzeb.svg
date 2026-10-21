@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" width="100%" role="img" aria-labelledby="gzTitle gzDesc">
+  <title id="gzTitle">grzeb — Directory-Wide Full-Text Search with Drill-Down Result Tree</title>
+  <desc id="gzDesc">Material 3 Expressive project card for grzeb: Kotlin + Compose Multiplatform + SQLDelight full-text search returning a drill-downable result tree, with explicit CJK encoding detection and documented limits.</desc>
+
+  <defs>
+    <linearGradient id="gzBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101A21"/>
+      <stop offset="100%" stop-color="#15242E"/>
+    </linearGradient>
+    <linearGradient id="gzAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#194659"/>
+      <stop offset="100%" stop-color="#123240"/>
+    </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Outer Card Surface -->
+  <rect width="580" height="340" rx="26" fill="url(#gzBg)"/>
+  <rect x="1" y="1" width="578" height="338" rx="25" fill="none" stroke="#2B556B" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 22)">
+    <rect x="0" y="0" width="276" height="28" rx="14" fill="#173342" stroke="#346E8C"/>
+    <circle cx="16" cy="14" r="4.5" fill="#7AD9F5"/>
+    <text class="m" font-size="12" font-weight="700" fill="#C7F1FF" x="28" y="18">KOTLIN · COMPOSE MULTIPLATFORM</text>
+
+    <rect x="356" y="0" width="176" height="28" rx="14" fill="url(#gzAccent)" stroke="#4899BD"/>
+    <text class="m" font-size="12" font-weight="700" fill="#D9F6FF" x="372" y="18">SQLDELIGHT CACHE</text>
+
+    <text class="s" font-size="28" font-weight="800" fill="#EBF9FF" x="0" y="64">grzeb</text>
+    <text class="s" font-size="14.5" fill="#9BC6D9" x="0" y="90">目录级全文检索：返回可下钻的结果树而非平铺列表，README 写明未实现项</text>
+  </g>
+
+  <!-- Visual Diagram: Drill-Down Tree View + CJK Encoding & SQLDelight Stack -->
+  <g transform="translate(24, 130)">
+    <!-- Left: Interactive-Style Result Tree Card -->
+    <rect x="0" y="0" width="276" height="148" rx="18" fill="#152630" stroke="#2D5369"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#7AD9F5" x="16" y="24">▼ /workspace/notes (42 hits)</text>
+
+    <!-- Level 1 Node -->
+    <rect x="24" y="34" width="236" height="26" rx="8" fill="#1B3442" stroke="#386B87"/>
+    <text class="m" font-size="11" font-weight="700" fill="#D4F3FF" x="34" y="51">▼ civil-law/contract.md (18)</text>
+
+    <!-- Level 2 Leaf Hits -->
+    <rect x="42" y="66" width="218" height="22" rx="6" fill="#12222B"/>
+    <text class="m" font-size="10.5" fill="#9CD8ED" x="50" y="81">L042: 意思表示瑕疵与<tspan fill="#FFE082" font-weight="700">撤销权</tspan></text>
+
+    <rect x="42" y="92" width="218" height="22" rx="6" fill="#12222B"/>
+    <text class="m" font-size="10.5" fill="#9CD8ED" x="50" y="107">L108: 除斥期间自知道之日起算</text>
+
+    <!-- Collapsed Sibling Node -->
+    <rect x="24" y="118" width="236" height="22" rx="6" fill="#182C38"/>
+    <text class="m" font-size="10.5" fill="#82B5C9" x="34" y="133">▶ procedure/evidence.md (24)</text>
+
+    <!-- Right: SQLDelight + CJK Guard + Honest Docs -->
+    <g transform="translate(292, 0)">
+      <rect x="0" y="0" width="240" height="44" rx="14" fill="#183645" stroke="#3D7F9E"/>
+      <text class="m" font-size="11" font-weight="700" fill="#9EE5FC" x="14" y="19">SQLDELIGHT DECODED INDEX</text>
+      <text class="s" font-size="11.5" fill="#D8F4FF" x="14" y="36">已解码文本缓存入本地库，免重复解码</text>
+
+      <rect x="0" y="52" width="240" height="46" rx="14" fill="#162C38" stroke="#315E75"/>
+      <text class="m" font-size="11" font-weight="700" fill="#7AD9F5" x="14" y="70">CJK ENCODING GUARD</text>
+      <text class="m" font-size="10" fill="#B3E0F2" x="14" y="88">BOM → NUL → UTF-8 → GB18030</text>
+
+      <rect x="0" y="106" width="240" height="42" rx="14" fill="#2B2518" stroke="#7A6535"/>
+      <text class="m" font-size="11" font-weight="700" fill="#FFD97D" x="14" y="123">HONEST README FIRST</text>
+      <text class="s" font-size="11.5" fill="#F2DFB3" x="14" y="139">先列未实现功能与核心/UI边界</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text class="m" font-size="12" fill="#7FAEC2" x="24" y="310">Desktop · Android · Wasm 跨端架构 · 整词匹配对 CJK 显式禁用 (\b 守卫)</text>
+</svg>

@@ -1,17 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="t d">
-  <title id="t">法律 × AI</title>
-  <desc id="d">章节：法律 × AI（LAW × AI）</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 76" width="100%" role="img" aria-labelledby="slTitle slDesc">
+  <title id="slTitle">03 · 法律 × AI · Law × AI</title>
+  <desc id="slDesc">Material 3 Expressive section banner for 03 Law x AI.</desc>
   <defs>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#f59e0b"/>
+    <linearGradient id="slBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E1612"/>
+      <stop offset="60%" stop-color="#291D17"/>
+      <stop offset="100%" stop-color="#1A1411"/>
     </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
   </defs>
-  <rect width="1200" height="84" rx="12" fill="#0b1220"/>
-  <rect x="40" y="22" width="5" height="40" rx="2.5" fill="#b4402f"/>
-  <text x="60" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#64748b">03</text>
-  <text x="100" y="56" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#f8fafc">法律 × AI</text>
-  <text x="1160" y="52" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="1.8" fill="#64748b">LAW × AI</text>
-  <rect x="40" y="74" width="1120" height="1" fill="url(#rule)" opacity="0.45"/>
+  <rect width="1200" height="76" rx="22" fill="url(#slBg)" stroke="#573D2C" stroke-width="1.2"/>
+  <rect x="20" y="18" width="66" height="40" rx="20" fill="#4D3219" stroke="#A66E43" stroke-width="1.2"/>
+  <text class="m" font-size="16" font-weight="800" fill="#FFE2CC" x="39" y="44">03</text>
+  <!-- Expressive Diamond-Squircle -->
+  <path d="M113 21 L128 38 L113 55 L98 38 Z" fill="#5C3A1E" stroke="#FFB786" stroke-width="1.5"/>
+  <text class="s" font-size="24" font-weight="800" fill="#FFF2E8" x="144" y="46">法律 × AI</text>
+  <text class="m" font-size="14" font-weight="600" fill="#D4B8A5" x="264" y="45">LAW × AI · PAGE-TRACEABLE PROVENANCE &amp; GATES</text>
+  <rect x="942" y="22" width="238" height="32" rx="16" fill="#2B1F18" stroke="#664733"/>
+  <text class="m" font-size="12" font-weight="700" fill="#FFB786" x="962" y="42">CLASS OF 2027 · LAW INTERN</text>
 </svg>

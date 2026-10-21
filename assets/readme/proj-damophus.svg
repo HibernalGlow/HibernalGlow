@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" width="100%" role="img" aria-labelledby="dmTitle dmDesc">
+  <title id="dmTitle">siyuan-damophus — SiYuan Question-Bank Plugin</title>
+  <desc id="dmDesc">Material 3 Expressive project card for siyuan-damophus: Markdown question bank scan, index, practice, and recovery with virtual knowledge links in SiYuan Note. 710 local commits vs 512 upstream.</desc>
+
+  <defs>
+    <linearGradient id="dmBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171A11"/>
+      <stop offset="100%" stop-color="#202516"/>
+    </linearGradient>
+    <linearGradient id="dmPill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B471E"/>
+      <stop offset="100%" stop-color="#2A3315"/>
+    </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Outer Card Surface -->
+  <rect width="580" height="340" rx="26" fill="url(#dmBg)"/>
+  <rect x="1" y="1" width="578" height="338" rx="25" fill="none" stroke="#47542A" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 22)">
+    <rect x="0" y="0" width="212" height="28" rx="14" fill="#2A3318" stroke="#5B6E35"/>
+    <circle cx="16" cy="14" r="4.5" fill="#C4E86B"/>
+    <text class="m" font-size="12" font-weight="700" fill="#E3F7B5" x="28" y="18">TYPESCRIPT · SVELTE</text>
+
+    <rect x="330" y="0" width="202" height="28" rx="14" fill="url(#dmPill)" stroke="#829E46"/>
+    <text class="m" font-size="12" font-weight="700" fill="#ECF9CC" x="344" y="18">710 LOCAL / 512 UPSTREAM</text>
+
+    <text class="s" font-size="28" font-weight="800" fill="#F4FAE8" x="0" y="64">siyuan-damophus</text>
+    <text class="s" font-size="14.5" fill="#BDC9A3" x="0" y="90">思源笔记题库插件：扫描 → 索引 → 练习 → 恢复，题目与知识点虚拟关联</text>
+  </g>
+
+  <!-- Visual Diagram: 4-Stage M3E Stepped Loop + Commit Scale Bar -->
+  <g transform="translate(24, 130)">
+    <!-- 4 Stepped M3E Pills -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="122" height="78" rx="20" fill="#252E17" stroke="#5A6E36"/>
+      <text class="m" font-size="11" font-weight="700" fill="#C4E86B" x="14" y="24">01 SCAN</text>
+      <text class="s" font-size="14" font-weight="700" fill="#F2F9E3" x="14" y="46">题库扫描</text>
+      <text class="s" font-size="11" fill="#B5C497" x="14" y="65">解析 Markdown 题块</text>
+
+      <path d="M124 39 L134 39" stroke="#C4E86B" stroke-width="2"/>
+
+      <rect x="136" y="0" width="122" height="78" rx="14" fill="#252E17" stroke="#5A6E36"/>
+      <text class="m" font-size="11" font-weight="700" fill="#C4E86B" x="150" y="24">02 INDEX</text>
+      <text class="s" font-size="14" font-weight="700" fill="#F2F9E3" x="150" y="46">双向索引</text>
+      <text class="s" font-size="11" fill="#B5C497" x="150" y="65">虚拟关联知识点条</text>
+
+      <path d="M260 39 L270 39" stroke="#C4E86B" stroke-width="2"/>
+
+      <rect x="272" y="0" width="122" height="78" rx="20" fill="#252E17" stroke="#5A6E36"/>
+      <text class="m" font-size="11" font-weight="700" fill="#C4E86B" x="286" y="24">03 PRACTICE</text>
+      <text class="s" font-size="14" font-weight="700" fill="#F2F9E3" x="286" y="46">刷题与判分</text>
+      <text class="s" font-size="11" fill="#B5C497" x="286" y="65">错题追踪与批注</text>
+
+      <path d="M396 39 L406 39" stroke="#C4E86B" stroke-width="2"/>
+
+      <rect x="408" y="0" width="124" height="78" rx="14" fill="#32401B" stroke="#7E9C44"/>
+      <text class="m" font-size="11" font-weight="700" fill="#DDF79E" x="422" y="24">04 RECOVER</text>
+      <text class="s" font-size="14" font-weight="700" fill="#FFFFFF" x="422" y="46">状态恢复</text>
+      <text class="s" font-size="11" fill="#CFE3A6" x="422" y="65">中断进度无损还原</text>
+    </g>
+
+    <!-- Bottom Card: Commit Comparison & Knowledge Link Bar -->
+    <g transform="translate(0, 90)">
+      <rect width="532" height="58" rx="16" fill="#1E2414" stroke="#424F26"/>
+      <text class="s" font-size="12" font-weight="700" fill="#E5F2C9" x="16" y="23">持续跟进上游并深度演进（本地提交已超越上游）</text>
+
+      <!-- Visual Bar: Local 710 vs Upstream 512 -->
+      <rect x="16" y="32" width="310" height="14" rx="7" fill="#88AB3E"/>
+      <text class="m" font-size="10" font-weight="700" fill="#141A0B" x="26" y="43">本地分支 710 commits</text>
+
+      <rect x="334" y="32" width="182" height="14" rx="7" fill="#384520" stroke="#627839"/>
+      <text class="m" font-size="10" fill="#C9DBA9" x="344" y="43">上游 512 commits</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text class="m" font-size="12" fill="#9FB07F" x="24" y="310">日常用于法考客观题与笔记联动复习 · 移植修复时保留上游成立条件</text>
+</svg>

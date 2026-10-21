@@ -1,17 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="t d">
-  <title id="t">我怎么做事</title>
-  <desc id="d">章节：我怎么做事（HOW I WORK）</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 76" width="100%" role="img" aria-labelledby="smTitle smDesc">
+  <title id="smTitle">04 · 我怎么做事 · How I Work</title>
+  <desc id="smDesc">Material 3 Expressive section banner for 04 How I Work.</desc>
   <defs>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#f59e0b"/>
+    <linearGradient id="smBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1B131E"/>
+      <stop offset="60%" stop-color="#261A2B"/>
+      <stop offset="100%" stop-color="#17111A"/>
     </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
   </defs>
-  <rect width="1200" height="84" rx="12" fill="#0b1220"/>
-  <rect x="40" y="22" width="5" height="40" rx="2.5" fill="#b4402f"/>
-  <text x="60" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#64748b">04</text>
-  <text x="100" y="56" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#f8fafc">我怎么做事</text>
-  <text x="1160" y="52" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="1.8" fill="#64748b">HOW I WORK</text>
-  <rect x="40" y="74" width="1120" height="1" fill="url(#rule)" opacity="0.45"/>
+  <rect width="1200" height="76" rx="22" fill="url(#smBg)" stroke="#593563" stroke-width="1.2"/>
+  <rect x="20" y="18" width="66" height="40" rx="20" fill="#4A2545" stroke="#9E5793" stroke-width="1.2"/>
+  <text class="m" font-size="16" font-weight="800" fill="#FFD7F1" x="39" y="44">04</text>
+  <!-- Expressive Spring Wave Icon -->
+  <path d="M96 38 C102 22, 110 54, 116 38 C122 22, 128 54, 134 38" fill="none" stroke="#F5B2E0" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="s" font-size="24" font-weight="800" fill="#FDF0FA" x="148" y="46">我怎么做事</text>
+  <text class="m" font-size="14" font-weight="600" fill="#D9B4D2" x="282" y="45">HOW I WORK · GATES, CJK GUARDS &amp; HONEST LIMITS</text>
+  <rect x="930" y="22" width="250" height="32" rx="16" fill="#2A1B2E" stroke="#6B3E75"/>
+  <text class="m" font-size="12" font-weight="700" fill="#F5B2E0" x="950" y="42">VERIFIABLE ENGINEERING RULES</text>
 </svg>

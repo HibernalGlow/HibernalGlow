@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" role="img" aria-labelledby="mpTitle mpDesc">
+  <title id="mpTitle">Engineering Principles &amp; CJK Encoding Guard Pipeline</title>
+  <desc id="mpDesc">Material 3 Expressive diagram illustrating the deterministic CJK text decoding probe order (BOM -> NUL Probe -> UTF-8 -> 2 Guards -> GB18030 -> Latin-1 fallback) and core engineering principles.</desc>
+
+  <defs>
+    <linearGradient id="mpBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17131C"/>
+      <stop offset="100%" stop-color="#1E1826"/>
+    </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="240" rx="26" fill="url(#mpBg)" stroke="#4A3959" stroke-width="1.5"/>
+
+  <!-- Top Section: Deterministic CJK Encoding Probe Chain -->
+  <g transform="translate(24, 20)">
+    <rect width="1152" height="106" rx="20" fill="#211B29" stroke="#564369"/>
+    <rect x="18" y="14" width="268" height="24" rx="12" fill="#3B284D"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#E8B5FF" x="30" y="30">CJK DECODING PIPELINE · 中文编码探测序</text>
+    <text class="s" font-size="13" fill="#CDB8D9" x="300" y="30">整词匹配对 CJK 显式关闭（因为 \b 在中文字符两侧永远不成立）</text>
+
+    <!-- 6-Stage Probe Pills -->
+    <g transform="translate(18, 48)">
+      <rect x="0" y="0" width="144" height="42" rx="14" fill="#2D223B" stroke="#6E528F"/>
+      <text class="m" font-size="12" font-weight="700" fill="#F2D9FF" x="16" y="20">01 BOM 嗅探</text>
+      <text class="m" font-size="10" fill="#BFA3D1" x="16" y="35">UTF-8 / UTF-16</text>
+
+      <path d="M148 21 L166 21" stroke="#E8B5FF" stroke-width="2"/>
+
+      <rect x="170" y="0" width="154" height="42" rx="10" fill="#2D223B" stroke="#6E528F"/>
+      <text class="m" font-size="12" font-weight="700" fill="#F2D9FF" x="186" y="20">02 NUL 二进制守卫</text>
+      <text class="m" font-size="10" fill="#BFA3D1" x="186" y="35">剔除二进制流</text>
+
+      <path d="M328 21 L346 21" stroke="#E8B5FF" stroke-width="2"/>
+
+      <rect x="350" y="0" width="156" height="42" rx="14" fill="#1E3834" stroke="#438F82"/>
+      <text class="m" font-size="12" font-weight="700" fill="#A6F7DF" x="366" y="20">03 UTF-8 严格校验</text>
+      <text class="m" font-size="10" fill="#82CFC0" x="366" y="35">零容忍非法序列</text>
+
+      <path d="M510 21 L528 21" stroke="#66D9B8" stroke-width="2"/>
+
+      <rect x="532" y="0" width="194" height="42" rx="10" fill="#3B2B1A" stroke="#8F673D"/>
+      <text class="m" font-size="12" font-weight="700" fill="#FFD9B3" x="548" y="20">04 两道前置守卫</text>
+      <text class="m" font-size="10" fill="#D9B38C" x="548" y="35">防误判合法双字节序列</text>
+
+      <path d="M730 21 L748 21" stroke="#FFB786" stroke-width="2"/>
+
+      <rect x="752" y="0" width="176" height="42" rx="14" fill="#382236" stroke="#8F5289"/>
+      <text class="m" font-size="12" font-weight="700" fill="#FFD6F3" x="768" y="20">05 GB18030 解码</text>
+      <text class="m" font-size="10" fill="#D9A6CB" x="768" y="35">覆盖国标中文编码</text>
+
+      <path d="M932 21 L950 21" stroke="#F5B2E0" stroke-width="2"/>
+
+      <rect x="954" y="0" width="162" height="42" rx="10" fill="#232630" stroke="#4D5369"/>
+      <text class="m" font-size="12" font-weight="700" fill="#D5DCF2" x="970" y="20">06 Latin-1 兜底</text>
+      <text class="m" font-size="10" fill="#9AA3BF" x="970" y="35">保证字节无损</text>
+    </g>
+  </g>
+
+  <!-- Bottom Section: 4 Pill Cards Summarizing Engineering Habits -->
+  <g transform="translate(24, 140)">
+    <rect x="0" y="0" width="276" height="78" rx="18" fill="#1F2433" stroke="#434E70"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#B8C8FF" x="16" y="26">FORK ⇄ ORIGINAL DUAL TRACK</text>
+    <text class="s" font-size="12.5" fill="#E4E9FA" x="16" y="48">移植上游修复时一并带走成立条件</text>
+    <text class="s" font-size="11.5" fill="#9AA5C7" x="16" y="66">原创仓库从零定义契约与验收</text>
+
+    <rect x="292" y="0" width="276" height="78" rx="18" fill="#182B28" stroke="#366960"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#7FE6C6" x="308" y="26">GATES BEFORE CAPABILITIES</text>
+    <text class="s" font-size="12.5" fill="#E3FAF3" x="308" y="48">先有门禁再谈生成能力</text>
+    <text class="s" font-size="11.5" fill="#93C7B8" x="308" y="66">结构、语义、页码可追溯三道判定</text>
+
+    <rect x="584" y="0" width="276" height="78" rx="18" fill="#2B2118" stroke="#6E5136"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#FFB786" x="600" y="26">LIMITS BEFORE FEATURES</text>
+    <text class="s" font-size="12.5" fill="#FCEEE3" x="600" y="48">文档先写哪些还没实现、为什么</text>
+    <text class="s" font-size="11.5" fill="#C9AC97" x="600" y="66">区分核心已有能力与 UI 尚未暴露项</text>
+
+    <rect x="876" y="0" width="276" height="78" rx="18" fill="#291B2C" stroke="#684270"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#F5B2E0" x="892" y="26">LOCAL-FIRST BY DEFAULT</text>
+    <text class="s" font-size="12.5" fill="#FCEFFA" x="892" y="48">文件留磁盘 · 索引留本地库</text>
+    <text class="s" font-size="11.5" fill="#C9A5C1" x="892" y="66">SQLite / SQLDelight · 本机推理</text>
+  </g>
+</svg>

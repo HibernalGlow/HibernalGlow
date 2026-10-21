@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" width="100%" role="img" aria-labelledby="rsTitle rsDesc">
+  <title id="rsTitle">rossi — Cross-Platform Reader with JS Plugin ABI &amp; Rust QuickJS Sandbox</title>
+  <desc id="rsDesc">Material 3 Expressive project card for rossi: Flutter + Rust reader that ships no content; each source is a single JS file declaring list, search, and image resolution executed inside a Rust QuickJS sandbox.</desc>
+
+  <defs>
+    <linearGradient id="rsBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F1414"/>
+      <stop offset="100%" stop-color="#2B1A1A"/>
+    </linearGradient>
+    <linearGradient id="rsRust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5E2924"/>
+      <stop offset="100%" stop-color="#401B18"/>
+    </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Outer Card Surface -->
+  <rect width="580" height="340" rx="26" fill="url(#rsBg)"/>
+  <rect x="1" y="1" width="578" height="338" rx="25" fill="none" stroke="#663733" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 22)">
+    <rect x="0" y="0" width="256" height="28" rx="14" fill="#3B201E" stroke="#854842"/>
+    <circle cx="16" cy="14" r="4.5" fill="#FFB4A8"/>
+    <text class="m" font-size="12" font-weight="700" fill="#FFDAD4" x="28" y="18">FLUTTER · RUST · JS PLUGIN ABI</text>
+
+    <rect x="366" y="0" width="166" height="28" rx="14" fill="url(#rsRust)" stroke="#B55D54"/>
+    <text class="m" font-size="12" font-weight="700" fill="#FFE2DE" x="380" y="18">767 LOCAL COMMITS</text>
+
+    <text class="s" font-size="28" font-weight="800" fill="#FFF0ED" x="0" y="64">rossi</text>
+    <text class="s" font-size="14.5" fill="#E0B6B1" x="0" y="90">不带内容的跨端阅读器：单个 JS 文件声明列表/搜索/取图，Rust QuickJS 沙箱执行</text>
+  </g>
+
+  <!-- Visual Diagram: Single JS Plugin -> Rust QuickJS Sandbox ABI -> Flutter UI -->
+  <g transform="translate(24, 130)">
+    <!-- Zone 1: Single JS Plugin File -->
+    <rect x="0" y="0" width="158" height="148" rx="18" fill="#291918" stroke="#5E3835"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#FFB4A8" x="14" y="24">source.plugin.js</text>
+
+    <rect x="12" y="34" width="134" height="26" rx="8" fill="#382220"/>
+    <text class="m" font-size="10.5" fill="#FFDAD4" x="20" y="51">fn list(page, filter)</text>
+
+    <rect x="12" y="66" width="134" height="26" rx="8" fill="#382220"/>
+    <text class="m" font-size="10.5" fill="#FFDAD4" x="20" y="83">fn search(keyword)</text>
+
+    <rect x="12" y="98" width="134" height="36" rx="8" fill="#382220"/>
+    <text class="m" font-size="10.5" fill="#FFDAD4" x="20" y="114">fn resolveImage(id)</text>
+    <text class="s" font-size="10" fill="#C99B95" x="20" y="128">纯声明式图源契约</text>
+
+    <!-- Arrow 1 -->
+    <path d="M158 74 L182 74" stroke="#FFB4A8" stroke-width="2.2"/>
+    <polygon points="186,74 178,69 178,79" fill="#FFB4A8"/>
+
+    <!-- Zone 2: Rust QuickJS Sandbox Boundary -->
+    <rect x="190" y="0" width="168" height="148" rx="22" fill="url(#rsRust)" stroke="#B56159" stroke-width="1.4"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#FFDAD4" x="206" y="24">RUST QUICKJS SANDBOX</text>
+
+    <rect x="204" y="34" width="140" height="46" rx="12" fill="#2B1210" stroke="#7D3B35"/>
+    <text class="s" font-size="12" font-weight="700" fill="#FFF0ED" x="214" y="53">受控 ABI 桥接层</text>
+    <text class="s" font-size="10.5" fill="#E3B3AD" x="214" y="70">网络请求与字节流解耦</text>
+
+    <rect x="204" y="88" width="140" height="46" rx="12" fill="#2B1210" stroke="#7D3B35"/>
+    <text class="s" font-size="12" font-weight="700" fill="#FFF0ED" x="214" y="107">图像管线与缓存</text>
+    <text class="m" font-size="10" fill="#FFB4A8" x="214" y="124">Flutter Rust Bridge</text>
+
+    <!-- Arrow 2 -->
+    <path d="M358 74 L382 74" stroke="#FFB4A8" stroke-width="2.2"/>
+    <polygon points="386,74 378,69 378,79" fill="#FFB4A8"/>
+
+    <!-- Zone 3: Flutter Multiplatform Host -->
+    <rect x="390" y="0" width="142" height="148" rx="18" fill="#241C29" stroke="#594566"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#E5B8FF" x="404" y="24">FLUTTER HOST</text>
+    <text class="s" font-size="12.5" font-weight="700" fill="#F6E8FF" x="404" y="48">跨平台阅读界面</text>
+    <text class="s" font-size="11" fill="#C8ADD9" x="404" y="68">本体不绑任何内容源</text>
+
+    <rect x="404" y="82" width="114" height="52" rx="12" fill="#1A131E" stroke="#473552"/>
+    <text class="m" font-size="10.5" fill="#E5B8FF" x="414" y="102">Desktop &amp; Mobile</text>
+    <text class="m" font-size="10" fill="#B596C7" x="414" y="120">MPL-2.0 · 持续同步</text>
+  </g>
+
+  <!-- Footer -->
+  <text class="m" font-size="12" fill="#C99B95" x="24" y="310">中英双语架构文档 · 示例源插件仅用于验证编译期与运行期插件 ABI</text>
+</svg>

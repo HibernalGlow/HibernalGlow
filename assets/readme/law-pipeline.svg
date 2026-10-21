@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" role="img" aria-labelledby="lpTitle lpDesc">
+  <title id="lpTitle">Law × AI — From Law Firm Pain Points to Page-Traceable Tooling</title>
+  <desc id="lpDesc">Material 3 Expressive diagram contrasting real-world law firm workflow bottlenecks (photo/screenshot evidence, filename-versioning, unverified AI case citations) with HibernalGlow's verifiable local pipeline (page-marked Markdown, Python output gates, human source verification).</desc>
+
+  <defs>
+    <linearGradient id="lpBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1512"/>
+      <stop offset="50%" stop-color="#171922"/>
+      <stop offset="100%" stop-color="#121F1D"/>
+    </linearGradient>
+    <style>
+      .s { font-family: ui-sans-serif, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="250" rx="26" fill="url(#lpBg)" stroke="#3D3530" stroke-width="1.5"/>
+
+  <!-- Left Box: Law Firm First-Hand Observation -->
+  <g transform="translate(24, 22)">
+    <rect width="520" height="206" rx="22" fill="#241917" stroke="#6E423B" stroke-width="1.2"/>
+    <rect x="18" y="16" width="236" height="26" rx="13" fill="#3D221E"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#FFB4A8" x="32" y="33">律所实习一手观察 · 真实痛点</text>
+
+    <g transform="translate(18, 54)">
+      <rect width="484" height="40" rx="12" fill="#1C1311" stroke="#4A2E29"/>
+      <text class="m" font-size="12" font-weight="700" fill="#FFB4A8" x="14" y="25">01 证据形态</text>
+      <text class="s" font-size="13.5" fill="#EBD5D1" x="110" y="25">当事人材料多为手机拍照与微信聊天截图，取数与归档极难</text>
+    </g>
+
+    <g transform="translate(18, 102)">
+      <rect width="484" height="40" rx="12" fill="#1C1311" stroke="#4A2E29"/>
+      <text class="m" font-size="12" font-weight="700" fill="#FFB4A8" x="14" y="25">02 协作断点</text>
+      <text class="s" font-size="13.5" fill="#EBD5D1" x="110" y="25">文书修订靠“改一处发一个新版本文件”，缺乏结构化差异比对</text>
+    </g>
+
+    <g transform="translate(18, 150)">
+      <rect width="484" height="40" rx="12" fill="#331A17" stroke="#8C433B"/>
+      <text class="m" font-size="12" font-weight="700" fill="#FFDAD4" x="14" y="25">03 信任红线</text>
+      <text class="s" font-size="13.5" font-weight="700" fill="#FFF0ED" x="110" y="25">没有案号或出处不明的类案检索，会被直接判定为 AI 幻觉</text>
+    </g>
+  </g>
+
+  <!-- Center Expressive Morph Bridge -->
+  <g transform="translate(556, 92)">
+    <rect x="0" y="0" width="88" height="66" rx="22" fill="#2A2633" stroke="#6E6385" stroke-width="1.3"/>
+    <text class="s" font-size="12" font-weight="700" fill="#E6DEFF" x="14" y="28">工程取舍</text>
+    <path d="M18 44 L68 44" stroke="#FFB786" stroke-width="2.2"/>
+    <polygon points="72,44 63,39 63,49" fill="#66D9B8"/>
+  </g>
+
+  <!-- Right Box: Verifiable Document & Agent Architecture -->
+  <g transform="translate(656, 22)">
+    <rect width="520" height="206" rx="22" fill="#142421" stroke="#316E61" stroke-width="1.2"/>
+    <rect x="18" y="16" width="256" height="26" rx="13" fill="#1B3D36"/>
+    <text class="m" font-size="11.5" font-weight="700" fill="#7FE6C6" x="32" y="33">工具链设计回应 · 可核验闭环</text>
+
+    <g transform="translate(18, 54)">
+      <rect width="484" height="40" rx="12" fill="#0F1C1A" stroke="#264F46"/>
+      <text class="m" font-size="12" font-weight="700" fill="#66D9B8" x="14" y="25">STEP 1 页码锚定</text>
+      <text class="s" font-size="13.5" fill="#DDF7EF" x="132" y="25">先转成带页码标记与完整脚注的 Markdown，每条结论可翻回原页</text>
+    </g>
+
+    <g transform="translate(18, 102)">
+      <rect width="484" height="40" rx="12" fill="#0F1C1A" stroke="#264F46"/>
+      <text class="m" font-size="12" font-weight="700" fill="#66D9B8" x="14" y="25">STEP 2 门禁拦截</text>
+      <text class="s" font-size="13.5" fill="#DDF7EF" x="132" y="25">AI 产出必过 Python 结构与语义门禁，不合格直接报错拒收</text>
+    </g>
+
+    <g transform="translate(18, 150)">
+      <rect width="484" height="40" rx="12" fill="#193831" stroke="#459985"/>
+      <text class="m" font-size="12" font-weight="700" fill="#A6F7DF" x="14" y="25">STEP 3 人机边界</text>
+      <text class="s" font-size="13.5" font-weight="700" fill="#FFFFFF" x="132" y="25">模型负责初稿与整理，原始案号、出处与最终结论由人回到源头确认</text>
+    </g>
+  </g>
+</svg>
