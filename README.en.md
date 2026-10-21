@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow: I turn documents, notes and AI output into tools that run on your own machine and can be verified. Three checkable facts: 7 external stars on MineruCustom (one from a MinerU maintainer), 2,828 commits on neoview, 22 skills and 10 output gates in skilloom."
+  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow: I turn real files into tools that run locally and can be checked. The illustration shows source documents flowing into a working desktop app."
 </p>
 
 <p align="center">
@@ -15,6 +15,12 @@
   <img src="https://img.shields.io/badge/local--first-by_default-0B1220?style=flat-square" alt="Local-first by default">
   <img src="https://img.shields.io/badge/agent-tooling-38BDF8?style=flat-square" alt="Agent tooling">
 </p>
+
+I build tools I use myself: pipelines for documents and study material, output gates for AI agents, cross-platform desktop apps. I work on a Mac and a Windows machine every day, so cross-platform is a requirement, not a feature; I like modular, plugin-based systems, so anything that can be split off gets split off; and I care about the interface — MD3 Expressive is the direction I push toward.
+
+Most of these started the same way: something hurt, I told the author, and they either said no or had no time for it. So I did it myself.
+
+What actually holds my attention is the layer under the interface: archive formats, text decoding, thumbnail pipelines, shell handling, process watchdogs. A tool either works on your real files or it does not.
 
 ---
 

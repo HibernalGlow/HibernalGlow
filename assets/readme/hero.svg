@@ -1,106 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="heroTitle heroDesc">
-  <title id="heroTitle">HibernalGlow：本地优先的文档与 AI 工具</title>
-  <desc id="heroDesc">左侧是身份与一句话定位：把文档、笔记和 AI 输出做成能在本机运行且可校验的工具；右侧是三条可核验的事实：MineruCustom 的 7 个外部 Star、neoview 的 2828 次提交、skilloom 的 22 个技能与 10 个输出门禁；底部是一条处理链路：资料 → 带页码的 Markdown → 结构/语义门禁 → 可回查的交付。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">HibernalGlow：让真实文件变成能运行、能校验的工具</title>
+  <desc id="heroDesc">HibernalGlow 制作文档、笔记和 AI 工具。画面以文件经过处理后进入桌面应用的插画，表现从真实材料到本地运行、结果可校验的工具链。</desc>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1220"/>
-      <stop offset="0.55" stop-color="#111a2b"/>
-      <stop offset="1" stop-color="#0d1526"/>
-    </linearGradient>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#f59e0b"/>
-    </linearGradient>
-    <clipPath id="round">
-      <rect x="0" y="0" width="1200" height="420" rx="26"/>
-    </clipPath>
+    <clipPath id="canvas"><rect width="1200" height="360" rx="28"/></clipPath>
+    <filter id="paperShadow" x="-30%" y="-30%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="13" stdDeviation="12" flood-color="#0a0920" flood-opacity=".3"/>
+    </filter>
   </defs>
 
-  <g clip-path="url(#round)">
-    <rect width="1200" height="420" fill="url(#bg)"/>
-    <rect x="0" y="0" width="1200" height="3" fill="url(#rule)" opacity="0.9"/>
+  <g clip-path="url(#canvas)">
+    <rect width="1200" height="360" fill="#211d3e"/>
+    <path d="M616 360c48-85 116-138 191-148 75-10 118 52 190 48 69-4 126-74 203-106v206Z" fill="#393265"/>
+    <path d="M1020-33c73 6 130 49 135 108 5 53-37 80-86 75-40-5-62-37-102-36-38 1-72 26-107 4-39-24-40-78-7-114 35-38 99-42 167-37Z" fill="#5d50c8"/>
+    <path d="M687 46c34-26 83-18 105 13 18 26 9 52-17 65-27 14-51 6-71 16-23 11-44 24-64 5-25-24 10-77 47-99Z" fill="#ff796b"/>
 
-    <!-- 左侧：身份与定位 -->
-    <g id="identity" transform="translate(64 58)">
-      <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2.2" fill="#38bdf8">LOCAL-FIRST TOOLING   ·   DOCUMENTS &amp; AGENTS</text>
+    <!-- Name and message use a staggered scale, with the action word as the visual anchor. -->
+    <g id="identity" transform="translate(64 0)">
+      <path d="M0 38h23l12 12-12 12H0Z" fill="#c5f36b"/>
+      <text x="9" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="750" fill="#211d3e">H</text>
+      <text x="48" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="750" letter-spacing="-.7" fill="#fff8e9">HibernalGlow</text>
 
-      <text y="70" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="58" font-weight="700" fill="#f8fafc">HibernalGlow</text>
-
-      <text y="130" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="24" fill="#e2e8f0">把文档、笔记和 AI 输出，做成能在本机</text>
-      <text y="166" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="24" fill="#e2e8f0">真正跑起来、并且每一步都能校验的工具。</text>
-
-      <text y="206" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="18" fill="#94a3b8">Local-first tools for documents, agents, and the files they touch.</text>
-
-      <text y="252" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#64748b">2027 届 · 本科在读   /   BUILT IN THE OPEN</text>
+      <text y="142" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="43" font-weight="650" letter-spacing="-1.4" fill="#fff8e9">把真实文件</text>
+      <text y="231" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="80" font-weight="800" letter-spacing="-4" fill="#c5f36b">跑<tspan fill="#fff8e9">起来。</tspan></text>
+      <path d="M3 258c57 12 121 12 190-1" fill="none" stroke="#ff796b" stroke-width="7" stroke-linecap="round"/>
+      <text y="294" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="19" font-weight="550" fill="#d5d0ea">文档、笔记与 AI 输出，在本机落地并且可校验。</text>
+      <text y="326" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600" letter-spacing="1.4" fill="#9993bd">TOOLS FOR DOCUMENTS, AGENTS &amp; DESKTOP</text>
     </g>
 
-    <!-- 右侧：三条可核验的事实 -->
-    <g id="verified-facts" transform="translate(744 56)">
-      <rect width="392" height="272" rx="18" fill="#0f1726" stroke="#1e2b45" stroke-width="1.5"/>
-
-      <text x="32" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="1.6" fill="#64748b">VERIFIED, NOT CLAIMED</text>
-
-      <g transform="translate(308 8) rotate(-6)">
-        <rect width="40" height="40" rx="8" fill="#b4402f"/>
-        <text x="20" y="28" text-anchor="middle" font-family="'Songti SC', 'Noto Serif SC', serif" font-size="22" font-weight="700" fill="#f8fafc">验</text>
-      </g>
-
-      <line x1="32" y1="52" x2="360" y2="52" stroke="#1e2b45" stroke-width="1"/>
-
-      <g transform="translate(32 82)">
-        <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#475569">01</text>
-        <text x="24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="32" font-weight="700" fill="#f8fafc">7</text>
-        <text x="56" y="-2" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="20" fill="#e2e8f0">外部 Star · MineruCustom</text>
-        <text x="24" y="26" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="16" fill="#94a3b8">含 MinerU 维护者 myhloli 的一星</text>
-      </g>
-
-      <line x1="32" y1="126" x2="360" y2="126" stroke="#1e2b45" stroke-width="1" opacity="0.7"/>
-
-      <g transform="translate(32 148)">
-        <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#475569">02</text>
-        <text x="24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="32" font-weight="700" fill="#f8fafc">2,828</text>
-        <text x="136" y="-2" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="20" fill="#e2e8f0">次提交 · neoview</text>
-        <text x="24" y="26" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="16" fill="#94a3b8">Tauri 2 + Svelte 5 + Rust</text>
-      </g>
-
-      <line x1="32" y1="192" x2="360" y2="192" stroke="#1e2b45" stroke-width="1" opacity="0.7"/>
-
-      <g transform="translate(32 214)">
-        <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#475569">03</text>
-        <text x="24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="32" font-weight="700" fill="#f8fafc">22 / 10</text>
-        <text x="160" y="-2" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="20" fill="#e2e8f0">技能 / 门禁</text>
-        <text x="24" y="26" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="16" fill="#94a3b8">skilloom · 不合格的输出直接拒绝</text>
-      </g>
+    <!-- A sheet of source material flows into a working desktop tool. -->
+    <g id="file" transform="translate(696 57) rotate(-8 86 111)" filter="url(#paperShadow)">
+      <path d="M17 0h112l42 42v174H17c-9 0-16-7-16-16V16C1 7 8 0 17 0Z" fill="#fff8e9"/>
+      <path d="M129 0v28c0 8 6 14 14 14h28Z" fill="#e7dffb"/>
+      <path d="M143 42 129 28" fill="none" stroke="#c7bcdf" stroke-width="2"/>
+      <path d="M24 49h64" stroke="#5d50c8" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="27" cy="81" r="5" fill="#ff796b"/>
+      <path d="M43 81h91M25 102h104M25 122h76" stroke="#aaa3c1" stroke-width="4" stroke-linecap="round"/>
+      <path d="M25 150h36" stroke="#c5f36b" stroke-width="8" stroke-linecap="round"/>
+      <path d="M25 171h96" stroke="#aaa3c1" stroke-width="4" stroke-linecap="round"/>
+      <path d="m109 181 9 9 18-22" fill="none" stroke="#5d50c8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
 
-    <!-- 底部：横向机制带 -->
-    <g id="mechanism" transform="translate(64 352)">
-      <line x1="0" y1="0" x2="1072" y2="0" stroke="#1e2b45" stroke-width="1"/>
+    <path d="M862 186c38 12 53 41 73 47 14 4 28-1 39-13" fill="none" stroke="#c5f36b" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 1"/>
+    <path d="m963 213 15 7-13 12" fill="none" stroke="#c5f36b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 
-      <g transform="translate(0 26)">
-        <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#475569">01</text>
-        <text y="24" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="19" fill="#cbd5e1">PDF 与文档</text>
-      </g>
-      <text x="236" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#475569">→</text>
-
-      <g transform="translate(276 26)">
-        <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#475569">02</text>
-        <text y="24" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="19" fill="#cbd5e1">带页码的 Markdown</text>
-      </g>
-      <text x="512" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#475569">→</text>
-
-      <g transform="translate(540 26)">
-        <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#475569">03</text>
-        <text y="24" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="19" fill="#cbd5e1">结构 / 语义门禁</text>
-      </g>
-      <text x="730" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#475569">→</text>
-
-      <g transform="translate(792 26)">
-        <text font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#475569">04</text>
-        <text y="24" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', sans-serif" font-size="19" fill="#cbd5e1">可回查的交付</text>
-      </g>
+    <g id="desktop-tool" transform="translate(953 102) rotate(4 106 87)" filter="url(#paperShadow)">
+      <path d="M17 0h183c10 0 18 8 18 18v130c0 10-8 18-18 18H17c-10 0-18-8-18-18V18C-1 8 7 0 17 0Z" fill="#342e65" stroke="#aaa0e7" stroke-width="2"/>
+      <path d="M0 20c0-11 7-19 18-19h182c11 0 18 8 18 19v19H0Z" fill="#7164dc"/>
+      <circle cx="18" cy="19" r="4" fill="#ffb36d"/>
+      <circle cx="32" cy="19" r="4" fill="#c5f36b"/>
+      <circle cx="46" cy="19" r="4" fill="#fff8e9"/>
+      <path d="M23 60h71M23 78h49M23 96h81" stroke="#827bb0" stroke-width="6" stroke-linecap="round"/>
+      <path d="M23 120h52" stroke="#ff796b" stroke-width="6" stroke-linecap="round"/>
+      <path d="M164 87c-18 0-32 14-32 32s14 32 32 32 32-14 32-32-14-32-32-32Z" fill="#c5f36b"/>
+      <path d="m150 119 10 10 19-22" fill="none" stroke="#29234f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
+
+    <path d="m1124 57 7 15 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2Z" fill="#c5f36b"/>
+    <path d="m904 276 5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2Z" fill="#ff796b"/>
   </g>
 </svg>

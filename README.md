@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow：把文档、笔记和 AI 输出做成在本机运行且可校验的工具。右侧列出三条可核验的事实：MineruCustom 的 7 个外部 Star（含 MinerU 维护者的一星）、neoview 的 2828 次提交、skilloom 的 22 个技能与 10 个输出门禁。"
+  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow：把真实文件跑起来。文档、笔记与 AI 输出，在本机落地并且可校验。插画表现文件进入桌面工具的过程。"
 </p>
 
 <p align="center">
@@ -16,7 +16,9 @@
   <img src="https://img.shields.io/badge/agent-tooling-38BDF8?style=flat-square" alt="Agent tooling">
 </p>
 
-我做**本地优先的工具**：文档与学习资料的流水线、给 AI agent 用的输出门禁，以及跨平台桌面应用。
+我做一些自己用的工具：文档与学习资料的流水线、给 AI agent 用的输出门禁，还有跨平台桌面应用。同时用 Mac 和 Windows，所以跨平台是硬要求；喜欢模块化和插件化，能拆开的就不塞在一起；对 UI 有要求，喜欢 MD3 Expressive 那套。
+
+大多数项目的起点是同一个：有个痛点，我给作者提了意见，作者明确拒绝，或者他没时间解决。那就自己做。
 
 真正让我着迷的是界面之下那一层：归档格式、文本解码、缩略图管线、shell 处理、进程看护。工具要么能在你真实的文件上跑通，要么就是没跑通。
 
@@ -83,4 +85,3 @@ brew tap hibernalglow/tap
 - **中文正确性是要求。** 大多数”能跑通”的说法会在中文上崩掉，所以编码探测顺序要写清并给出理由：BOM → NUL 探测 → UTF-8 → GB18030（两道前置守卫之后）→ Latin-1 兜底。整词匹配对 CJK 不启用，因为 `\b` 在中文词两侧永远成不了。
 - **文档先讲限制，再讲功能。** 我最满意的几份说明写清了哪些*还没实现*、为什么，以及核心里已有但界面上还没有开关的行为。
 - **默认本地优先。** 文件留在磁盘上，索引留在本地数据库里，推理跑在本机上。
-
