@@ -73,7 +73,7 @@ What actually holds my attention is the layer under the interface: archive forma
 | [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · release builds | Batch JPEG XL / AVIF / WebP conversion. Fork of `xl-converter`, 11 releases: added the macOS Apple Silicon package upstream never built, removed the installer's dependency on the build machine's Homebrew |
 | [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | Desktop front end for duplicate / similar-image cleanup. Fork, 9 releases, my own Windows build, plus custom theme management and a Taskfile task set |
 | [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | On-demand deep hibernation from the menu bar (`pmset` + privileged helper). Upstream stopped at `v1.4.5`; I took it to 2.0.0 and shipped a dmg |
-| [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) | Python | Drives ComfyUI on a Windows host over SSH through my own ComfyUI-Workflow-Studio: `silvermoonmixAnima v23 INT8` base, style and character LoRAs stacked in order, 45 full-diffusion steps to 1024×1536, then SeedVR2 3B fp8 tile upscaling to 2048×3072. The GPU is an 8 GB laptop part.<br><img src="./assets/showcase/si-moonlit-garden.jpg" width="150" alt="Moonlit garden: sampled at 1024×1536, then upscaled by SeedVR2 to 2048×3072."> <img src="./assets/showcase/si-greenhouse.jpg" width="150" alt="Greenhouse: same LoRA stack and sampling settings, different scene."> |
+| [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) | Python | Drives ComfyUI on a Windows host over SSH through my own ComfyUI-Workflow-Studio: `silvermoonmixAnima v23 INT8` base, style and character LoRAs stacked in order, 45 full-diffusion steps to 1024×1536, then SeedVR2 3B fp8 tile upscaling to 2048×3072. The GPU is an 8 GB laptop part.<br><a href="./assets/showcase/si-moonlit-garden.jpg"><img src="./assets/showcase/si-moonlit-garden.jpg" width="100" height="150" alt="Moonlit garden: sampled at 1024×1536, then upscaled by SeedVR2 to 2048×3072."></a> <a href="./assets/showcase/si-greenhouse.jpg"><img src="./assets/showcase/si-greenhouse.jpg" width="100" height="150" alt="Greenhouse: same LoRA stack and sampling settings, different scene."></a> |
 
 <img src="./assets/readme/section-domain.en.svg" width="100%" alt="By domain · 领域索引">
 
@@ -100,20 +100,13 @@ What follows is a mix of forks and original work; where a repository is a fork, 
 **OS integration**
 [hibernal](https://github.com/HibernalGlow/hibernal) (on-demand deep hibernation via `pmset`, with a privileged helper) · [Shiin](https://github.com/HibernalGlow/Shiin) (gamepad-combo screenshots and OBS instant replay, Windows / macOS) · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie) (mouse-wheel gesture layer) · [SmartZ](https://github.com/HibernalGlow/SmartZ)
 
-**Distribution**
-[homebrew-tap](https://github.com/HibernalGlow/homebrew-tap) — 24 casks for niche macOS GUI apps that are not in `homebrew/cask`:
-
-```bash
-brew tap hibernalglow/tap
-```
-
-[Extras-Glow](https://github.com/HibernalGlow/Extras-Glow) is the same idea for Scoop on Windows.
-
+<!--
 <img src="./assets/readme/section-law.en.svg" width="100%" alt="Law × AI · 法律 × AI">
 
-Law undergraduate (class of 2027), with an internship at a law firm. Real legal work looks like this: parties send photos and chat screenshots as evidence, and a document revision means emailing yet another version of the file. A case search without a case number gets treated as AI-generated on sight.
+I study law, and my internship at a law firm left me with some very concrete pain points. Evidence arrives as phone photos of paper and WeChat chat screenshots. Revising a document means saving yet another copy each time anything changes, and the files go back and forth. A search for statutes or case law that cannot produce a real case number is read as AI-made at first glance.
 
-Those two facts set the trade-offs in my document tooling: first turn material into structured Markdown that carries page marks, so every conclusion can be traced back to the exact page; then put AI output through gates, so anything failing structure or semantics never lands. The model drafts and organises; provenance and conclusions still need a human back at the original source. I built one site around exactly that chain, with the animations sitting next to the notes ([InkLoom](https://github.com/HibernalGlow/InkLoom), retired).
+Those experiences decided how I build document tooling. Loose material first becomes Markdown carrying page anchors, so every conclusion can be followed back along the page number to the original. Then a validation script screens the AI output, and anything with a broken format or a missing source is stopped there. The model only drafts and tidies; the case numbers, sources and conclusions still go through a person.
+-->
 
 <img src="./assets/readme/section-method.en.svg" width="100%" alt="How I work · 我怎么做事">
 

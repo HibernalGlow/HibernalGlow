@@ -71,7 +71,7 @@
 | [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · 打包发行 | JPEG XL / AVIF / WebP 批量转换工具。基于 `xl-converter` 二次开发，已发 11 个版本：补齐了上游缺失的 macOS Apple Silicon 原生包，并解除了安装包对打包机 Homebrew 环境的依赖 |
 | [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | 重复与相似图片清理工具的桌面前端。基于上游二次开发，已发 9 个版本，提供独立打包的 Windows 版本，并加入自定义主题与 Taskfile 任务集 |
 | [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | macOS 菜单栏按需深度休眠工具（基于 `pmset` + 特权 helper）。上游停留在 `v1.4.5`，我接手更到 2.0.0 并打包了可直接安装的 DMG |
-| [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) | Python | 用自建的 ComfyUI-Workflow-Studio 经 SSH 远程调度运行在 Windows 主机上的 ComfyUI：`silvermoonmixAnima v23 INT8` 底模，画风与角色 LoRA 按顺序入栈，45 步全扩散采样出 1024×1536，再用 SeedVR2 3B fp8 分块超分到 2048×3072。本机只是 8 GB 显存的笔记本 GPU。<br><img src="./assets/showcase/si-moonlit-garden.jpg" width="150" alt="月下庭院：1024×1536 采样后经 SeedVR2 放大到 2048×3072。"> <img src="./assets/showcase/si-greenhouse.jpg" width="150" alt="温室蝶影：同一套 LoRA 栈与采样参数，只换场景。"> |
+| [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) | Python | 用自建的 ComfyUI-Workflow-Studio 经 SSH 远程调度运行在 Windows 主机上的 ComfyUI：`silvermoonmixAnima v23 INT8` 底模，画风与角色 LoRA 按顺序入栈，45 步全扩散采样出 1024×1536，再用 SeedVR2 3B fp8 分块超分到 2048×3072。<br><a href="./assets/showcase/si-moonlit-garden.jpg"><img src="./assets/showcase/si-moonlit-garden.jpg" width="100" height="150" alt="月下庭院：1024×1536 采样后经 SeedVR2 放大到 2048×3072。"></a> <a href="./assets/showcase/si-greenhouse.jpg"><img src="./assets/showcase/si-greenhouse.jpg" width="100" height="150" alt="温室蝶影：同一套 LoRA 栈与采样参数，只换场景。"></a> |
 
 <img src="./assets/readme/section-domain.svg" width="100%" alt="领域索引 · By domain">
 
@@ -98,13 +98,15 @@
 **系统集成**
 [hibernal](https://github.com/HibernalGlow/hibernal)（`pmset` 深度休眠，带特权 helper） · [Shiin](https://github.com/HibernalGlow/Shiin)（手柄组合键截图与 OBS 即时回放，Windows / macOS） · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie)（滚轮手势层） · [SmartZ](https://github.com/HibernalGlow/SmartZ)
 
+<!--
 <img src="./assets/readme/section-law.svg" width="100%" alt="法律 × AI · Law × AI">
 
 我是法学生，在律所实习时遇到过不少非常具体的痛点：当事人交上来的材料大多是手机拍的照片和微信聊天截图；改一份文书往往靠“改一处、另存一个新文件”来回传；而法条和案例检索如果拿不出真实案号，一眼就会被认出是 AI 编造的。
 
 这些经历直接决定了我写文档工具的思路：先把零散资料转成带页码锚点的 Markdown，保证每条结论都能顺着页码翻回原件；再用校验脚本自动筛一遍 AI 的输出，格式不对或缺失出处的直接拦下来。AI 只管打草稿和做整理，最终的案号、出处和结论仍然交给人工核对。
+-->
 
-<img src="./assets/readme/section-method.svg" width="100%" alt="我怎么做事 · How I work">
+<img src="./assets/readme/section-method.svg" width="100%" alt="我怎么做项目 · How I work">
 
 - **原创与维护 Fork 并重。** 像 `siyuan-damophus`、`Extras-Glow`、`rossi`、`Xlchemy`、`czkawka-tauri`、`hibernal`、`ComfyUI-Workflow-Studio`、`ArcThumbX` 这些基于上游修改的项目，我会持续跟进上游更新，而不是停留在某个历史快照。同步上游修复时，除了合并代码，我也会理清改动背后的前提条件，避免合完代码把两边原本正常的功能搞坏。而 `MineruCustom`、`skilloom`、`neoview`、`grzeb`、`Xaihi` 等原创项目则从零搭建，由我自己定义接口设计与验收标准。
 - **先保证结果可核验，再谈自动化。** AI 生成工具必须先配好自动校验，能检查格式是否合规、内容是否有据可查；如果做不到这一点，自动化只是在更快地批量制造错误。
