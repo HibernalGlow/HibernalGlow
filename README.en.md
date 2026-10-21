@@ -31,12 +31,20 @@
 | [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | A reader that ships no content: each source is one JS file declaring how to list, search and resolve images, run in a QuickJS sandbox on the Rust side |
 | [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | CBZ / CBR / EPUB / FB2 / AZW3 cover thumbnails rendered inside Windows Explorer and macOS Finder |
 
+**Release lines where the installer is mine.** These track someone else's upstream, but the version numbers, builds and installers are on my side:
+
+| Project | My side of it | Releases |
+| --- | --- | --- |
+| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Added the macOS Apple Silicon package upstream never built, removed the installer's dependency on the build machine's Homebrew, and compiled `cjpegli` to cover the JPEG encoder macOS ships without | 11, covering macOS / Windows / Linux |
+| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | My own Windows build, plus custom theme and settings management and a Taskfile task set | 9, `.exe` |
+| [hibernal](https://github.com/HibernalGlow/hibernal) | Upstream stopped at `v1.4.5` (all 7 commits); I took it to 2.0.0 — new icon and bow-tie mark, README rebuilt around the app's own evidence | 1, `.dmg` |
+
 <img src="./assets/readme/section-domain.svg" width="100%" alt="By domain · 领域索引">
 
 What follows is a mix of forks and original work; where a repository is a fork, upstream license and authorship stay in its README, and each repo's description states what my side changed.
 
 **Documents and study material**
-[MineruCustom](https://github.com/HibernalGlow/MineruCustom) · [MarkdownWrapper](https://github.com/HibernalGlow/MarkdownWrapper) · [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus)
+[MineruCustom](https://github.com/HibernalGlow/MineruCustom) · [MarkdownWrapper](https://github.com/HibernalGlow/MarkdownWrapper) · [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) · [InkLoom](https://github.com/HibernalGlow/InkLoom) (legal-notes site with Remotion explainers embedded in the page; retired)
 
 **Agent and ComfyUI workflows**
 [skilloom](https://github.com/HibernalGlow/skilloom) · [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) · [ComfyUI-GlowLoader](https://github.com/HibernalGlow/ComfyUI-GlowLoader) · [lazypi](https://github.com/HibernalGlow/lazypi) · [omp-decktop](https://github.com/HibernalGlow/omp-decktop) · [auto-continue](https://github.com/HibernalGlow/auto-continue)
@@ -69,11 +77,11 @@ brew tap hibernalglow/tap
 
 Law undergraduate (class of 2027), with an internship at a law firm. Real legal work looks like this: parties send photos and chat screenshots as evidence, and a document revision means emailing yet another version of the file. A case search without a case number gets treated as AI-generated on sight.
 
-Those two facts set the trade-offs in my document tooling: first turn material into structured Markdown that carries page marks, so every conclusion can be traced back to the exact page; then put AI output through gates, so anything failing structure or semantics never lands. The model drafts and organises; provenance and conclusions still need a human back at the original source.
+Those two facts set the trade-offs in my document tooling: first turn material into structured Markdown that carries page marks, so every conclusion can be traced back to the exact page; then put AI output through gates, so anything failing structure or semantics never lands. The model drafts and organises; provenance and conclusions still need a human back at the original source. I built one site around exactly that chain, with the animations sitting next to the notes ([InkLoom](https://github.com/HibernalGlow/InkLoom), retired).
 
 <img src="./assets/readme/section-method.svg" width="100%" alt="How I work · 我怎么做事">
 
-- **Both forks and original work.** The fork side keeps tracking upstream: siyuan-damophus, Extras-Glow, rossi, Xlchemy, ComfyUI-Workflow-Studio and ArcThumbX are maintained against upstream rather than left at a snapshot; when I port a fix I take the upstream's *conditions*, not only its code, so a merge never silently drops either side. The original side — MineruCustom, skilloom, neoview, grzeb, Xaihi — started from an empty repository, with interfaces and acceptance criteria defined from scratch.
+- **Both forks and original work.** The fork side keeps tracking upstream: siyuan-damophus, Extras-Glow, rossi, Xlchemy, czkawka-tauri, hibernal, ComfyUI-Workflow-Studio and ArcThumbX are maintained against upstream rather than left at a snapshot; when I port a fix I take the upstream's *conditions*, not only its code, so a merge never silently drops either side. The original side — MineruCustom, skilloom, neoview, grzeb, Xaihi — started from an empty repository, with interfaces and acceptance criteria defined from scratch.
 - **Gates before promises.** A generative tool has to be able to judge whether its output is right: structure, semantics, traceability. Otherwise it just moves errors faster.
 - **CJK correctness.** Chinese text is where most "it works" claims fall apart, so the detection order gets specified: BOM → NUL probe → UTF-8 → GB18030 behind two guards → Latin-1 last. Whole-word matching does not apply to CJK because `\b` never forms around Chinese words.
 - **Documents state limits before features.** The write-ups I'm happiest with say what is *not* implemented, why, and which behaviour exists in the core but still has no UI switch.

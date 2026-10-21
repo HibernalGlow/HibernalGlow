@@ -33,12 +33,20 @@
 | [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | 不带内容的阅读器：每个图源是一个 JS 文件，声明怎么列表、搜索、取图，Rust 侧 QuickJS 沙箱执行 |
 | [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | 在 Windows 资源管理器 / macOS Finder 里直接渲染 CBZ / CBR / EPUB / FB2 / AZW3 封面 |
 
+**自己出安装包的版本线。** 下面几个跟的是别人的上游，但版本号、构建和安装包在我这一侧：
+
+| 项目 | 我这一侧 | 发版 |
+| --- | --- | --- |
+| [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | 补上了上游没有的 macOS Apple Silicon 包，修掉安装包对打包机 Homebrew 的依赖，现编 `cjpegli` 补齐 macOS 默认缺的 JPEG 编码器 | 11 次，产物覆盖 macOS / Windows / Linux |
+| [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | 自出 Windows 构建，加自定义主题与设置管理、Taskfile 任务集 | 9 次，`.exe` |
+| [hibernal](https://github.com/HibernalGlow/hibernal) | 上游停在 `v1.4.5`（全部 7 次提交），我在其上做到 2.0.0：图标与徽记重做、README 按应用自身的证据重写 | 1 次，`.dmg` |
+
 <img src="./assets/readme/section-domain.svg" width="100%" alt="领域索引 · By domain">
 
 下面既有 fork，也有原创；是 fork 的仓库，上游的许可证与作者归属保留在各自 README 里，每个仓库的描述会写清我这一侧改了什么。
 
 **文档与学习资料**
-[MineruCustom](https://github.com/HibernalGlow/MineruCustom) · [MarkdownWrapper](https://github.com/HibernalGlow/MarkdownWrapper) · [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus)
+[MineruCustom](https://github.com/HibernalGlow/MineruCustom) · [MarkdownWrapper](https://github.com/HibernalGlow/MarkdownWrapper) · [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) · [InkLoom](https://github.com/HibernalGlow/InkLoom)（法律笔记站，页内嵌 Remotion 动画讲解；已停更）
 
 **Agent 与 ComfyUI 工作流**
 [skilloom](https://github.com/HibernalGlow/skilloom) · [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) · [ComfyUI-GlowLoader](https://github.com/HibernalGlow/ComfyUI-GlowLoader) · [lazypi](https://github.com/HibernalGlow/lazypi) · [omp-decktop](https://github.com/HibernalGlow/omp-decktop) · [auto-continue](https://github.com/HibernalGlow/auto-continue)
@@ -71,11 +79,11 @@ brew tap hibernalglow/tap
 
 法学本科（2027 届），在律所实习过。真实的法律工作是：当事人材料是拍照和聊天截图，文书靠“改一处发一个新版本”；没有案号的检索结果，会被直接当成 AI 生成的。
 
-这两件事决定了我在文档工具上的取舍：先把资料变成带页码标记的结构化 Markdown，让每一条结论都能翻回原页；再让 AI 的产出过门禁，结构或语义不合格就不放行。模型负责初稿与整理，出处和结论仍要人回到原始来源确认。
+这两件事决定了我在文档工具上的取舍：先把资料变成带页码标记的结构化 Markdown，让每一条结论都能翻回原页；再让 AI 的产出过门禁，结构或语义不合格就不放行。模型负责初稿与整理，出处和结论仍要人回到原始来源确认。这套链路我做成过一个站点，笔记旁边直接嵌动画讲解（[InkLoom](https://github.com/HibernalGlow/InkLoom)，已停更）。
 
 <img src="./assets/readme/section-method.svg" width="100%" alt="我怎么做事 · How I work">
 
-- **既有 fork，也有原创。** fork 的那一半继续跟上游走：siyuan-damophus、Extras-Glow、rossi、Xlchemy、ComfyUI-Workflow-Studio、ArcThumbX 都对着上游维护，不停在某个快照；移植修复时我带走上游的*成立条件*，不只是它的代码——一次合并不应该悄悄丢掉任何一侧。原创的那一半（MineruCustom、skilloom、neoview、grzeb、Xaihi）从空仓库开始，接口和验收方式自己定。
+- **既有 fork，也有原创。** fork 的那一半继续跟上游走：siyuan-damophus、Extras-Glow、rossi、Xlchemy、czkawka-tauri、hibernal、ComfyUI-Workflow-Studio、ArcThumbX 都对着上游维护，不停在某个快照；移植修复时我带走上游的*成立条件*，不只是它的代码——一次合并不应该悄悄丢掉任何一侧。原创的那一半（MineruCustom、skilloom、neoview、grzeb、Xaihi）从空仓库开始，接口和验收方式自己定。
 - **先有门禁，再谈能力。** 生成类工具必须能判断输出对不对：结构、语义、可追溯。否则只是把错误搬得更快。
 - **中文正确性是要求。** 大多数”能跑通”的说法会在中文上崩掉，所以编码探测顺序要写清并给出理由：BOM → NUL 探测 → UTF-8 → GB18030（两道前置守卫之后）→ Latin-1 兜底。整词匹配对 CJK 不启用，因为 `\b` 在中文词两侧永远成不了。
 - **文档先讲限制，再讲功能。** 我最满意的几份说明写清了哪些*还没实现*、为什么，以及核心里已有但界面上还没有开关的行为。
