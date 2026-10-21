@@ -50,7 +50,7 @@
 [Xlchemy](https://github.com/HibernalGlow/Xlchemy)（JPEG XL / AVIF / WebP 批量转换） · [Trimg](https://github.com/HibernalGlow/Trimg) · [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri)（去重） · [FolioX](https://github.com/HibernalGlow/FolioX)（本地批量 OCR） · [manga-translator-ui](https://github.com/HibernalGlow/manga-translator-ui)
 
 **系统集成**
-[hibernal](https://github.com/HibernalGlow/hibernal)（`pmset` 深度休眠，带特权 helper） · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie)（滚轮手势层） · [SmartZ](https://github.com/HibernalGlow/SmartZ)
+[hibernal](https://github.com/HibernalGlow/hibernal)（`pmset` 深度休眠，带特权 helper） · [Shiin](https://github.com/HibernalGlow/Shiin)（手柄组合键截图与 OBS 即时回放，Windows / macOS） · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie)（滚轮手势层） · [SmartZ](https://github.com/HibernalGlow/SmartZ)
 
 **分发**
 [homebrew-tap](https://github.com/HibernalGlow/homebrew-tap) — 24 个 cask，收纳官方仓库没收录的小众 macOS GUI 应用：
