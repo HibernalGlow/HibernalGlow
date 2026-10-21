@@ -23,7 +23,7 @@ What keeps pulling me in is the layer underneath the UI: archive formats, text d
 Most of these are working forks: upstream license and authorship stay in each README, and each repo's description states what my side changed.
 
 **Readers, archives, and the formats under them**
-[exhentai-manga-manager](https://github.com/HibernalGlow/exhentai-manga-manager) (local tag management for downloaded ExHentai works) · [rossi](https://github.com/HibernalGlow/rossi) · [JHenTai](https://github.com/HibernalGlow/JHenTai) · [quivi-t](https://github.com/HibernalGlow/quivi-t) · [neoxide](https://github.com/HibernalGlow/neoxide) · [opencomic-ai-bin](https://github.com/HibernalGlow/opencomic-ai-bin)
+[rossi](https://github.com/HibernalGlow/rossi) · [quivi-t](https://github.com/HibernalGlow/quivi-t) · [neoxide](https://github.com/HibernalGlow/neoxide) · [opencomic-ai-bin](https://github.com/HibernalGlow/opencomic-ai-bin)
 
 **Image and document pipelines**
 [Xlchemy](https://github.com/HibernalGlow/Xlchemy) (JPEG XL / AVIF / WebP batch conversion) · [Trimg](https://github.com/HibernalGlow/Trimg) · [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) (dedup) · [FolioX](https://github.com/HibernalGlow/FolioX) (local batch OCR) · [manga-translator-ui](https://github.com/HibernalGlow/manga-translator-ui)
