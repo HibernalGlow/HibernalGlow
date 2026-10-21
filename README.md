@@ -1,58 +1,80 @@
-我做**本地优先的桌面工具**：跨平台阅读器、系统集成组件，以及给 AI agent 与 ComfyUI 用的工作流工具。
-I build **local-first desktop tools** — cross-platform readers, OS-integration components, and workflow tooling for AI agents and ComfyUI.
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="HibernalGlow：把文档、笔记和 AI 输出做成在本机运行且可校验的工具。右侧列出三条可核验的事实：MineruCustom 的 7 个外部 Star（含 MinerU 维护者的一星）、neoview 的 2828 次提交、skilloom 的 22 个技能与 10 个输出门禁；底部是一条处理链路：资料、带页码的 Markdown、门禁、可回查的交付。"
+</p>
 
-What keeps pulling me in is the layer underneath the UI: archive formats, text decoding, thumbnail pipelines, shell handlers, process supervision. The parts where a tool either works on your actual files or it doesn't.
+<p align="center">
+  <b>中文</b> · <a href="README.en.md">English</a>
+</p>
 
-## Currently
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/Tauri_2-24C8D8?style=flat-square&logo=tauri&logoColor=white" alt="Tauri">
+  <img src="https://img.shields.io/badge/local--first-by_default-0B1220?style=flat-square" alt="Local-first by default">
+  <img src="https://img.shields.io/badge/agent-tooling-38BDF8?style=flat-square" alt="Agent tooling">
+</p>
 
-**[grzeb](https://github.com/HibernalGlow/grzeb)** — directory-wide plain-text search that returns a *drill-downable result tree* instead of a flat hit list, with decoded text cached in a local SQLDelight database so a second search over the same files never re-reads disk. One Compose Multiplatform codebase targeting desktop (JVM), Android (SAF), and wasm. Its README spells out what does **not** work yet — which is the fastest way to see how I approach a problem.
+我做**本地优先的工具**：文档与学习资料的流水线、给 AI agent 用的输出门禁，以及跨平台桌面应用。
 
-## Representative work
+真正让我着迷的是界面之下那一层：归档格式、文本解码、缩略图管线、shell 处理、进程看护。工具要么能在你真实的文件上跑通，要么就是没跑通。
 
-| Project | Stack | What it is |
+<img src="./assets/readme/section-work.svg" width="100%" alt="代表作品 · Selected work">
+
+| 项目 | 技术栈 | 是什么 |
 | --- | --- | --- |
-| [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | Tree-shaped full-text search over a whole directory, desktop + Android |
-| [Xiranite](https://github.com/HibernalGlow/Xiranite) | React 19 · TypeScript · Wails v3 (Go) · Bun | Desktop workspace host: one capability "node" rendered across six layouts (dashboard, cards, dockview, flow canvas, lanes, bento grid) behind a single contract |
-| [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | Local image / manga viewer built around a Rust + SQLite thumbnail and directory cache; the target is NeeView's reading feel on a modern stack |
-| [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | Manga reader that ships **no content**: each source is one JS file declaring how to list, search, and resolve images |
-| [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | SiYuan (思源笔记) plugin: Markdown question banks through scan → index → practice → recover, plus a virtual relation bar between questions and knowledge points |
-| [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | CBZ / CBR / EPUB / FB2 / AZW3 cover thumbnails rendered *inside* Windows Explorer and macOS Finder |
+| [MineruCustom](https://github.com/HibernalGlow/MineruCustom) | Python · MinerU | PDF → Markdown 后处理。7 个外部 Star，其中一星来自 MinerU 维护者 [myhloli](https://github.com/myhloli) |
+| [skilloom](https://github.com/HibernalGlow/skilloom) | Python | 22 个 agent 技能 + 10 个门禁与校验脚本，拒绝格式不合规的产物 |
+| [neoview](https://github.com/HibernalGlow/neoview) | Tauri 2 · Svelte 5 · Rust · PyO3 | 本地优先的图像 / 漫画阅读器，Rust + SQLite 缩略图与目录缓存；2,828 次提交 |
+| [grzeb](https://github.com/HibernalGlow/grzeb) | Kotlin · Compose Multiplatform · SQLDelight | 目录级全文检索，结果树可下钻而不是平铺；README 写明哪些还没做 |
+| [Xiranite](https://github.com/HibernalGlow/Xiranite) | React 19 · TypeScript · Wails v3 (Go) · Bun | 桌面工作区宿主：一个能力“节点”横跨六种布局，共用一个契约 |
+| [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus) | TypeScript · Svelte | 思源题库插件：扫描 → 索引 → 练习 → 恢复；本地分支 710 次提交，超过上游的 512 次 |
+| [rossi](https://github.com/HibernalGlow/rossi) | Flutter · Rust · JS plugin ABI | 不带内容的阅读器：每个图源是一个 JS 文件，声明怎么列表、搜索、取图，Rust 侧 QuickJS 沙箱执行 |
+| [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) | Rust · Slint | 在 Windows 资源管理器 / macOS Finder 里直接渲染 CBZ / CBR / EPUB / FB2 / AZW3 封面 |
 
-## By domain
+<img src="./assets/readme/section-domain.svg" width="100%" alt="领域索引 · By domain">
 
-Most of these are working forks: upstream license and authorship stay in each README, and each repo's description states what my side changed.
+下面多数是在维护中的 fork：上游的许可证与作者归属保留在各自仓库的 README 里，每个仓库的描述会写清我这一侧改了什么。
 
-**Readers, archives, and the formats under them**
-[rossi](https://github.com/HibernalGlow/rossi) · [quivi-t](https://github.com/HibernalGlow/quivi-t) · [neoxide](https://github.com/HibernalGlow/neoxide) · [opencomic-ai-bin](https://github.com/HibernalGlow/opencomic-ai-bin)
+**文档与学习资料**
+[MineruCustom](https://github.com/HibernalGlow/MineruCustom) · [MarkdownWrapper](https://github.com/HibernalGlow/MarkdownWrapper) · [siyuan-damophus](https://github.com/HibernalGlow/siyuan-damophus)
 
-**Image and document pipelines**
-[Xlchemy](https://github.com/HibernalGlow/Xlchemy) (JPEG XL / AVIF / WebP batch conversion) · [Trimg](https://github.com/HibernalGlow/Trimg) · [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) (dedup) · [FolioX](https://github.com/HibernalGlow/FolioX) (local batch OCR) · [manga-translator-ui](https://github.com/HibernalGlow/manga-translator-ui)
+**Agent 与 ComfyUI 工作流**
+[skilloom](https://github.com/HibernalGlow/skilloom) · [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) · [ComfyUI-GlowLoader](https://github.com/HibernalGlow/ComfyUI-GlowLoader) · [lazypi](https://github.com/HibernalGlow/lazypi) · [omp-decktop](https://github.com/HibernalGlow/omp-decktop) · [auto-continue](https://github.com/HibernalGlow/auto-continue)
 
-**PDF → Markdown, for study material**
-[MineruCustom](https://github.com/HibernalGlow/MineruCustom) (MinerU post-processing: `discarded_blocks` recovery, footnotes, page marks) · [MarkdownWrapper](https://github.com/HibernalGlow/MarkdownWrapper) (`marku`: heading-structure repair and normalization)
+**阅读器、归档格式与它们底下的东西**
+[rossi](https://github.com/HibernalGlow/rossi) · [neoview](https://github.com/HibernalGlow/neoview) · [quivi-t](https://github.com/HibernalGlow/quivi-t) · [neoxide](https://github.com/HibernalGlow/neoxide) · [opencomic-ai-bin](https://github.com/HibernalGlow/opencomic-ai-bin)
 
-**Agent and ComfyUI workflow tooling**
-[ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) (workflow / asset management plus a generation tab) · [ComfyUI-GlowLoader](https://github.com/HibernalGlow/ComfyUI-GlowLoader) · [skilloom](https://github.com/HibernalGlow/skilloom) (agent skills, plus the gate scripts that reject malformed skill output) · [lazypi](https://github.com/HibernalGlow/lazypi) (extensions for the *pi* coding agent) · [omp-decktop](https://github.com/HibernalGlow/omp-decktop) · [auto-continue](https://github.com/HibernalGlow/auto-continue)
+**图像与文档管线**
+[Xlchemy](https://github.com/HibernalGlow/Xlchemy)（JPEG XL / AVIF / WebP 批量转换） · [Trimg](https://github.com/HibernalGlow/Trimg) · [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri)（去重） · [FolioX](https://github.com/HibernalGlow/FolioX)（本地批量 OCR） · [manga-translator-ui](https://github.com/HibernalGlow/manga-translator-ui)
 
-**OS integration**
-[hibernal](https://github.com/HibernalGlow/hibernal) (on-demand deep hibernation via `pmset`, with a privileged helper) · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie) (mouse-wheel gesture layer) · [SmartZ](https://github.com/HibernalGlow/SmartZ)
+**系统集成**
+[hibernal](https://github.com/HibernalGlow/hibernal)（`pmset` 深度休眠，带特权 helper） · [ArcThumbX](https://github.com/HibernalGlow/ArcThumbX) · [AppuruPie](https://github.com/HibernalGlow/AppuruPie)（滚轮手势层） · [SmartZ](https://github.com/HibernalGlow/SmartZ)
 
-**Distribution**
-[homebrew-tap](https://github.com/HibernalGlow/homebrew-tap) — 24 casks for niche macOS GUI apps that aren't in `homebrew/cask`:
+**分发**
+[homebrew-tap](https://github.com/HibernalGlow/homebrew-tap) — 24 个 cask，收纳官方仓库没收录的小众 macOS GUI 应用：
 
 ```bash
 brew tap hibernalglow/tap
 ```
 
-[Extras-Glow](https://github.com/HibernalGlow/Extras-Glow) is the same idea for Scoop on Windows.
+[Extras-Glow](https://github.com/HibernalGlow/Extras-Glow) 是同一件事在 Windows / Scoop 上的版本。
 
-## How I work
+<img src="./assets/readme/section-law.svg" width="100%" alt="法律 × AI · Law × AI">
 
-- **Fork and extend, don't rewrite.** Much of my real output sits on forks, tracked against upstream rather than abandoned at a snapshot: siyuan-damophus, Extras-Glow, rossi, Xlchemy, ComfyUI-Workflow-Studio, ArcThumbX. When I port a fix I take the upstream's *conditions*, not only its code — a merge must not silently drop either side.
-- **CJK correctness is a requirement, not a nice-to-have.** Chinese text is where most "it works" claims fall apart, so the detection order gets specified and argued: BOM → NUL probe → UTF-8 → GB18030 behind two guards → Latin-1 last. Whole-word matching deliberately does not apply to CJK, because `\b` can never form on either side of a Chinese word.
-- **Documents state limits before features.** The write-ups I'm happiest with say what is *not* implemented, why, and which behaviour exists in the core but still has no UI switch.
-- **Local-first by default.** Files stay on disk, indexes stay in a local database, inference runs on the machine.
+法学本科（2027 届），在律所实习过。真实的法律工作是：当事人材料是拍照和聊天截图，文书靠“改一处发一个新版本”；没有案号的检索结果，会被直接当成 AI 生成的。
+
+这两件事决定了我在文档工具上的取舍：先把资料变成带页码标记的结构化 Markdown，让每一条结论都能翻回原页；再让 AI 的产出过门禁，结构或语义不合格就不放行。模型负责初稿与整理，出处和结论仍要人回到原始来源确认。
+
+<img src="./assets/readme/section-method.svg" width="100%" alt="我怎么做事 · How I work">
+
+- **fork 后继续跟上游，不另起炉灶。** 我真正的产出大多长在 fork 上，而不是停在某个快照：siyuan-damophus、Extras-Glow、rossi、Xlchemy、ComfyUI-Workflow-Studio、ArcThumbX。移植修复时我带走上游的*成立条件*，不只是它的代码——一次合并不应该悄悄丢掉任何一侧。
+- **先有门禁，再谈能力。** 生成类工具必须能判断输出对不对：结构、语义、可追溯。否则只是把错误搬得更快。
+- **中文正确性是要求，不是加分项。** 大多数“能跑通”的说法会在中文上崩掉，所以编码探测顺序要写清并给出理由：BOM → NUL 探测 → UTF-8 → 两道前置守卫后的 GB18030 → 最后才是 Latin-1。整词匹配对 CJK 故意不启用，因为 `\b` 在中文词两侧永远成不了。
+- **文档先讲限制，再讲功能。** 我最满意的几份说明写清了哪些*还没实现*、为什么，以及核心里已有但界面上还没有开关的行为。
+- **默认本地优先。** 文件留在磁盘上，索引留在本地数据库里，推理跑在本机上。
 
 ---
 
-No contribution graphs or trophy cards here — stars mostly count zero and some projects are weeks old. That's a fact about reach, and the READMEs above are the honest substitute.
+这里不放贡献热力图，也不放奖杯卡。这些仓库大多只有个位数 Star，有些才几周大——那是关于传播度的事实，上面这些 README 才是诚实的替代品。
