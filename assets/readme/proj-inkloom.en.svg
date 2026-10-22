@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="448" viewBox="0 0 580 448" role="img" aria-labelledby="title desc" lang="en" font-family="'Google Sans Flex','Roboto Flex',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<title id="title">InkLoom — Weaving legal knowledge into playable animations</title>
+<desc id="desc">Knowledge animation library for judicial exams: 396 animations, 1,682 scenes across 12 legal subjects. Depicts loom warp and weft, shuttle, and scene cards with deep interactive links on Netlify.</desc>
+<defs><clipPath id="frame"><rect x="0" y="0" width="580" height="448" rx="40" fill="#fff"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect x="0" y="0" width="580" height="448" rx="40" fill="#f5eedf"/>
+<text x="32" y="49" font-size="18" font-weight="700" fill="#b23a2e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">LEGAL KNOWLEDGE ANIMATIONS</text>
+<text x="30" y="104" font-size="48" font-weight="800" fill="#29231b" data-maxw="516">InkLoom</text>
+<text x="32" y="145" font-size="24" font-weight="600" fill="#3d352b" data-maxw="516">Weaving legal principles into playable scenes.</text>
+
+<!-- Studio showcase box -->
+<rect x="30" y="170" width="520" height="186" rx="30" fill="#fffdf8" stroke="#dfd4c0" stroke-width="1.5"/>
+
+<!-- Loom warp and weft background -->
+<g stroke="#eee3ce" stroke-width="1">
+  <path d="M50 200h480M50 230h480M50 260h480M50 290h480M50 320h480"/>
+  <path d="M90 180v166M160 180v166M230 180v166M300 180v166M370 180v166M440 180v166M510 180v166"/>
+</g>
+
+<!-- Shuttle line -->
+<path d="M50 248h480" stroke="#b23a2e" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6"/>
+<path d="M260 248l16-8 16 8-16 8z" fill="#b23a2e"/>
+<circle cx="276" cy="248" r="2.5" fill="#fffdf8"/>
+
+<!-- Scene Cards -->
+<!-- Card 1 -->
+<g transform="translate(56 195)">
+  <rect x="0" y="0" width="138" height="106" rx="14" fill="#ffffff" stroke="#d5c8b2" stroke-width="1.5"/>
+  <rect x="0" y="0" width="138" height="5" rx="2" fill="#2f5d57"/>
+  <text x="12" y="24" font-size="11" font-weight="750" fill="#8a8070" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">SCENE · 01</text>
+  <text x="12" y="44" font-size="14" font-weight="700" fill="#29231b">Agency Structure</text>
+  <circle cx="22" cy="74" r="5" fill="#2f5d57"/>
+  <path d="M27 74h32m0 0l16-12m-16 12l16 12" fill="none" stroke="#2f5d57" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="80" cy="62" r="4" fill="#b23a2e"/>
+  <circle cx="80" cy="86" r="4" fill="#a9824a"/>
+</g>
+
+<!-- Card 2 -->
+<g transform="translate(210 195)">
+  <rect x="0" y="0" width="154" height="106" rx="14" fill="#ffffff" stroke="#b23a2e" stroke-width="1.8"/>
+  <rect x="0" y="0" width="154" height="5" rx="2" fill="#b23a2e"/>
+  <text x="12" y="24" font-size="11" font-weight="750" fill="#b23a2e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">REMOTION · 02</text>
+  <text x="12" y="44" font-size="14" font-weight="700" fill="#29231b">Sentencing Scale</text>
+  <g stroke="#a9824a" stroke-width="2" stroke-linecap="round">
+    <path d="M24 84v-16M44 84v-24M64 84v-12M84 84v-28M104 84v-18M124 84v-22"/>
+    <path d="M16 85h122" stroke="#8a8070" stroke-width="1.5"/>
+  </g>
+</g>
+
+<!-- Card 3 -->
+<g transform="translate(380 195)">
+  <rect x="0" y="0" width="144" height="106" rx="14" fill="#ffffff" stroke="#d5c8b2" stroke-width="1.5"/>
+  <rect x="0" y="0" width="144" height="5" rx="2" fill="#a9824a"/>
+  <text x="12" y="24" font-size="11" font-weight="750" fill="#8a8070" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">VERDICT · 03</text>
+  <text x="12" y="44" font-size="14" font-weight="700" fill="#29231b">Judicial Review</text>
+  <rect x="18" y="62" width="108" height="24" rx="12" fill="#f5eedf"/>
+  <text x="72" y="78" font-size="11" font-weight="700" fill="#2f5d57" text-anchor="middle">Action Valid ✓</text>
+</g>
+
+<text x="32" y="336" font-size="13" font-weight="600" fill="#756b5d" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">React · Remotion · Next.js · Netlify</text>
+
+<!-- Footer metrics -->
+<text x="32" y="415" font-size="38" font-weight="800" fill="#b23a2e">396</text>
+<text x="110" y="413" font-size="18" font-weight="600" fill="#5f5446">Animations</text>
+<text x="236" y="415" font-size="38" font-weight="800" fill="#2f5d57">1,682</text>
+<text x="338" y="413" font-size="18" font-weight="600" fill="#5f5446">Scenes</text>
+<text x="424" y="415" font-size="38" font-weight="800" fill="#a9824a">12</text>
+<text x="472" y="413" font-size="18" font-weight="600" fill="#5f5446">Subjects</text>
+</g>
+</svg>

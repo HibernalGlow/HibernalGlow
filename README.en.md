@@ -52,7 +52,12 @@ What actually holds my attention is the layer under the interface: archive forma
 
 <p align="center">
   <a href="https://github.com/HibernalGlow/hibernal"><img src="./assets/readme/proj-hibernal.en.svg" width="400" alt="hibernal: Swift menu-bar tool doing on-demand deep hibernation via pmset and a privileged helper."></a>
-  <img src="./assets/readme/proj-comfyui-anima.en.svg" width="400" alt="Local diffusion: anima sampling and SeedVR2 upscaling on 8 GB of VRAM.">
+  <a href="https://github.com/HibernalGlow/Shiin"><img src="./assets/readme/proj-shiin.en.svg" width="400" alt="Shiin: Gamepad-chord screenshot and OBS instant replay tool sharing a single Node capture core across Desktop, TUI, Web and CLI."></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/ComfyUI-Workflow-Studio"><img src="./assets/readme/proj-comfyui-anima.en.svg" width="400" alt="Local diffusion: anima sampling and SeedVR2 upscaling on 8 GB of VRAM."></a>
+  <a href="https://subtle-kitten-0c1c58.netlify.app/inkloom/"><img src="./assets/readme/proj-inkloom.en.svg" width="400" alt="InkLoom: 396 judicial-exam animated explainers across 1,682 scenes and 12 legal subjects."></a>
 </p>
 
 | Project | Stack | What it is |
@@ -68,7 +73,9 @@ What actually holds my attention is the layer under the interface: archive forma
 | [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · release builds | Batch JPEG XL / AVIF / WebP conversion tool. Built on `xl-converter`, 11 releases so far: added the macOS Apple Silicon native package upstream was missing, and removed the installer's dependency on the build machine's Homebrew |
 | [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | Desktop front end for the duplicate / similar-image cleanup tool. Built on upstream, 9 releases, ships a separately packaged Windows build, plus custom themes and a Taskfile task set |
 | [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | macOS menu-bar tool for on-demand deep hibernation (`pmset` + privileged helper). Upstream stopped at `v1.4.5`; I took it to 2.0.0 and packaged an installable DMG |
+| [Shiin](https://github.com/HibernalGlow/Shiin) | Node.js · Electron · OpenTUI · OBS WebSocket | Gamepad screenshot and OBS instant replay tool. Rebuilt as 2.0 with a modern Node stack: Electron desktop, OpenTUI terminal, local Web and CLI all share the same ScreenshotManager core, with gamepad chord/axis triggers and one-key OBS replay buffer saving |
 | [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) | Python | ComfyUI running on a Windows host, scheduled remotely over SSH with ComfyUI-Workflow-Studio: `silvermoonmixAnima v23 INT8` base, style and character LoRAs stacked in order, 45 full-diffusion steps to 1024×1536, then SeedVR2 3B fp8 tiled upscaling to 2048×3072.<br><a href="./assets/showcase/si-greenhouse.jpg"><img src="./assets/showcase/si-greenhouse.jpg" width="100" height="150" alt="Greenhouse butterflies: same LoRA stack and sampling settings, different scene."></a> <a href="./assets/showcase/si-moonlit-garden.jpg"><img src="./assets/showcase/si-moonlit-garden.jpg" width="100" height="150" alt="Moonlit garden: sampled at 1024×1536, then upscaled by SeedVR2 to 2048×3072."></a> |
+| [InkLoom](https://subtle-kitten-0c1c58.netlify.app/inkloom/) | React · Remotion · Next.js · Netlify | Judicial-exam animated knowledge base & interactive site: 396 animations, 1,682 scenes across 12 legal subjects, weaving legal principles and doctrine tests into playable animated scene sequences |
 
 <img src="./assets/readme/section-domain.en.svg" width="100%" alt="By domain · 领域索引">
 
@@ -105,7 +112,7 @@ Those experiences decided how I build document tooling. Loose material first bec
 
 <img src="./assets/readme/section-method.en.svg" width="100%" alt="How I work · 我怎么做项目">
 
-- **Both original projects and maintained forks.** The ones built on upstream — `siyuan-damophus`, `Extras-Glow`, `rossi`, `Xlchemy`, `czkawka-tauri`, `hibernal`, `ComfyUI-Workflow-Studio`, `ArcThumbX` — keep following upstream rather than freezing at some historical snapshot. When syncing an upstream fix I work out the preconditions behind the change, not just the code, so that merging does not break what either side already did. The original ones — `MineruCustom`, `skilloom`, `neoview`, `grzeb`, `Xaihi` — were built from nothing, with the interface design and acceptance criteria set by me.
+- **Both original projects and maintained forks.** The ones built on upstream — `siyuan-damophus`, `Extras-Glow`, `rossi`, `Xlchemy`, `czkawka-tauri`, `hibernal`, `Shiin`, `ComfyUI-Workflow-Studio`, `ArcThumbX` — keep following upstream rather than freezing at some historical snapshot. When syncing an upstream fix I work out the preconditions behind the change, not just the code, so that merging does not break what either side already did. The original ones — `MineruCustom`, `skilloom`, `neoview`, `grzeb`, `Xaihi`, `InkLoom` — were built from nothing, with the interface design and acceptance criteria set by me.
 - **Verifiable results before automation.** An AI generation tool has to ship with automatic validation first, able to check that the format is compliant and the content traceable to a source. If it cannot do that, automation is only manufacturing errors faster.
 - **Chinese compatibility as a hard requirement.** Plenty of tools claim to work and then garble text or fail to find anything the moment Chinese is involved, so the encoding detection order is fixed in code: check BOM and binary NUL bytes first, then try UTF-8, decode as GB18030 only after two pre-checks pass, and fall back to Latin-1 last. Whole-word regex matching is switched off explicitly for CJK, because `\b` cannot form a boundary around Chinese words.
 - **Documentation states the limits before the features.** When writing a README I list outright which features are not done and why, and which behaviour already exists in the core but still has no switch in the interface, so users don't have to step into the hole themselves.

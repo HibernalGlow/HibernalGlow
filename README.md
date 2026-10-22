@@ -52,7 +52,12 @@
 
 <p align="center">
   <a href="https://github.com/HibernalGlow/hibernal"><img src="./assets/readme/proj-hibernal.svg" width="400" alt="hibernal：Swift 菜单栏工具，通过 pmset 与特权 helper 按需深度休眠。"></a>
-  <img src="./assets/readme/proj-comfyui-anima.svg" width="400" alt="本地生图：8 GB 显存上跑完 anima 采样与 SeedVR2 放大。">
+  <a href="https://github.com/HibernalGlow/Shiin"><img src="./assets/readme/proj-shiin.svg" width="400" alt="Shiin：手柄组合键截图与 OBS 即时回放，桌面端、TUI、本地 Web 与 CLI 共用同一 Node 截图内核。"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HibernalGlow/ComfyUI-Workflow-Studio"><img src="./assets/readme/proj-comfyui-anima.svg" width="400" alt="本地生图：8 GB 显存上跑完 anima 采样与 SeedVR2 放大。"></a>
+  <a href="https://subtle-kitten-0c1c58.netlify.app/inkloom/"><img src="./assets/readme/proj-inkloom.svg" width="400" alt="InkLoom：396 部法考知识动画、1,682 个场景，把法考考点织成看得见的动画。"></a>
 </p>
 
 | 项目 | 技术栈 | 是什么 |
@@ -68,7 +73,9 @@
 | [Xlchemy](https://github.com/HibernalGlow/Xlchemy) | Python · 打包发行 | JPEG XL / AVIF / WebP 批量转换工具。基于 `xl-converter` 二次开发，已发 11 个版本：补齐了上游缺失的 macOS Apple Silicon 原生包，并解除了安装包对打包机 Homebrew 环境的依赖 |
 | [czkawka-tauri](https://github.com/HibernalGlow/czkawka-tauri) | Tauri 2 · TypeScript | 重复与相似图片清理工具的桌面前端。基于上游二次开发，已发 9 个版本，提供独立打包的 Windows 版本，并加入自定义主题与 Taskfile 任务集 |
 | [hibernal](https://github.com/HibernalGlow/hibernal) | Swift | macOS 菜单栏按需深度休眠工具（基于 `pmset` + 特权 helper）。上游停留在 `v1.4.5`，我接手更到 2.0.0 并打包了可直接安装的 DMG |
+| [Shiin](https://github.com/HibernalGlow/Shiin) | Node.js · Electron · OpenTUI · OBS WebSocket | 手柄组合键截图与 OBS 即时回放工具。将原单平台小工具用现代 Node 栈进行 2.0 重构：桌面端、OpenTUI 终端、本地 Web 与 CLI 共用同一套 ScreenshotManager 截图内核，支持手柄组合键/轴值监听与 OBS 回放缓存一键保存 |
 | [ComfyUI-Workflow-Studio](https://github.com/HibernalGlow/ComfyUI-Workflow-Studio) | Python | 使用 ComfyUI-Workflow-Studio 经 SSH 远程调度运行在 Windows 主机上的 ComfyUI：`silvermoonmixAnima v23 INT8` 底模，画风与角色 LoRA 按顺序入栈，45 步全扩散采样出 1024×1536，再用 SeedVR2 3B fp8 分块超分到 2048×3072。<br><a href="./assets/showcase/si-greenhouse.jpg"><img src="./assets/showcase/si-greenhouse.jpg" width="100" height="150" alt="温室蝶影：同一套 LoRA 栈与采样参数，只换场景。"></a> <a href="./assets/showcase/si-moonlit-garden.jpg"><img src="./assets/showcase/si-moonlit-garden.jpg" width="100" height="150" alt="月下庭院：1024×1536 采样后经 SeedVR2 放大到 2048×3072。"></a> |
+| [InkLoom](https://subtle-kitten-0c1c58.netlify.app/inkloom/) | React · Remotion · Next.js · Netlify | 面向法考的知识动画库与交互站点：396 部动画、1,682 个场景、12 个学科，把法考考点与逻辑拆解为可播放的语义场景动画 |
 
 <img src="./assets/readme/section-domain.svg" width="100%" alt="领域索引 · By domain">
 
@@ -105,7 +112,7 @@
 
 <img src="./assets/readme/section-method.svg" width="100%" alt="我怎么做项目 · How I work">
 
-- **原创与维护 Fork 并重。** 像 `siyuan-damophus`、`Extras-Glow`、`rossi`、`Xlchemy`、`czkawka-tauri`、`hibernal`、`ComfyUI-Workflow-Studio`、`ArcThumbX` 这些基于上游修改的项目，我会持续跟进上游更新，而不是停留在某个历史快照。同步上游修复时，除了合并代码，我也会理清改动背后的前提条件，避免合完代码把两边原本正常的功能搞坏。而 `MineruCustom`、`skilloom`、`neoview`、`grzeb`、`Xaihi` 等原创项目则从零搭建，由我自己定义接口设计与验收标准。
+- **原创与维护 Fork 并重。** 像 `siyuan-damophus`、`Extras-Glow`、`rossi`、`Xlchemy`、`czkawka-tauri`、`hibernal`、`Shiin`、`ComfyUI-Workflow-Studio`、`ArcThumbX` 这些基于上游修改的项目，我会持续跟进上游更新，而不是停留在某个历史快照。同步上游修复时，除了合并代码，我也会理清改动背后的前提条件，避免合完代码把两边原本正常的功能搞坏。而 `MineruCustom`、`skilloom`、`neoview`、`grzeb`、`Xaihi`、`InkLoom` 等原创项目则从零搭建，由我自己定义接口设计与验收标准。
 - **先保证结果可核验，再谈自动化。** AI 生成工具必须先配好自动校验，能检查格式是否合规、内容是否有据可查；如果做不到这一点，自动化只是在更快地批量制造错误。
 - **把中文兼容性当成硬指标。** 很多工具号称“能跑通”，但一碰到中文就会乱码或搜不到内容。因此我在代码里明确规定了编码识别顺序：先查 BOM 与二进制 NUL 字节，再试 UTF-8，通过两道前置校验后才用 GB18030 解码，最后用 Latin-1 兜底。同时对中日韩文本显式关掉正则的整词匹配，因为 `\b` 根本没法识别中文的分词边界。
 - **文档先把局限说透，再讲功能。** 写 README 时，我会直接列出哪些功能还没做、为什么没做，以及哪些底层已经实现但界面还没加开关，省得使用者自己踩坑。
