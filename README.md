@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>中文</b> · <a href="README.en.md">English</a>
+  <b>中文</b> · <a href="README.en.md">English</a> · <a href="https://hibernalglow.github.io/">个人网站</a>
 </p>
 
 <p align="center">
